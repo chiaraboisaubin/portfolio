@@ -1,0 +1,55 @@
+#bottomFooter{
+    border-top: 2px solid lightgray;
+    margin-top: 3em;
+    padding: 2em;
+    @media screen and (min-width:500px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+}
+#bottomFooter {
+    text-align: center;
+    @media screen and (min-width:500px) {
+        text-align: start;
+    }
+}
+
+#bottomFooter ul {
+    display: inline-flex;
+}
+
+#bottomFooter .fa{
+    font-size: 20px;
+    transition: ease-in .3s;
+}
+
+.footer-copy-bottom{
+    text-align: center;
+    @media screen and (min-width:500px) {
+    text-align: end;
+}
+}
+
+.footer-links-bottom li{
+    margin: 0 .5em;
+}
+
+#bottomFooter .copy,
+#bottomFooter .copy a {
+    color: #000;
+    transition: ease-in .3s;
+    font-size: $small-font;
+}
+
+#bottomFooter .copy a:hover, 
+#bottomFooter .fa:hover {
+    color: $third-color;
+    transition: ease-out .3s;
+}
+
+.copy a:hover {
+    color: #12a58c;
+    transition: ease-out .3s;
+}
