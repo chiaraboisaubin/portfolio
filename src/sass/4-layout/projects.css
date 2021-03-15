@@ -1,0 +1,20 @@
+.projects {
+  margin: auto;
+}
+
+.galla {
+  display: inline-grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(3, 0fr);
+  grid-template-rows: repeat(3, 0fr);
+  grid-auto-flow: column;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+}
+
+.hon, .soul, .ana, .chi, .text, .ash {
+  width: 300px;
+  height: 200px;
+  background-color: blueviolet;
+}

@@ -1,0 +1,32 @@
+
+.skills-style{
+    width: 40%;
+    max-width: 40%;
+    margin: .2em;
+    border: 4px solid #000;
+    border-radius: 50px;
+    font-size: $small-font;
+    font-weight: 600;
+    text-align: center;
+}
+
+.skill-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skills-L{
+    @media screen and (min-width: 500px){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+
+.skills{
+    text-align: center;
+    @media screen and (min-width: 500px){
+    flex: 40%;
+    width: 50%;
+    }
+}

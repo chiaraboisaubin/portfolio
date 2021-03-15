@@ -1,0 +1,32 @@
+.resume{
+display: block;
+margin: 3em  auto auto auto;
+text-align: center;
+
+}
+.about {
+    width: 50%;
+    padding: 15px;
+    overflow-x: hidden;
+    background-color: #00d4d0;
+    transition: ease-in .3s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 1;
+    border-radius: 40px;
+    border: 2px solid #000;
+    margin: 1% auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+.about:hover{
+    transition: ease-out 0.2s;
+    color: $secondary-color;
+    background-color: $third-color;
+}
+
+.resume p{
+    font-weight: 600;
+}

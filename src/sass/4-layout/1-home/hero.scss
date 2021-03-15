@@ -1,0 +1,109 @@
+    .hero-body{
+        @media (min-width: 500px) {
+          
+            display: grid;
+            grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+            gap: 1px 1px;
+            grid-template-areas:
+              "hero-container-L hero-container-L hero-container  hero-container"
+              ". . . ."
+              ". . . .";
+            
+    }
+    }
+    .hero-container {
+    position: relative;
+    height:600px;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(75deg, #2A648E, #1C0838, #13007B, #100447, #170447);   
+    color: $secondary-color; 
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    -o-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 10s ease infinite;
+    @media (min-width: 500px) {
+        grid-area: hero-container ;  
+}
+}
+.hero-container-R span{
+    text-align: left;
+    }
+
+.hero-container p{
+    padding-right: 5%;
+    padding-bottom: 3em;
+    text-align: center;
+    @media (min-width: 500px) {
+        padding-bottom: 6em;
+        font-size: 1.2em;
+        text-align: right;
+}
+}
+
+.hero-container-R{
+    position: absolute;
+    top: 10%;
+    margin-left: 5%;
+    @media (min-width: 500px) {
+    top: 15%;
+    right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: end;
+}
+}
+
+.hero-container-L{
+    width: auto;
+    height: auto;
+    background-color: violet;
+    background-image: url('https://i.ibb.co/6gJ4Mpv/pexels-photo-196644.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    @media (min-width: 500px) {
+        grid-area: hero-container-L;
+    }
+}
+
+
+.hero-container li{
+    display: inline ;
+    margin: 1em 0;
+    padding-right: 1em;
+}
+.other p{
+    font-weight: 600;
+    margin: 1em 0;
+}
+
+.intoFooter{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: $secondary-color;
+
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+}
+.header a{
+    color: $secondary-color;
+}
+
+.intoFooter .fa{
+    color: $secondary-color;
+    font-size: $social-icons;
+}
+
+.intoFooter .fa:hover{
+    color: $first-button-social-color-hover;
+}
+
+.humble{
+    margin: 1em;
+}
+
+
