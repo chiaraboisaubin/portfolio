@@ -1,0 +1,160 @@
+/* VARIABLES */
+/* COLOR */
+/* FONT SIZE */
+/* WIDTH */
+/*BASICS*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif");
+@import url("http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic|Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Catamaran:300|Montserrat:300|Noto+Sans");
+@import url("https://fonts.googleapis.com/css?family=Catamaran:300|Montserrat:300|Noto+Sans|Quicksand");
+li {
+  list-style: none;
+  color: currentColor;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+a, a:visited, a:focus {
+  color: currentColor;
+}
+
+.fa:visited, .fa:focus, .fa {
+  color: currentColor;
+}
+
+.fa:hover {
+  color: #DBAA01;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.hero-header {
+  font-size: 60px;
+}
+
+@media screen and (min-width: 500px) {
+  .hero-header {
+    font-size: 75px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-header {
+    font-size: 100px;
+  }
+}
+
+p {
+  font-family: 18px;
+}
+
+/* LAYOUTS */
+.hero-container {
+  position: relative;
+  height: 800px;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(75deg, #2A648E, #1C0838, #13007B, #100447, #170447);
+  color: #D4D4D4;
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  -o-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 10s ease infinite;
+}
+
+@media (min-width: 768px) {
+  .hero-container {
+    height: 1000px;
+  }
+}
+
+.other {
+  position: absolute;
+  top: 15%;
+  right: 0;
+  margin: 1em;
+}
+
+@media (min-width: 768px) {
+  .other {
+    text-align: right;
+  }
+}
+
+.hero-container li {
+  display: inline;
+  margin: 1em 0;
+}
+
+.other p {
+  font-weight: 600;
+  margin: 1em 0;
+}
+
+.intoFooter {
+  display: inline-flex;
+  text-decoration: none;
+  color: #D4D4D4;
+}
+
+.header a {
+  color: #D4D4D4;
+}
+
+.intoFooter .fa {
+  color: #D4D4D4;
+  font-size: 25px;
+}
+
+.intoFooter .fa:hover {
+  color: #DBAA01;
+}
+
+.link-hp li {
+  display: inline;
+}
+
+.link-hp {
+  background: linear-gradient(75deg, #fff, rgba(255, 255, 255, 0.267));
+  padding: 1em;
+  position: sticky;
+}
+
+@media screen and (min-width: 768px) {
+  .link-hp {
+    text-align: right;
+  }
+}
+
+.galla {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 24px;
+  grid-row-gap: 10px;
+}
+
+.hon, .soul, .ana {
+  width: 300px;
+  height: 200px;
+  background-color: blueviolet;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 1px solid aqua;
+  font-family: 'Catamaran', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000;
+}

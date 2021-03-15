@@ -1,0 +1,81 @@
+.projects{
+    margin: auto;
+}
+.galla {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ white-space: pre-wrap;
+
+}
+
+.web p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7em;
+}
+
+.web{
+    position: relative;
+    width: 150px;
+    height: 100px;
+    margin: .2em;
+    background-color: #F1EAFF;
+    transition: ease-in .3s;
+    @media screen and (min-width: 768px){
+        width: 380px;
+        height: 480px;
+        border-radius: 1em;
+    }
+}
+
+.hon, .soul, .ana, .chi, .text, .ash, .con{
+    position: absolute;
+    top: 25%;
+    margin: 0 .5em;
+    padding: 1em;
+}
+
+.web:hover{
+    background: #9379FF;
+    transition: ease-out .3s;
+    transform: scale(1);
+    
+}
+
+.web p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 1.5em;
+    font-weight: bold;
+}
+.web h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 100;
+    margin-bottom: 6em;
+}
+
+.web span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    border: none;
+    background-color: none;
+
+}
+
+.web span:hover{
+    list-style: 1px solid #F1EAFF ;
+    transition: ease-out .3s;
+    transform: scale(1);
+    
+}
+
+.con{
+ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+

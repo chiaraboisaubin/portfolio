@@ -1,0 +1,45 @@
+.proflieInfo{
+    @media screen and (min-width:500px) {  
+    display: inline-flex;
+} 
+}
+.pro{
+    display: block;
+    width: 250px;
+    height: auto;
+    margin: 1em auto;
+    box-shadow:
+    0 0 0 15px #8BC7B2,
+    0 0 0 15px #86CCFF;
+
+}
+.about-content-L{
+    margin: 1em;
+    @media screen and (min-width:500px) { 
+    width: 50%;
+}
+}
+.about-content-R{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 5%;
+    padding: .5em 0;
+    @media screen and (min-width:500px) { 
+        width: 80%;
+
+    }
+}
+
+.about-content-R img{
+    width: 75px;
+    @media screen and (min-width:500px) { 
+    width: 150px;
+}
+}
+
+.overlay{
+    text-align: center;
+}

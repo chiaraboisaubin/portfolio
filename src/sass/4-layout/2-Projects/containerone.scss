@@ -1,0 +1,90 @@
+.layout-content-grid-1{
+    @media screen and (min-width:500px) {  
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1px 1px;
+        grid-template-areas:
+          "layout-container-l layout-container-r"
+          "layout-container-l2 layout-container-r2"
+          "layout-container-l3 layout-container-l3"
+          "layout-container-r3 layout-container-r3"
+          "layout-container-center layout-container-center";
+}
+}
+
+.layout-container-l{
+    @media screen and (min-width:500px){
+    text-align: center;
+    grid-area: layout-container-l;
+}
+}
+
+.layout-container-l2{
+    @media screen and (min-width:500px){
+    text-align: center;
+    grid-area: layout-container-l2;
+}
+}
+
+.layout-container-l3{
+    @media screen and (min-width:500px){
+    text-align: center;
+    grid-area: layout-container-l3;
+}
+}
+
+.layout-container-r{
+    @media screen and (min-width:500px){
+    grid-area: layout-container-r; 
+    text-align: center;
+}
+}
+
+.layout-container-r2{
+    @media screen and (min-width:500px){
+    grid-area: layout-container-r2; 
+    text-align: center;
+}
+}
+
+.layout-container-r3{
+    @media screen and (min-width:500px){
+    grid-area: layout-container-r3; 
+    text-align: center;
+}
+}
+
+.layout-container-center{
+    @media screen and (min-width:500px){
+    grid-area: layout-container-center; 
+    text-align: center;
+}
+}
+
+.image-row{
+    display: flex;
+}
+
+.image-row img{
+    width: 25%;
+    display: inline-flex;
+    margin: auto;
+}
+
+.image-galla{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+
+iframe{
+    width: 95%;
+    height: 150px;
+    @media screen and (min-width:500px){
+    height: 300px;
+}
+}
+
+
+
