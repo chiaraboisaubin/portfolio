@@ -101,7 +101,7 @@ export default class ContaierOne extends Component {
                                         <div className="layout-container-l8">
                                                 <h2 className="project-titles">Prototype and Testing </h2>
                                                 <h3> what was build? </h3>
-                                                <div className="flex-init">
+                                                <div className="flex-init">     
 <article>Now that we understood our users better and user flow, I could finally start prototyping from the user flow.
          After a low fidelity prototype, I tested it out with a couple of users to see if the flow was clear enough for the user to know how to get to the features after I went through the feedback and chose the ones that affected the experience from the majority or affected the flow.  </article>
 <article> Allow the user to organize their sketches into projects and add people they would like to collaborate with—the development of the story's design for each flow for Ink Tank. The ideas put on paper slowly evolved into wireframes and tested to find errors. </article>
@@ -115,7 +115,7 @@ export default class ContaierOne extends Component {
                                                 </span>
                                         </div>
                                         <div className="layout-container-l9">
-                                        
+
                                                 </div>
                                 </div>
 
