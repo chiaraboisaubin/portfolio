@@ -1,65 +1,94 @@
+.flex-init{
+    display: flex;
+    flex-wrap: initial;
+    flex: 50%
+}
+
 .layout-content-grid-1{
     @media screen and (min-width:500px) {  
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 1px 1px;
+        gap: 10px 10px;
         grid-template-areas:
-          "layout-container-l layout-container-r"
+          "layout-container-l layout-container-l"
           "layout-container-l2 layout-container-r2"
           "layout-container-l3 layout-container-l3"
-          "layout-container-r3 layout-container-r3"
+          "layout-container-l4 layout-container-l4"
+          "layout-container-l5 layout-container-l5"
+          "layout-container-l6 layout-container-l6"
+          "layout-container-l7 layout-container-l7"
+          "layout-container-l8 layout-container-l8"
           "layout-container-center layout-container-center";
+          margin: 1em;
 }
 }
 
 .layout-container-l{
     @media screen and (min-width:500px){
-    text-align: center;
     grid-area: layout-container-l;
 }
 }
 
 .layout-container-l2{
     @media screen and (min-width:500px){
-    text-align: center;
     grid-area: layout-container-l2;
 }
 }
 
 .layout-container-l3{
     @media screen and (min-width:500px){
-    text-align: center;
     grid-area: layout-container-l3;
 }
 }
-
+.layout-container-l4{
+    @media screen and (min-width:500px){
+    grid-area: layout-container-l4;
+}
+}
+.layout-container-l5{
+    @media screen and (min-width:500px){
+    grid-area: layout-container-l5;
+}
+}
+.layout-container-l6{
+    @media screen and (min-width:500px){
+    grid-area: layout-container-l6;
+}
+}
+.layout-container-l7{
+    @media screen and (min-width:500px){
+    grid-area: layout-container-l7;
+}
+}
+.layout-container-l8{
+    @media screen and (min-width:500px){
+    grid-area: layout-container-l8;
+}
+}
 .layout-container-r{
     @media screen and (min-width:500px){
     grid-area: layout-container-r; 
-    text-align: center;
 }
 }
 
 .layout-container-r2{
     @media screen and (min-width:500px){
     grid-area: layout-container-r2; 
-    text-align: center;
 }
 }
 
 .layout-container-r3{
     @media screen and (min-width:500px){
     grid-area: layout-container-r3; 
-    text-align: center;
 }
 }
 
 .layout-container-center{
     @media screen and (min-width:500px){
     grid-area: layout-container-center; 
-    text-align: center;
 }
 }
+
 
 .image-row{
     display: flex;
@@ -86,5 +115,85 @@ iframe{
 }
 }
 
+.hero-background-image{
+    background: url("https://i.ibb.co/t3KpZjf/Ink-Tank-Hero.png");
+    background-color: #F9E8E1;
+    height: 50px;
+    padding: 10%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.layout-content-grid-1 i{
+color: #F68F75;
+}
 
+.layout-container-l4 img{
+    width: 80%;
+    @media screen and (min-width:500px){
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+}
 
+.layout-container-l6 img{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: block;
+    @media screen and (min-width:500px){
+    width: 50%;
+}   
+}
+
+.layout-container-l5 .img-1{
+    width: 25%;
+    @media screen and (min-width:500px){
+    width: 25%;
+    height: auto;
+    margin: auto;
+    display: block;
+}  
+}
+
+.layout-container-l5 .img-2{
+    width: 25%;
+    @media screen and (min-width:500px){
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: block;
+}  
+}
+
+.layout-container-l6 img{
+    width: 25%;
+    @media screen and (min-width:500px){
+    width: 60%;
+    height: auto;
+    margin: auto;
+    display: block;
+}  
+}
+
+.layout-container-l7 img{
+    width: 25%;
+    @media screen and (min-width:500px){
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: block;
+}  
+}
+
+.layout-container-l8 img{
+    width: 25%;
+    @media screen and (min-width:500px){
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: block;
+}  
+}

@@ -8,4 +8,4 @@ export default class navTwo extends Component {
       </React.Fragment>
       );
     }
-  }
+  } 
