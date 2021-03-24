@@ -1,9 +1,13 @@
 .flex-init{
+    @media screen and (min-width:500px) {  
     display: flex;
     flex-wrap: initial;
     flex: 50%
-}
+}}
 
+.layout-content-grid-1 article{
+margin-right: .5em;
+}
 .layout-content-grid-1{
     @media screen and (min-width:500px) {  
         display: grid;
@@ -18,6 +22,8 @@
           "layout-container-l6 layout-container-l6"
           "layout-container-l7 layout-container-l7"
           "layout-container-l8 layout-container-l8"
+          "layout-container-l9 layout-container-l9"
+          "layout-container-l10 layout-container-l10"
           "layout-container-center layout-container-center";
           margin: 1em;
 }
@@ -63,6 +69,16 @@
 .layout-container-l8{
     @media screen and (min-width:500px){
     grid-area: layout-container-l8;
+}
+}
+.layout-container-l9{
+    @media screen and (min-width:500px){
+    grid-area: layout-container-l9;
+}
+}
+.layout-container-l10{
+    @media screen and (min-width:500px){
+    grid-area: layout-container-l10;
 }
 }
 .layout-container-r{
@@ -129,12 +145,12 @@ color: #F68F75;
 }
 
 .layout-container-l4 img{
-    width: 80%;
-    @media screen and (min-width:500px){
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: auto;
     display: block;
+    @media screen and (min-width:500px){
+    width: 80%;
 }
 }
 
@@ -149,27 +165,27 @@ color: #F68F75;
 }
 
 .layout-container-l5 .img-1{
-    width: 25%;
-    @media screen and (min-width:500px){
-    width: 25%;
+    width: 100%;
     height: auto;
     margin: auto;
     display: block;
+    @media screen and (min-width:500px){
+    width: 25%;
 }  
 }
 
 .layout-container-l5 .img-2{
-    width: 25%;
-    @media screen and (min-width:500px){
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: auto;
     display: block;
+    @media screen and (min-width:500px){
+    width: 80%;
 }  
 }
 
 .layout-container-l6 img{
-    width: 25%;
+    width: 100%;
     @media screen and (min-width:500px){
     width: 60%;
     height: auto;
@@ -178,18 +194,35 @@ color: #F68F75;
 }  
 }
 
-.layout-container-l7 img{
-    width: 25%;
+.layout-container-l7 .img-1{
+    width: 100%;
     @media screen and (min-width:500px){
-    width: 80%;
+    width: 60%;
     height: auto;
     margin: auto;
     display: block;
 }  
 }
-
+.layout-container-l7 .img-2{
+    width: 100%;
+    @media screen and (min-width:500px){
+    width: 60%;
+    height: auto;
+    margin: auto;
+    display: block;
+}  
+}
 .layout-container-l8 img{
-    width: 25%;
+    width: 100%;
+    @media screen and (min-width:500px){
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: block;
+}  
+}
+.layout-container-l9 img{
+    width: 100%;
     @media screen and (min-width:500px){
     width: 50%;
     height: auto;
