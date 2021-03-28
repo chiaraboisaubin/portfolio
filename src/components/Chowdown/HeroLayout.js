@@ -9,6 +9,7 @@ export default class HeroLayout extends Component {
       <div className="layout-hero">
         <h1 className="layout-hero-header sub-hero-header">chowdown</h1>
     </div>
+    <div className="hero-background-image-CD"></div>
       </React.Fragment>
     );
   }

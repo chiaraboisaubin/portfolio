@@ -20,7 +20,7 @@ export default class Projects extends Component {
                 <div className="con">
                   <p>Find a tattoo artist , orgainzing projects, and scheduling appointments </p>
                 <h4>Ink Tank </h4>
-                <span> read more  &#8594; </span>
+                <span className="modal-text"> read more  &#8594; </span>
                 </div>
               </Link>
             </div>
@@ -34,13 +34,8 @@ export default class Projects extends Component {
                 </div>
               </Link>
             </div>
-
-
-          </div>
-          <h3 className="secondary-header">graphic work </h3>
-          <div className="projects">
-            <span> illustation for Ink Tank </span>
-        </div>
+    
+            </div>
         </div>
 
       </React.Fragment>

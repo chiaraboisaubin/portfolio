@@ -44,61 +44,31 @@ export default class About extends Component {
                 </div>
 
                 <div class="humble crazy">
-              <img className="image" src="https://i.ibb.co/VJSWqxn/adventure-icon.png" alt="adventure-icon" border="0" width="200PX"
+              <img className="image" src="https://i.ibb.co/sVmXTZc/motorcycle-icon.png" alt="motorcycle-icon" border="0" width="200PX"
                 height="auto"></img>
                 <div class="overlay">
                   <div class="layer">
-                    <p> travel </p>
+                    <p> riding motorcyles</p>
                   </div>
                 </div>
                 </div>
 
                 <div class="humble crazy">
-              <img className="image" src="https://i.ibb.co/VJSWqxn/adventure-icon.png" alt="adventure-icon" border="0" width="200PX"
+              <img className="image" src="https://i.ibb.co/YD1TQ1H/camera-icon.png" alt="photography-icon" border="0" width="200PX"
                 height="auto"></img>
                 <div class="overlay">
                   <div class="layer">
-                    <p> travel </p>
+                    <p> photography </p>
                   </div>
                 </div>
                 </div>
 
                 <div class="humble crazy">
-              <img className="image" src="https://i.ibb.co/VJSWqxn/adventure-icon.png" alt="adventure-icon" border="0" width="200PX"
+              <img className="image" src="https://i.ibb.co/SDkJ8gH/painiting-icon.png" alt="adventure-icon" border="0" width="200PX"
                 height="auto"></img>
                 <div class="overlay">
                   <div class="layer">
-                    <p> travel </p>
-                  </div>
-                </div>
-                </div>
-
-                <div class="humble crazy">
-              <img className="image" src="https://i.ibb.co/VJSWqxn/adventure-icon.png" alt="adventure-icon" border="0" width="200PX"
-                height="auto"></img>
-                <div class="overlay">
-                  <div class="layer">
-                    <p> travel </p>
-                  </div>
-                </div>
-                </div>
-
-                <div class="humble crazy">
-              <img className="image" src="https://i.ibb.co/VJSWqxn/adventure-icon.png" alt="adventure-icon" border="0" width="200PX"
-                height="auto"></img>
-                <div class="overlay">
-                  <div class="layer">
-                    <p> travel </p>
-                  </div>
-                </div>
-                </div>
-
-                <div class="humble crazy">
-              <img className="image" src="https://i.ibb.co/VJSWqxn/adventure-icon.png" alt="adventure-icon" border="0" width="200PX"
-                height="auto"></img>
-                <div class="overlay">
-                  <div class="layer">
-                    <p> travel </p>
+                    <p> painting </p>
                   </div>
                 </div>
                 </div>

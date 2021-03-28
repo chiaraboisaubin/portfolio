@@ -8,7 +8,7 @@ export default class ContaierOne extends Component {
                                 <div className="layout-content-grid-1">
                                         <div className="layout-container-l">
                                                 <h2 className="project-titles"> Context </h2>
-                                                <p> Ink Tank is a web application that allows tattoo lovers to share their work, schedule a session, or develop a project.
+                                                <p> Ink Tank is a web application that allows tattoo lovers find tattoo artist, share their tattoos, schedule a session, or develop a project.
                                                         This  was a project I did with UX course with Career Foundry. </p>
                                                 <div className="image-row">
                                                 </div>
@@ -39,7 +39,7 @@ export default class ContaierOne extends Component {
                                                         <article> Finding a tattoo artist with a specific medium is a loop, jump, and a tumble; what I mean is a lot of steps to accomplish. You have to look at multiple social media sites or a google search.
                                                         Direct message or email, send documents of what you want to do, then go to another app to make an appointment, and if the artist allows you to pay digitally -- you have to go through another app to make a deposit payment. That was my experience for at least 3 of my tattoos.
 </article>
-                                                        <i>A user needs to discover various tattoos for inspiration and find a capable artist to produce their design. To do so, we need a place where people can publish pieces of a tattoo design, categorize the tattoo style, and connect the artist who did the work, encouraging people to interact.</i>
+                                                      <b> <i className="bold">A user needs to discover various tattoos for inspiration and find a capable artist to produce their design. To do so, we need a place where people can publish pieces of a tattoo design, categorize the tattoo style, and connect the artist who did the work, encouraging people to interact.</i> </b> 
                                                         <article>Ink Tank aims to share and find tattoo inspirations and find artists who can design, organize projects, and organize appointments.</article>
                                                 </div>
                                         </div>
@@ -67,24 +67,24 @@ export default class ContaierOne extends Component {
                                                 </div>
 
                                                 <span> More detail about the
-                                                <a href="">competitive analysis </a>
-                                                <a href="">market research and UX analysis</a>
+                                                <a className="left" target="blank" href="https://drive.google.com/file/d/19qxU0cJqSae26r6FoW5kZHjDe9RS2WBt/view?usp=sharing"> user stories </a>
+                                                <a className="left" target="blank" href="https://drive.google.com/file/d/13UNjwjIeXK4EHV55c8T9JnAjVQ3rfPNw/view?usp=sharing"> competitive analysis and UX analysis</a>
                                                 </span>
                                         </div>
 
                                         <div className="layout-container-l6">
                                                 <h2 className="project-titles">Observe</h2>
-                                                <h3> Personas and user flows </h3>
+                                                <h3> What did we learn about potential users?  </h3>
                                                 <div className="flex-init">
                                                         <article>For me to understand the user Ink Tank will like to reach, I did user interviews with 5 users that fit close to what Ink Tank objective. We also did a survey. </article>
                                                         <img src="https://i.ibb.co/DfBD0w9/survey-overview.png" alt="survey-overview" border="0" />
                                                 </div>
-                                                <article>From the data that was provided from understanding the user, we built personas, William and Danielle. With the information form, we create user flows that would explain how they might use the app for their needs.  </article>
+                                                <article>From the data that was provided from understanding the user, we built personas William and Danielle. Wanting to get to understand better on how the app may work around their life we build scenarios of events that Ink Tank can be beneficial. </article>
                                                 <img src="https://i.ibb.co/sg1SxBF/Personas-Ink-Tank-combo.png" alt="Personas-Ink-Tank-combo" border="0" />
-                                               
+                                               <article>After creating personas I built a sitemap and conducted card sorting. After evaluating the data, and update the sitemap. With the information form, we create user flows that would explain how they might use the app for their needs. </article>
                                                 <span> More detail about the
-                                                <a href=""> user survey and interviews </a>
-                                                <a href=""> personas and user stories </a>
+                                                <a className="left" target="blank" href="https://drive.google.com/file/d/1cX6eLaoTXFv7hxXp3U853cmrGd-WuHqp/view?usp=sharing"> user survey and interviews </a>
+                                                <a className="left" target="blank" href=" After creating personas I built a sitemap and conducted card sorting. After evaluating the data, and update the sitemap. With the information form, we create user flows that would explain how they might use the app for their needs.">  mental models & user journey </a>
                                                 </span>
                                         </div>
 
@@ -96,6 +96,10 @@ export default class ContaierOne extends Component {
                                                         <img className="img-1" src="https://i.ibb.co/xXsr8yM/3-2-Refining-Your-Sitemap-with-Card-Sorting.png" alt="3-2-Refining-Your-Sitemap-with-Card-Sorting" border="0"/>
                                                 </div>
                                                 <img className="img-2" src="https://i.ibb.co/qdJV88j/updated-sitemap.png" alt="updated-sitemap" border="0"/>
+                                                <span> More detail about the
+                                                <a className="left" target="blank" href="https://drive.google.com/file/d/1iHuPic0Aexo410zoPD0ff5BtxzXsXiKW/view?usp=sharing"> information architecture build </a>
+
+                                                </span>
                                         </div>
 
                                         <div className="layout-container-l8">
@@ -116,11 +120,12 @@ export default class ContaierOne extends Component {
                                                 <h3> Testing the out our work  </h3>
                                                 <article>  I did A/B testing and usability testing to see what needed more clarification or adjustments. We decided to Implement usability, and A/B testing to see how a group of users feel about the features and visual.  The user testing was conducted with five candidates, and afterward, I sorted the feedback to see what could be improved. </article>
                                                 <img src="https://i.ibb.co/k3FSxS0/4-6-Rainbow-Spread-Sheet-Usability-Testing-Ink-Tank-Usability-Test-Results.png" alt="4-6-Rainbow-Spread-Sheet-Usability-Testing-Ink-Tank-Usability-Test-Results" border="0"/>
-                                                
+
                                                 <span> More detail about the
-                                                <a href="">  rainbow sheet</a>
-                                                <a href=""> and A/B testing </a> and
-                                                <a href=""> and the updates </a>
+                                                <a href="https://drive.google.com/file/d/15J0x26qCDo1ekG5wI7-GNRaSyhDDkUbQ/view?usp=sharing"> branding</a>
+                                                <a className="left" target="blank" href="https://drive.google.com/file/d/16PYClVcdq3x66mN0wWmXqd1coOJTw6g4/view?usp=sharing">  rainbow sheet</a>
+                                                <a className="left" target="blank" href="https://drive.google.com/file/d/198MaXy-3pK1WfJXp16YbZiEhm3ePRK4s/view?usp=sharing"> and A/B testing </a> and
+                                                <a className="left" target="blank" href="https://drive.google.com/file/d/1hZj9PmGBA82qGw_ANRA8gpSMaaomTamb/view?usp=sharing"> and the updates </a>
                                                 </span>
                                         </div>
 
@@ -128,12 +133,12 @@ export default class ContaierOne extends Component {
                                                 <h2 className="project-titles">Outcome </h2>
                                                 <div className="flex-init">
                                                         <article>
-                                                                We want to do another usability testing with the updates that we did.
-                                                                We will also want to complete the artist's business side - allowing the artist to manage projects,
+                                                                I want to do another usability testing with the updates that we did.
+                                                                I will also want to complete the artist's business side - allowing the artist to manage projects,
         payments, and other features that will be useful for them, like showing their certification on where they can tattoo. </article>
                                                         <article>
-                                                                We want to interact with artists to see what they need to make their work-life easier.
-                                                                This project was interesting to find a way to give the tattoo industry more technology that helps.
+                                                        At this point we have looked at potential clienta who want to get a tatto design, the next part I want to do build for artists. I want to interact with artists to see what they need to make their work-life fun.  This project was interesting to find a way to give the tattoo industry more technology that helps. 
+
                 </article>
                                                 </div>
                                         </div>

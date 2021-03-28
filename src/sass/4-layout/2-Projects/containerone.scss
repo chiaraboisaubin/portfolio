@@ -8,6 +8,31 @@
 .layout-content-grid-1 article{
 margin-right: .5em;
 }
+a.left
+{
+    color: #F68F75;
+    position: relative;
+}
+.layout-content-grid-1 a.left:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  background-color:#F68F75;
+
+}
+a.left:hover{
+    color: $second-button-social-color;
+}
+a.left:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+
 .layout-content-grid-1{
     @media screen and (min-width:500px) {  
         display: grid;
@@ -140,8 +165,19 @@ iframe{
     background-repeat: no-repeat;
     background-size: auto;
 }
+
+.hero-background-image-CD{
+    background: url("https://i.ibb.co/DRPVXx1/Portfolio4chowdown.jpg" );
+    background-color: #e51c25;
+    height: 50px;
+    padding: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
 .layout-content-grid-1 i{
 color: #F68F75;
+font-weight: bold;
 }
 
 .layout-container-l4 img{
@@ -228,5 +264,7 @@ color: #F68F75;
     height: auto;
     margin: auto;
     display: block;
+
 }  
 }
+

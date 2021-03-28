@@ -1,4 +1,4 @@
-.projects{
+    .projects{
     margin: auto;
 }
 .galla {
@@ -16,8 +16,8 @@
 
 .web{
     position: relative;
-    width: 150px;
-    height: 100px;
+    width: 400px;
+    height: 350px;
     margin: .2em;
     background-color: #F1EAFF;
     transition: ease-in .3s;
@@ -78,4 +78,90 @@
     background-size:cover;
     
 }
+.illustraiton-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+
+.graphic-design-1{
+    width: 400px;
+    height: 150px;
+    background-image: url("https://i.ibb.co/FV4PTG7/geomet-tatt.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-radius: 1em;
+    padding: 10%;
+
+}
+
+
+
+.graphic-design-2{
+    width: 400px;
+    height: 150px;
+    background-image: url("https://i.ibb.co/X7HnD7B/little-tea-cup-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-radius: 1em;
+    padding: 10%;
+
+}
+
+.graphic-design-3{
+    width: 400px;
+    height: 150px;
+    background-image: url("https://i.ibb.co/MNyQ4gg/mountains.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-radius: 1em;
+    padding: 10%;
+
+}
+
+.graphic-design-4{
+    width: 400px;
+    height: 150px;
+    background-image: url("https://i.ibb.co/PQxrFjk/logo2-copy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-radius: 1em;
+    padding: 10%;
+
+}
+
+
+.graphic-design-5{
+    width: 400px;
+    height: 150px;
+    background-image: url("https://i.ibb.co/7JLjz4m/wolfie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-radius: 1em;
+    padding: 10%;
+
+}
+
+input{
+    border: none;
+    background-color: transparent;
+    display: block;
+    margin: auto;
+    text-decoration: underline;
+}
+
+.graphic-work-conaitner img{
+width: 300px;
+height: auto;
+    
+}
+.graphic-work-conaitner {
+    display: block;
+    margin: auto 1em;
+}
