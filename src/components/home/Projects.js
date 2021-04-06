@@ -7,11 +7,9 @@ export default class Projects extends Component {
   render() {
     return (
       <React.Fragment>
-
-
-        <h2 className="primary-header"> work </h2>
-        <h3 className="secondary-header"> case study </h3>
-        <div className="projects">
+ <a name="projects"></a>
+<div className="projects">
+        <h2 className="primary-header"> Case study</h2>
           <div className="galla">
 
 

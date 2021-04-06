@@ -1,10 +1,9 @@
     .hero-body{
-        @media (min-width: 500px) {
-          
+        @media (min-width: 600px) {
             display: grid;
             grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
-            gap: 1px 1px;
             grid-template-areas:
+            
               "hero-container-L hero-container-L hero-container  hero-container"
               ". . . ."
               ". . . .";
@@ -16,8 +15,8 @@
     height:600px;
     padding: 0;
     margin: 0;
-    background: linear-gradient(75deg, #2A648E, #1C0838, #13007B, #100447, #170447);   
-    color: $secondary-color; 
+    background: $third-color;   
+    color: $second-button-social-color; 
     background-size: 800% 800%;
     -webkit-animation: AnimationName 15s ease infinite;
     -moz-animation: AnimationName 15s ease infinite;
@@ -27,6 +26,11 @@
         grid-area: hero-container ;  
 }
 }
+
+.hero-container ul{
+    margin-bottom: 1em;
+}
+
 .hero-container-R span{
     text-align: left;
     }
@@ -71,36 +75,59 @@
 .hero-container li{
     display: inline ;
     margin: 1em 0;
-    padding-right: 1em;
+    padding-right: 2em;
 }
+.hero-header{
+    font-family: $header-title;
+    font-weight: 900;
+    padding-right: 5%;
+    font-size: 2.5em;
+    padding-bottom: 3em;
+    color: $primary-color;
+    @media screen and (min-width:600px){
+        font-size: 2.5em;
+        padding-bottom: .5em;}
+    @media screen and (min-width:1000px){
+        font-size: 3em;
+        padding-bottom: 1em;
+    }
+
+}
+
 .other p{
     font-weight: 600;
     margin: 1em 0;
 }
 
-.intoFooter{
-    display: flex;
-    justify-content: flex-end;
-    text-decoration: none;
-    color: $secondary-color;
-
-}
 .header{
     display: flex;
     justify-content: flex-end;
 }
-.header a{
-    color: $secondary-color;
+.hero-container-R{
+    color: $second-button-social-color;
 }
-
-.intoFooter .fa{
-    color: $secondary-color;
+.hero-container-R a{
     font-size: $social-icons;
 }
 
-.intoFooter .fa:hover{
+.hero-container-R a:hover{
     color: $first-button-social-color-hover;
 }
+.hero-container-R .fa{
+    font-size: $social-icons;
+}
+
+.hero-container-R.fa:hover{
+    color: $first-button-social-color-hover;
+}
+
+.sub-hero-header{
+    padding-right: 5%;
+    font-size: 60px;
+    @media screen and (min-width:500px){
+}
+}
+
 
 .humble{
     margin: 1em;

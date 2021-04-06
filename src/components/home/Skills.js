@@ -7,31 +7,31 @@ export default class Skills extends Component {
     return (
       <React.Fragment>
       {/*generated code*/}
-
-<h2 className="primary-header"> skills</h2>
+<div className="skill-container">
+<h2 className="white-header"> Skills</h2>
   <div className="skills-L">
   <div className="skills">
-  <h3 className="secondary-header"> design</h3>
+  <h3 className="secondary-header"> Design</h3>
 <ul className="skill-list">
-  <li className="skills-style">visual design</li>
-  <li className="skills-style">wireframing</li>
-  <li className="skills-style">prototyping</li>
-  <li className="skills-style">persona Creation</li>
-  <li className="skills-style">mockup Design </li>
-  <li className="skills-style">illustration</li>
+  <li className="skills-style">Visual design</li>
+  <li className="skills-style">Wireframing</li>
+  <li className="skills-style">Prototyping</li>
+  <li className="skills-style">Persona creation</li>
+  <li className="skills-style">Mockup design </li>
+  <li className="skills-style">Illustration</li>
 </ul>
 </div>
 <div className="skills">
-<h3 className="secondary-header"> interaction</h3>
+<h3 className="secondary-header"> Interaction</h3>
 <ul className="skill-list">
-  <li className="skills-style">user research</li>
-  <li className="skills-style">usability testing</li>
-  <li className="skills-style">responsive web design</li>
-  <li className="skills-style">information architecture</li>
+  <li className="skills-style">User research</li>
+  <li className="skills-style">Usability testing</li>
+  <li className="skills-style">Responsive web design</li>
+  <li className="skills-style">Information architecture</li>
 </ul>
 </div>
 <div className="skills">
-<h3 className="secondary-header"> codes</h3>
+<h3 className="secondary-header"> Codes</h3>
 <ul className="skill-list">
 <li className="skills-style">HTML</li>
   <li className="skills-style">CSS</li>
@@ -41,6 +41,7 @@ export default class Skills extends Component {
   <li className="skills-style">React JS</li>
   <li className="skills-style">Node</li>
 </ul>
+</div>
 </div>
 </div>
 

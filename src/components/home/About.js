@@ -5,13 +5,14 @@ export default class About extends Component {
     return (
       <React.Fragment>
         {/*generated code*/}
-
-        <h2 className="primary-header"> hiya! </h2>
+        <a name="about"></a>
+        <div className="projects">
+        <h2 className="primary-header"> Hiya! </h2>
 
         <div className="proflieInfo">
 
           <div class="about-content-L">
-            <img class="pro" src="https://i.ibb.co/Jjc8Rsg/chi2.jpg" alt="chi2" border="0" title="it's a me, Chiara"></img>
+            <img class="pro" src="https://i.ibb.co/Bznftbv/chi2-sq.jpg" alt="chi2-sq" border="0"/>
             <p> A designer by day and a developer during a full moon - making user interaction and experience better one step at a time.</p>
 
            <p> 
@@ -30,15 +31,14 @@ export default class About extends Component {
           </p>
           </div>
 
-
+          <h3 className="secondary-header"> I like to..</h3>
           <div className="about-content-R">
-
             <div class="humble crazy">
               <img className="image" src="https://i.ibb.co/VJSWqxn/adventure-icon.png" alt="adventure-icon" border="0" width="200PX"
                 height="auto"></img>
                 <div class="overlay">
                   <div class="layer">
-                    <p> travel </p>
+                    <p> traveling </p>
                   </div>
                 </div>
                 </div>
@@ -48,7 +48,7 @@ export default class About extends Component {
                 height="auto"></img>
                 <div class="overlay">
                   <div class="layer">
-                    <p> riding motorcyles</p>
+                    <p>  motorcyles</p>
                   </div>
                 </div>
                 </div>
@@ -72,6 +72,7 @@ export default class About extends Component {
                   </div>
                 </div>
                 </div>
+</div>
 </div>
 </div>
 

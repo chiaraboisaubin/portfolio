@@ -1,9 +1,16 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 ;
-.fa:visited, .fa:focus, .fa{
-    color: currentColor;
+.hero-container .fa:visited, .hero-container .fa:focus, .hero-container .fa{
+    color: $second-button-social-color;
+    font-size: 30px;
+    transition: ease-in .3s;
+    transform: scale(1.1);
+    z-index: 1;
 }
 
-.fa:hover{
+.hero-container .fa:hover{
     color: $first-button-social-color-hover;
+    transition: ease-in .3s;
+    transition: ease-out .3s;
+    transform: scale(1);
 }

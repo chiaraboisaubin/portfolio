@@ -1,45 +1,54 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
-@import url('http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic|Montserrat:400,700');
-@import url('https://fonts.googleapis.com/css?family=Catamaran:300|Montserrat:300|Noto+Sans');
-@import url('https://fonts.googleapis.com/css?family=Catamaran:300|Montserrat:300|Noto+Sans|Quicksand');
-@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto&family=Slabo+27px&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Raleway:wght@400;800&display=swap');
+
+/* FONT SIZE */
+$primary-size: 18px;
+$social-icons: 25px;
+$small-font: 12px;
+
+/* FONT FAMILY */
+$header-title: 'Raleway', sans-serif;
+$main-content:   'Quicksand', sans-serif;
 
 h1{
+    font-family: 'Raleway', sans-serif;
     font-size: 24px;
 }
 
 p{
+    font-family: 'Quicksand', sans-serif;
+    font-family: 18px;
+    margin-top: 1em;
+}
+
+a{
+    font-family: 'Quicksand', sans-serif;
     font-family: 18px;
 }
 
-.hero-header{
-    font-family: 'Suez One', serif;
-    padding-right: 5%;
-    font-size: 30px;
-    padding-bottom: 3em;
-    @media screen and (min-width:500px){
-        padding-bottom: 6em;
-    }
-}
-
-.sub-hero-header{
-    padding-right: 5%;
-    font-size: 60px;
-    @media screen and (min-width:500px){
-}
-}
-
 .primary-header{
-    margin-top: 2em;
+    padding: 1em 0;
     font-size: 50px;
-    color: $third-color;
-    text-align: left;
+    color: $primary-color;
+    text-align: center;
+
+}
+
+.white-header{
+    margin: 1em 0;
+    padding: 1em 0;
+    font-size: 50px;
+    text-align: center;
+    color: $hero-text-color;
 }
 
 .secondary-header{
-    font-size: 20px;
-    color: $third-color;
+    margin-bottom: 2em;
+    font-size: 35px;
+    color: $hero-text-color;   
+    text-align: center;
+    @media screen and (min-width:600px){
+}
 }
 
 .project-titles{

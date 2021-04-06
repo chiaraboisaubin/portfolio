@@ -24,7 +24,8 @@ export default class Popup extends Component {
     render() {
         return (
           <React.Fragment>
-        <h3 className="secondary-header">graphic work </h3>
+            <div className="illustation">
+            <h2 className="primary-header"> Illustation</h2>
 
         <div className="illustraiton-container">
 
@@ -119,6 +120,7 @@ export default class Popup extends Component {
                 </Modal>
             </section>
 
+
             <section className="graphic-work-conaitner">
 
             <div className="graphic-design-5">
@@ -141,6 +143,7 @@ export default class Popup extends Component {
 
                 </Modal>
             </section>
+            </div>
             </div>
       
             </React.Fragment>

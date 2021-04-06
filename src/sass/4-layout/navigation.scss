@@ -1,16 +1,15 @@
-.link-hp li{
+.link-hp a{
     display: inline;
-    margin-right: 10em;
-    font-size: 1.1em;
+    margin-right: 3em;
+    font-size: 1em;
+    text-align: right;
 }
 
 .link-hp{
-background: linear-gradient(360deg, rgba(255, 255, 255, 0.795), rgb(252, 251, 233));
+background: $fourth-color;
 padding: 1em;
 position: sticky;
 display: flex;
-word-spacing: 2em;
 @media screen and (min-width:768px) {
-    text-align: right;
 }        
 }
