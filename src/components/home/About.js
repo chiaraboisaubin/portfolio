@@ -31,8 +31,10 @@ export default class About extends Component {
           </p>
           </div>
 
-          <h3 className="secondary-header"> I like to..</h3>
+      
           <div className="about-content-R">
+          <h3 className="header-grey"> I enjoy ...</h3> 
+          <div className="enjoy-containter">
             <div class="humble crazy">
               <img className="image" src="https://i.ibb.co/VJSWqxn/adventure-icon.png" alt="adventure-icon" border="0" width="200PX"
                 height="auto"></img>
@@ -70,6 +72,7 @@ export default class About extends Component {
                   <div class="layer">
                     <p> painting </p>
                   </div>
+                </div>
                 </div>
                 </div>
 </div>

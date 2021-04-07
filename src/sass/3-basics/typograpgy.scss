@@ -19,6 +19,12 @@ p{
     font-family: 'Quicksand', sans-serif;
     font-family: 18px;
     margin-top: 1em;
+
+}
+
+article{
+    font-family: 'Quicksand', sans-serif;
+    font-family: 18px;   
 }
 
 a{
@@ -42,6 +48,15 @@ a{
     color: $hero-text-color;
 }
 
+.header-grey{
+    margin-bottom: 2em;
+    font-size: 35px;
+    color: $secondary-color;   
+    text-align: center;
+    @media screen and (min-width:600px){
+}
+}
+
 .secondary-header{
     margin-bottom: 2em;
     font-size: 35px;
@@ -52,8 +67,8 @@ a{
 }
 
 .project-titles{
-    margin-top: 1em;
+    margin: 1em 0;
     font-size: 30px;
-    color: $third-color;
+    color: $primary-color
 }
 
