@@ -19,9 +19,7 @@ export default class Footer extends Component {
 </div>
 
 <div className="footer-copy-bottom">
-<p class="copy"><a href="https://github.com/chiaraboisaubin/chiaraboisaubin.github.io"> Codes are on github </a>
-</p>
-<p class="copy"> &#169; 2020 Designed and Developed by Chiara BoisAubin</p>
+<p class="copy"> &#169; 2021 Designed and Developed by Chiara BoisAubin</p>
 </div>
 </footer>
 

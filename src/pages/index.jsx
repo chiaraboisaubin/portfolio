@@ -5,7 +5,7 @@ import React from 'react';
 import Hero from '../components/home/Hero';
 import NavTwo from '../components/general/top-nav';
 import Projects from '../components/home/Projects';
-import Popup from '../components/home/Popup';
+import Gallery from '../components/home/PhotoSwipe';
 import About from '../components/home/About';
 import Skills from '../components/home/Skills';
 import Resume from '../components/home/Resume';
@@ -22,7 +22,7 @@ const Mainpage = () => {
         <div className="fade animationfade"> 
             <Hero />
             <Projects />
-            <Popup/>
+            <Gallery />
             <NavTwo />
             <About />
             <Skills />

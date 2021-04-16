@@ -1,0 +1,23 @@
+    .gallery {
+      display: grid;
+      overflow: hidden;
+      grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    }
+
+    .illustration{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+.ill-border{
+
+}
+
+.ease-in{
+  transition: ease-out .3s;
+  transform: scale(1);
+}
+.ease-in:hover{
+  transition: ease-in .3s;
+
+}

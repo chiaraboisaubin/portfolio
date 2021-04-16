@@ -10,8 +10,9 @@ margin: 1em 0;
 }
 a.left
 {
-    color: #F68F75;
+    color: $primary-color;
     position: relative;
+    font-size: 1em;
 }
 .layout-content-grid-1 a.left:before{
     content: "";
@@ -26,7 +27,7 @@ a.left
 
 }
 a.left:hover{
-    color: $second-button-social-color;
+    color: $hover-color;
 }
 a.left:hover:before {
     visibility: visible;
@@ -45,6 +46,7 @@ a.left:hover:before {
           "layout-container-l4 layout-container-l4"
           "layout-container-l5 layout-container-l5"
           "layout-container-l6 layout-container-l6"
+          "layout-container-l66 layout-container-l66"
           "layout-container-l7 layout-container-l7"
           "layout-container-l8 layout-container-l8"
           "layout-container-l9 layout-container-l9"
@@ -54,6 +56,11 @@ a.left:hover:before {
 }
 }
 
+.layout-content-grid-1 ol li{
+list-style:circle;
+list-style-type: circle
+;
+}
 .layout-container-l{
     @media screen and (min-width:600px){
     grid-area: layout-container-l;
@@ -62,6 +69,8 @@ a.left:hover:before {
 
 .layout-container-l2{
     @media screen and (min-width:600px){
+display: flex;
+    justify-content: space-between;
     grid-area: layout-container-l2;
 }
 }
@@ -84,6 +93,11 @@ a.left:hover:before {
 .layout-container-l6{
     @media screen and (min-width:600px){
     grid-area: layout-container-l6;
+}
+}
+.layout-container-l66{
+    @media screen and (min-width:600px){
+    grid-area: layout-container-l66;
 }
 }
 .layout-container-l7{
@@ -232,6 +246,16 @@ font-weight: bold;
 }  
 }
 
+.layout-container-l66 img{
+    width: 100%;
+    @media screen and (min-width:600px){
+    width: 40%;
+    height: auto;
+    margin: auto;
+    display: block;
+}  
+}
+
 .layout-container-l7 .img-1{
     width: 100%;
     @media screen and (min-width:600px){
@@ -294,3 +318,4 @@ font-weight: bold;
         font-size: 18px;
 }
 }
+
