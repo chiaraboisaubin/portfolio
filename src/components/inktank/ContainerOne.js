@@ -120,13 +120,14 @@ export default class ContaierOne extends Component {
                                                  To show how Ink Tank benedicts user’s day-to-day lives, I offered scenarios. 
                                                 </article>
                                                 <div className="flex-init">
-                                                <img src="https://i.ibb.co/G9s4Sgt/personas-Ink-Tank-02.png" alt="personas-Ink-Tank-02" border="0"/>
-                                                <img src="https://i.ibb.co/71p0KN5/personas-Ink-Tank-01.png" alt="personas-Ink-Tank-01" border="0"/>
+                                                <img src="https://i.ibb.co/5vrs0yV/Danielle.png" alt="Danielle" border="0"/>
+                                                <img src="https://i.ibb.co/XD8GypT/William.png" alt="William" border="0"/>
                                                 </div>
 
 
                                                 <span> More detail about the
-                                                <a className="left" target="blank" href="https://drive.google.com/file/d/19qxU0cJqSae26r6FoW5kZHjDe9RS2WBt/view?usp=sharing"> user stories </a> and
+                                                <a className="left" target="blank" href="https://drive.google.com/file/d/19qxU0cJqSae26r6FoW5kZHjDe9RS2WBt/view?usp=sharing"> user stories </a>,
+                                                <a className="left" target="blank" href="https://drive.google.com/file/d/1lkw71WvpuNFEuvDgIsTW20qh8mp7DmV2/view?usp=sharing"> user flow </a>, and
                                                 <a className="left" target="blank" href=" After creating personas I built a sitemap and conducted card sorting. After evaluating the data, and update the sitemap. With the information form, we create user flows that would explain how they might use the app for their needs.">   user journey </a>
                                                 </span>
                                         </div>
@@ -148,7 +149,7 @@ export default class ContaierOne extends Component {
                                                 </div>
                                                 <img className="img-2" src="https://i.ibb.co/qdJV88j/updated-sitemap.png" alt="updated-sitemap" border="0" />
                                                 <span> More detail about the
-                                                <a className="left" target="blank" href="https://drive.google.com/file/d/1jXFPz13dHfTQEOaMYHPMIOelHlYcy-kR/view?usp=sharing"> Refining sitemap with card Ssorting </a>
+                                                <a className="left" target="blank" href="https://drive.google.com/file/d/1jXFPz13dHfTQEOaMYHPMIOelHlYcy-kR/view?usp=sharing"> refining sitemap with card sorting </a>
 
                                                 </span>
                                         </div>
