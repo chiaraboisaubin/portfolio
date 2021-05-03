@@ -11,6 +11,7 @@ import ContainerOne from '../components/Chowdown/ContainerOne';
 import Footer from '../components/general/Footer'
 
 const ChowdownPage = () =>{
+    
 return (
     <div>
 <HeroLayout />

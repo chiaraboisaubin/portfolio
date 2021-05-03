@@ -22,8 +22,8 @@ const Mainpage = () => {
         <div className="fade animationfade"> 
             <Hero />
             <Projects />
-            <Gallery />
             <NavTwo />
+            <Gallery />
             <About />
             <Skills />
             <Resume />

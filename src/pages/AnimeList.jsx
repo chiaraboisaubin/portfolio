@@ -12,6 +12,7 @@ import ContainerTwo from '../components/animelist/ContainerTwo';
 import Footer from '../components/general/Footer'
 
 const AnimeListPage = () =>{
+    
 return (
     <div>
 <HeroLayout />

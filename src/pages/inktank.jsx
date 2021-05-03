@@ -12,6 +12,7 @@ import ContainerTwo from '../components/inktank/ContainerTwo';
 import Footer from '../components/general/Footer'
 
 const InkTankPage = () =>{
+    
 return (
     <div>
 <HeroLayout />

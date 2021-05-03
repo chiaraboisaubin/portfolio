@@ -10,8 +10,10 @@ import ChiarasSitePage from './pages/chiaras-site';
 import AshleysSitePage from './pages/ashleysite';
 import AnimeListPage from './pages/AnimeList';
 import SoulMarcosPage from './pages/soulmarcos';
-import WordUpPage from './pages/wordup'
-import InkTankPage from './pages/inktank'
+import WordUpPage from './pages/wordup';
+import InkTankPage from './pages/inktank';
+
+
 
 //components
 import Hero from './components/home/Hero';
@@ -19,7 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-<Router>
+<Router >
   <Switch>
   <Route exact path="/" component={Mainpage} /> 
   <Route exact path="/wordup" component={WordUpPage} />
