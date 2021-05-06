@@ -1,8 +1,12 @@
 import React from 'react';
-import {Link, link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 //SASS
 import '../sass/main.scss'
+
+
+
+
 
 // components
 import HeroLayout from '../components/Chowdown/HeroLayout';
@@ -17,7 +21,8 @@ return (
 <HeroLayout />
 <NavTwo />
 <ContainerOne />
-<Footer />
+<Footer />  
+
  </div>  
 
 
