@@ -6,7 +6,8 @@
 
     .illustration{
     width: 100%;
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .ill-border{
