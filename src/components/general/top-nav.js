@@ -8,7 +8,7 @@ export default class NavTwo extends Component {
             <ul className="link-hp sticky">
             <li><a href="#projects"> work</a></li>
         <li> <a href="#about"> about </a></li>
-        <li><a href="#resume">resume</a></li>
+        <li><a href="#skills">skills</a></li>
             </ul>
     
         </React.Fragment>

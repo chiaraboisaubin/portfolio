@@ -7,6 +7,7 @@ export default class Skills extends Component {
     return (
       <React.Fragment>
       {/*generated code*/}
+      <a name="skills"></a>
 <div className="skill-container">
 <h2 className="blk-header"> Skills</h2>
   <div className="skills-L">

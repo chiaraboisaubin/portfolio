@@ -35,7 +35,8 @@ a.left:hover:before {
   }
 
 .layout-content-grid-1{
-    @media screen and (min-width:600px) {  
+    margin: 2em;
+    @media screen and (min-width:700px) {  
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px 10px;
@@ -52,7 +53,12 @@ a.left:hover:before {
           "layout-container-l9 layout-container-l9"
           "layout-container-l10 layout-container-l10"
           "layout-container-center layout-container-center";
-          margin: 1em;
+}
+}
+.layout-container-l22{
+    margin-bottom: 2em;
+    @media screen and (min-width:600px){
+        margin-bottom: 0;
 }
 }
 
@@ -69,9 +75,10 @@ list-style-type: circle
 
 .layout-container-l2{
     @media screen and (min-width:600px){
-display: flex;
+    display: flex;
     justify-content: space-between;
     grid-area: layout-container-l2;
+    margin-bottom: 1em;
 }
 }
 
@@ -306,17 +313,21 @@ text-align: center;
 }
 
 .skills-style-proj{
+    padding: 10px;
     width: 100%;
     max-width: 48%;
     margin: .2em;
     border: 4px solid #000;
     color: #000;
     border-radius: 50px;
-    font-size: 14px;
+    font-size: 1.2em;
     font-weight: 600;
     text-align: center;
     @media screen and (min-width: 600px){
-        font-size: 18px;
+        font-size: 1em;
+}
+@media screen and (min-width: 900px){
+    font-size: 1.5em;
 }
 }
 

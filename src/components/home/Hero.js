@@ -17,7 +17,7 @@ export default class Hero extends Component {
               <ul className="hp-links">
                 <li><a href="#projects"> work</a></li>
                 <li> <a href="#about"> about </a></li>
-                <li><a href="#resume">resume</a></li>
+                <li><a href="#skills">skills</a></li>
               </ul>
               <ul>
                 <li> <a href="https://github.com/chiaraboisaubin" class="fa fa-github" rel="noopener noreferrer" target="_blank"> </a> </li>

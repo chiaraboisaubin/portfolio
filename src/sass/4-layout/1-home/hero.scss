@@ -62,7 +62,7 @@
 .hero-container-L{
     width: auto;
     height: auto;
-    background-color: violet;
+    background-color: #d5b942;
     background-image: url('https://i.ibb.co/6gJ4Mpv/pexels-photo-196644.jpg');
     background-repeat: no-repeat;
     background-size: auto;
@@ -111,14 +111,14 @@
 }
 
 .hero-container-R a:hover{
-    color: $first-button-social-color-hover;
+    color: $main-hover-color;
 }
 .hero-container-R .fa{
     font-size: $social-icons;
 }
 
-.hero-container-R.fa:hover{
-    color: $first-button-social-color-hover;
+.hero-container-R .fa:hover{
+    color: $main-hover-color;
 }
 
 .sub-hero-header{

@@ -103,6 +103,9 @@ export default class ContaierOne extends Component {
                                                  I have built personas for the ideal user and scenarios with the information from the interviews and surveys. 
                                                 Creating the personas and scenarios will see the user’s perspective on how Ink Tank will function within their life. 
                                                 </article>
+                                                <article>
+                                                I did have difficulty finding a tattoo artist who was willing to talk to me about the tool and methods they use to promote their work, organize appointments and payments. Initially, the goal was to go to some tattoo shops and observe an artist during the day and see their habits. Even though I was unable to observe and interview professional tattoo artists, it allowed me to focus on the client-side of the app. 
+                                                </article>
 
                                                 <img src="https://i.ibb.co/DfBD0w9/survey-overview.png" alt="survey-overview" border="0" />
                                         
@@ -158,10 +161,11 @@ export default class ContaierOne extends Component {
                                         <div className="layout-container-l8">
                                                 <h2 className="project-titles">Prototype and testing </h2>
                                                 <article>
-                                                Finally able to do the fun part, prototyping!  After sketching a low-fidelity prototype,
-                                                 I tested it out with a couple of users to see if the flow was clear enough for them to get to the features.
-                                                  I analyze the feedback and update the sketch and flow from the majority of call-outs. 
-                                                Once I felt satisfied with what was on paper turned the design into a high-fidelity prototype and tested it again with some users.         
+                                                After sketching a low-fidelity prototype, I tested it out with a couple of users to see if the flow was clear enough for them to get to the features. I analyze the feedback and update the sketch and flow from the majority of call-outs. Once I felt satisfied with what was on paper turned the design into a high-fidelity prototype and tested it again with some users.      
+                                                </article>
+                                                <article>
+                                                Finally able to do the fun part, prototyping! When I was styling the high-fidelity prototype, I had a challenge picking the colors. I knew I wanted to go with an orange-red color to translate creativity. I was able to find a shade that is not only WGAG AA friendly but met my expectations.  I want to improve the vector images; they look simple and do not connect with the style of the app as much as I want. 
+
                                                 </article>
 
                                                 <img src="https://i.ibb.co/8g0grVf/6-2-polishing-desgin.png" alt="6-2-polishing-desgin" border="0" />
@@ -204,12 +208,12 @@ export default class ContaierOne extends Component {
 
                                                         At this point we have looked at potential clienta who want to get a tatto design, the next part I want to do build for artists. I want to interact with artists to see what they need to make their work-life fun.  This project was interesting to find a way to give the tattoo industry more technology that helps.
                                                 </article>
-                                                <h2 className="project-titles">Next steps </h2>
+                                                {/* <h2 className="project-titles">Next steps </h2>
                                                 <ol>
                                                         <li>To build the artists section of the site. I want to interact with artists to see what they need to make their work-life fun. I believe making contextual inquiries with artists will show me their perspective.</li>
                                                         <li>Do another usability test with the high-fidelity prototype updates, and I think A/B testing will be faster and easier to gather feedback.  </li>
                                                         <li>Update the illustration on the onboarding process to better match the app’s theme.</li>
-                                                </ol>
+                                                </ol> */}
 
                                         </div>
                                 </div>
