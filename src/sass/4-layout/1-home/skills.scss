@@ -1,22 +1,24 @@
 .skill-container{
-    background-color: $fifth-color;
+    background-color: $third-color;
     color: $primary-color; 
     padding: 1em;
 
 }
 
 .skills-style{
-    width: 40%;
-    max-width: 40%;
+    width: 55%;
+    max-width: 75%;
     margin: .2em;
     border: 4px solid $primary-color;
     border-radius: 50px;
     font-size: 1em;
     font-weight: 600;
     text-align: center;
-    @media screen and (min-width: 600px){
+    @media screen and (min-width: 800px){
+        width: 40%;
+        max-width: 80%;
         padding: 10px;
-        font-size: 1.2em;
+        font-size: 1em;
 }
 }
 

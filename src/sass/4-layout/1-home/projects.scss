@@ -1,13 +1,14 @@
 .projects{
     margin: 1em 2em;
 }
+
 .galla {
- display: flex;
- flex-wrap: wrap;
- white-space: pre-wrap;
- justify-content: left;
- @media screen and (min-width: 600px){
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    @media screen and (min-width: 600px){
+        flex-wrap: wrap;
+        white-space: pre-wrap;
 }
 }
 
@@ -19,8 +20,8 @@
 .web{
     display: block;
     position: relative;
-    width: 400px;
-    height: 350px;
+    width: 275px;
+    height: 300px;
     border-radius: 1em;
     margin: 1em;
     background-color: $fourth-color;
@@ -41,7 +42,7 @@
 
 .web:hover{
     color: $hero-text-color;
-    background: $third-color;
+    background: $hover-color;
     transition: ease-out .3s;
     transform: scale(1);
     

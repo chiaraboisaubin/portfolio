@@ -116,10 +116,15 @@
 .hero-container-R .fa{
     font-size: $social-icons;
 }
+.hero-container-R a:before{
+    visibility: visible;
+    width: 100%;
+}
 
 .hero-container-R .fa:hover{
     color: $main-hover-color;
-}
+
+  }
 
 .sub-hero-header{
     padding-right: 5%;

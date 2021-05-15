@@ -31,7 +31,7 @@ export default class ContaierOne extends Component {
                                                 <h2 className="project-titles"> Skills </h2>
                                                 <ul className="skill-list-project">
                                                         <li className="skills-style-proj">Competitive Analysis</li>
-                                                        <li className="skills-style-proj">Low to High fieldity prototyping</li>
+                                                        <li className="skills-style-proj">Prototyping</li>
                                                         <li className="skills-style-proj"> Usability testing  </li>
                                                         <li className="skills-style-proj"> Illustration </li>
                                                         <li className="skills-style-proj"> A/B testing </li>
@@ -129,8 +129,8 @@ export default class ContaierOne extends Component {
 
 
                                                 <span> More detail about the
-                                                <a className="left" target="blank" href="https://drive.google.com/file/d/19qxU0cJqSae26r6FoW5kZHjDe9RS2WBt/view?usp=sharing"> user stories </a>,
-                                                <a className="left" target="blank" href="https://drive.google.com/file/d/1lkw71WvpuNFEuvDgIsTW20qh8mp7DmV2/view?usp=sharing"> user flow </a>, and
+                                                <a className="left" target="blank" href="https://drive.google.com/file/d/19qxU0cJqSae26r6FoW5kZHjDe9RS2WBt/view?usp=sharing"> user stories,</a>
+                                                <a className="left" target="blank" href="https://drive.google.com/file/d/1lkw71WvpuNFEuvDgIsTW20qh8mp7DmV2/view?usp=sharing"> user flow, </a> and
                                                 <a className="left" target="blank" href=" After creating personas I built a sitemap and conducted card sorting. After evaluating the data, and update the sitemap. With the information form, we create user flows that would explain how they might use the app for their needs.">   user journey </a>
                                                 </span>
                                         </div>
@@ -189,9 +189,9 @@ export default class ContaierOne extends Component {
       
                                                 </article>
                                                 <span> More detail about the
-                                                <a className="left" target="blank" href="https://drive.google.com/file/d/15J0x26qCDo1ekG5wI7-GNRaSyhDDkUbQ/view?usp=sharing"> Design language system </a>,
-                                                <a className="left" target="blank" href="https://drive.google.com/file/d/16PYClVcdq3x66mN0wWmXqd1coOJTw6g4/view?usp=sharing">  rainbow sheet</a>,
-                                                <a className="left" target="blank" href="https://drive.google.com/file/d/198MaXy-3pK1WfJXp16YbZiEhm3ePRK4s/view?usp=sharing">  A/B preference testing </a> , and
+                                                <a className="left" target="blank" href="https://drive.google.com/file/d/15J0x26qCDo1ekG5wI7-GNRaSyhDDkUbQ/view?usp=sharing"> Design language system, </a>
+                                                <a className="left" target="blank" href="https://drive.google.com/file/d/16PYClVcdq3x66mN0wWmXqd1coOJTw6g4/view?usp=sharing">  rainbow sheet,</a>
+                                                <a className="left" target="blank" href="https://drive.google.com/file/d/198MaXy-3pK1WfJXp16YbZiEhm3ePRK4s/view?usp=sharing">  A/B preference testing, </a>and
                                                 <a className="left" target="blank" href="https://drive.google.com/file/d/1c-ek21FTbgVxhYfh_xqa1M2IEZhX2Cjg/view?usp=sharing">  the updates </a>
                                                 </span>
                                         </div>
