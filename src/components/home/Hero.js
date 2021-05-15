@@ -13,7 +13,7 @@ export default class Hero extends Component {
           <div className="hero-container">
 
             <div className="hero-container-R">
-              <h1 className="hero-header"> Chiara is a Product Designer that enjoys building experiences for people.</h1>
+              <h1 className="hero-header"> Chiara is a UI/UX Designer that enjoys building experiences for people.</h1>
               <ul className="hp-links">
                 <li><a href="#projects"> work</a></li>
                 <li> <a href="#about"> about </a></li>
