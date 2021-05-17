@@ -165,10 +165,11 @@ list-style-type: circle
 
 
 iframe{
-    width: 95%;
-    height: 150px;
-    @media screen and (min-width:600px){
-    height: 300px;
+ max-width: 95%;
+ display:block;
+ margin: 1.5em auto;
+@media screen and (min-width:600px){
+    max-width: 95%;
 }
 }
 
