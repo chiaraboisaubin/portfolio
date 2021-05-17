@@ -73,7 +73,7 @@ export default class ContaierOne extends Component {
           <div className="layout-container-l6">
           <h2 className="project-titles"> Prototype</h2>
 <p> This is an application that I have been assisting. I had to organize and construct the mockups and wireframe, and build about 55 pages. This is the mockup that I had to use to make the pages and will launch in July. The clients wanted the web application to have a similar style like GrubHub and Dominos website and mobile application. We found other companies with betas that allow you to pre-order, but there were a couple of gaps with the host table and the chefs.</p>
-<iframe width="560" height="600" src="https://www.youtube.com/embed/sNsRcff1DcY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<video  width="400px" height="720px" loop allow="autoplay"> <source src="https://drive.google.com/file/d/1tz8RfcyedxOWp1BNiQ_5s8jkZwizWkoI/view?usp=sharing"/></video>
           </div>
           <div className="layout-container-l7">
           <h2 className="project-titles"> Outcome </h2>
