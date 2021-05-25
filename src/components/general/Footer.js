@@ -8,6 +8,7 @@ export default class Footer extends Component {
       <footer id="bottomFooter">
 
 <div className="footer-links-bottom">
+<h1>Connect with me! </h1>
   <ul>
     
     <li> <a href="https://www.linkedin.com/in/chiara-boisaubin" class="fa fa-linkedin" rel="noopener noreferrer" target="_blank"></a></li>

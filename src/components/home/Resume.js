@@ -12,6 +12,7 @@ export default class Resume extends Component {
           download my resume </button>
             </div>
             </a>
+
       </React.Fragment>
     );
   }

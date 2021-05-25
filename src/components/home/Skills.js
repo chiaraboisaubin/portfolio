@@ -20,6 +20,19 @@ export default class Skills extends Component {
   <li className="skills-style">Persona creation</li>
   <li className="skills-style">Mockup design </li>
   <li className="skills-style">Illustration</li>
+  <li className="skills-style">Style Guide & Pattern Library</li>
+  <li className="skills-style">Visual User Interface Design</li>
+  <li className="skills-style">Email Design</li>
+</ul>
+</div>
+<div className="skills">
+<h3 className="secondary-header"> Tools</h3>
+<ul className="skill-list">
+  <li className="skills-style">Adobe Creative Suite </li>
+  <li className="skills-style">Figma</li>
+  <li className="skills-style">Sketch</li>
+  <li className="skills-style">Jira </li>
+  <li className="skills-style">Github </li>
 </ul>
 </div>
 <div className="skills">

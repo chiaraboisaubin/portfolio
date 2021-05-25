@@ -12,6 +12,14 @@ export default class Projects extends Component {
         <h2 className="primary-header"> Case study</h2>
           <div className="galla">
 
+          {/* <Link to="/inktank">
+            <div className="web">
+                <div className="con">
+                <h4>Re-design of care/of  </h4>
+                <span className="modal-text"> read more  &#8594; </span>
+                </div>
+            </div>
+            </Link> */}
           <Link to="/inktank">
             <div className="web">
                 <div className="con">
@@ -33,6 +41,31 @@ export default class Projects extends Component {
             </div>
         </div>
 
+{/* <div className="projects">
+<h2 className="primary-header"> Web Design </h2>
+<div className="galla">
+
+<Link to="/soulmarcos">
+  <div className="web">
+      <div className="con">
+      <h4> Soul Marcos's website </h4>
+      <span className="modal-text"> read more  &#8594; </span>
+      </div>
+  </div>
+  </Link>
+
+  <Link to="/chowdown">
+  <div className="web">
+      <div className="hon">
+      <h4> Personal site revisions of personal site </h4>
+      <span> read more  &#8594; </span>
+      </div>
+  </div>
+  </Link>
+
+  </div>
+
+  </div> */}
       </React.Fragment>
     );
   }

@@ -8,12 +8,20 @@ export default class ContaierOne extends Component {
   <div className="layout-content-grid-1">
 
         <div className="layout-container-l">
-<h2 className="project-titles"> role </h2>
-<p> Front End Developer and Designer </p>
+        <h2 className="project-titles"> Context</h2>
+          <p> A DJ in New York wanted a site to show his recent music that he produced, the events he will attend, and the ability to add
+                  context like collabs with other musicians and podcastors </p>
+
         </div>
 
-        <div className="layout-container-r">
-        <h2 className="project-titles"> skills </h2>
+        <div className="layout-container-l2">
+        <h2 className="project-titles"> Role </h2>
+<p>Web Designer </p>
+
+            </div>
+
+            <div className="layout-container-r2">
+            <h2 className="project-titles"> skills </h2>
             <ul className="skill-list">
             <li className="skills-style">wireframing</li>
             <li className="skills-style">prototyping</li>
@@ -21,29 +29,9 @@ export default class ContaierOne extends Component {
             <li className="skills-style">html</li>
             <li className="skills-style">css</li>
             </ul>
-            </div>
-
-        <div className="layout-container-l2">
-<h2 className="project-titles"> What is Chowdown? </h2>
-<p> This is a reservation app for restaurants that allows people to pre-order, saves payment methods, and tells restaurant about your food allergies/ dietary requirement in advance. </p>
-<div className="image-row">
-<img src="https://i.ibb.co/Mhqbq6w/allergies.png" alt="allergies" border="0" />
-<img src="https://i.ibb.co/nb1Kz9Z/money.png" alt="money" border="0" />
-<img src="https://i.ibb.co/1QM9Jht/planner.png" alt="planner" border="0" />
-</div>
-        </div>
-        <div className="layout-container-r2">
-        <h2 className="project-titles"> objective </h2>   
-        <p> This is a web app that the company MakesSense is building to make a web application to reserve seating at a restaurant, have multiple methods to make payment, also save and provide dietary requirements before arrival. Some of the goals that the client wanted:
-
-- easy navigation
-- visually stands out
-- simple and secure payment
-- user input is not complex</p> 
-
           </div>
 
-          <div className="layout-container-l3">
+          <div className="layout-container-l4">
           <h2 className="project-titles"> personas </h2>   
           <p>I worked on two personas; one was a potential user, and the other was a founder. The app was theoretical and we were was still designing the wireframe, but we needed an idea of who might use the app.</p>
           <div class="image-galla">
@@ -52,9 +40,11 @@ export default class ContaierOne extends Component {
                   </div>
           </div>
 
-          <div className="layout-container-r3">
+          <div className="layout-container-l5">
           <h2 className="project-titles"> wireframe </h2>   
-          <p>We needed to make sure that the application pages were not cluttered and navigation was not complex. We wanted to make sure that it was not difficult to understand for ages 25-50. We wanted to make sure that the user's account provided the information could be looked at under a 10 second glance - the food industry is fast pace and we want to limit the human error. The live ordering should only be accessible only to the restaurant so adding will not have an issue while the reservation is happening. There are about 90 wireframe screens.</p>
+          <p>
+                  Designing this site was interesting, We decided to so all the content into one page so it is easy to 
+          </p>
           </div>
           
           <div className="layout-container-center">

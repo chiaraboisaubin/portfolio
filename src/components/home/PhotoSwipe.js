@@ -32,14 +32,14 @@ export default class Gallery1 extends Component {
       height="468"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src="https://i.ibb.co/HCdK1wG/wolfie-thumb.jpg" />
+        <img ref={ref} onClick={open} src="https://i.ibb.co/1mGYfFL/wolfie.jpg" />
       )}
     </Item>
     </div>
 
      <div className="ill-border">
             <Item
-      original="https://i.ibb.co/wSwZtMZ/little-tea-cup-2.jpg"
+      original="https://i.ibb.co/wSwZtMZ/little-tea-cup-2.jpg "
       thumbnail="https://i.ibb.co/wSwZtMZ/little-tea-cup-2.jpg"
       width="500"
       height="468"
@@ -76,6 +76,79 @@ export default class Gallery1 extends Component {
     </Item>
 </div>
 
+<div className="ill-border">
+            <Item
+      original="https://i.ibb.co/JctJvPT/soulmarcos-logo-blankbackground.png"
+      thumbnail="https://i.ibb.co/JctJvPT/soulmarcos-logo-blankbackground.png"
+      width="350"
+      height="468"
+    >
+      {({ ref, open }) => (
+        <img ref={ref} onClick={open} src="https://i.ibb.co/JctJvPT/soulmarcos-logo-blankbackground.png" />
+      )}
+    </Item>
+</div>
+
+<div className="ill-border">
+            <Item
+      original="https://i.ibb.co/vQ5tCHV/Octupos.png"
+      thumbnail="https://i.ibb.co/vQ5tCHV/Octupos.png"
+      width="350"
+      height="468"
+    >
+      {({ ref, open }) => (
+        <img ref={ref} onClick={open} src="https://i.ibb.co/vQ5tCHV/Octupos.png" />
+      )}
+    </Item>
+</div>
+<div className="ill-border">
+            <Item
+      original="https://i.ibb.co/QQjFMJ2/Artboard-1-9.png"
+      thumbnail="https://i.ibb.co/QQjFMJ2/Artboard-1-9.png"
+      width="350"
+      height="468"
+    >
+      {({ ref, open }) => (
+        <img ref={ref} onClick={open} src="https://i.ibb.co/QQjFMJ2/Artboard-1-9.png" />
+      )}
+    </Item>
+</div>
+<div className="ill-border">
+            <Item
+      original="https://i.ibb.co/hLLHVLm/Geo2.jpg"
+      thumbnail="https://i.ibb.co/hLLHVLm/Geo2.jpg"
+      width="350"
+      height="400"
+    >
+      {({ ref, open }) => (
+        <img ref={ref} onClick={open} src="https://i.ibb.co/hLLHVLm/Geo2.jpg" />
+      )}
+    </Item>
+</div>
+<div className="ill-border">
+            <Item
+      original="https://i.ibb.co/tbLVyWP/Show-us-just-how-sweet.png"
+      thumbnail="https://i.ibb.co/tbLVyWP/Show-us-just-how-sweet.png"
+      width="350"
+      height="400"
+    >
+      {({ ref, open }) => (
+        <img ref={ref} onClick={open} src="https://i.ibb.co/tbLVyWP/Show-us-just-how-sweet.png" />
+      )}
+    </Item>
+</div>
+<div className="ill-border">
+            <Item
+      original="https://i.ibb.co/FnZgLTg/walkorrun.png"
+      thumbnail="https://i.ibb.co/FnZgLTg/walkorrun.png"
+      width="600"
+      height="350"
+    >
+      {({ ref, open }) => (
+        <img ref={ref} onClick={open} src="https://i.ibb.co/FnZgLTg/walkorrun.png" />
+      )}
+    </Item>
+</div>
 
   </Gallery>
 </div>
