@@ -27,7 +27,8 @@ padding: 10% 0;
     font-size: 1em;
 }
 .about:hover{
-    color: $primary-color;
+    border: none;;
+    color: $hero-text-color;
     background: $hover-color;
     transition: ease-out .3s;
     transform: scale(1);

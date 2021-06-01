@@ -28,9 +28,9 @@ export default class Hero extends Component {
               </ul>
             </div>
 
-
           </div>
         </div>
+        <div className="hero-background"></div>
         </motion.div>
       
 

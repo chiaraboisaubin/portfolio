@@ -23,8 +23,8 @@ const Mainpage = () => {
 
         <div className="fade animationfade"> 
             <Hero />
-            <Projects />
             <NavTwo />
+            <Projects />
             <Gallery />
             <About />
             <Skills />

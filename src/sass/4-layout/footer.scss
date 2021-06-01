@@ -18,6 +18,11 @@
 .footer-links-bottom h1{
     font-size: 2.5em;
 }
+
+.footer-links-bottom li{
+    margin: 0 .5em;
+}
+
 #bottomFooter ul {
     display: inline-flex;
 }
@@ -34,9 +39,7 @@
 }
 }
 
-.footer-links-bottom li{
-    margin: 0 .5em;
-}
+
 
 #bottomFooter .copy,
 #bottomFooter .copy a {

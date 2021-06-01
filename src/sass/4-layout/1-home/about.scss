@@ -49,3 +49,11 @@
 .layer{
     font-weight: 400;
 }
+
+.about-social{
+    display: flex;
+    align-content: center;
+    white-space: inherit;
+    justify-content: space-evenly;
+    font-size: 2em;
+}
