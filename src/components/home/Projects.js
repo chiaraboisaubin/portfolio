@@ -9,7 +9,7 @@ export default class Projects extends Component {
       <React.Fragment>
  <a name="projects"></a>
 <div className="projects">
-        <h2 className="primary-header"> Case study</h2>
+        <h2 className="primary-header"> Projects</h2>
           <div className="galla">
 
           <Link to="/careof">

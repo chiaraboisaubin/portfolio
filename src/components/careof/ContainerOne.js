@@ -9,7 +9,7 @@ export default class ContaierOne extends Component {
 
           <div className="layout-container-l">
             <h2 className="project-titles"> Context</h2>
-            <article> Redesign the of the care/of  </article>
+            <article> A web app for finding the right vitanims personal. I re-design the app from a project for my UI certification. </article>
           </div>
 
           <div className="layout-container-l2">

@@ -9,7 +9,7 @@ export default class Skills extends Component {
       {/*generated code*/}
       <a name="skills"></a>
 <div className="skill-container">
-<h2 className="blk-header"> Skills</h2>
+<h2 className="blk-header"> Skills & Tools </h2>
   <div className="skills-L">
   <div className="skills">
   <h3 className="secondary-header"> Design</h3>
