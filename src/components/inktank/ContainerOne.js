@@ -184,14 +184,14 @@ export default class ContaierOne extends Component {
                                                 <img src="https://i.ibb.co/k3FSxS0/4-6-Rainbow-Spread-Sheet-Usability-Testing-Ink-Tank-Usability-Test-Results.png" alt="4-6-Rainbow-Spread-Sheet-Usability-Testing-Ink-Tank-Usability-Test-Results" border="0" />
                                                 <h2 className="project-titles">Style Guide </h2>
                                                 <h3 className="sub-title-1">Typoagraphy</h3>
-                                                <a href="https://ibb.co/NWv52ZD"><img src="https://i.ibb.co/c2B0hDf/Screen-Shot-2021-05-30-at-3-21-52-PM-2.png" alt="Screen-Shot-2021-05-30-at-3-21-52-PM-2" border="0" /></a>
+                                                <img src="https://i.ibb.co/c2B0hDf/Screen-Shot-2021-05-30-at-3-21-52-PM-2.png" alt="Screen-Shot-2021-05-30-at-3-21-52-PM-2" border="0" />
                                                 <h3 className="sub-title-1">Color palette</h3>
-                                                <a href="https://ibb.co/KLmyPGQ"><img src="https://i.ibb.co/hZC86Mn/Screen-Shot-2021-05-30-at-2-48-16-PM-2.png" alt="Screen-Shot-2021-05-30-at-2-48-16-PM-2" border="0" /></a>
+                                                <img src="https://i.ibb.co/hZC86Mn/Screen-Shot-2021-05-30-at-2-48-16-PM-2.png" alt="Screen-Shot-2021-05-30-at-2-48-16-PM-2" border="0" />
                                                 <h3 className="sub-title-1">Icons</h3>
-                                                <a href="https://ibb.co/SsQ3BwC"><img src="https://i.ibb.co/dWb5D4Y/Screen-Shot-2021-05-30-at-2-48-31-PM-2.png" alt="Screen-Shot-2021-05-30-at-2-48-31-PM-2" border="0" /></a>
+                                               <img src="https://i.ibb.co/dWb5D4Y/Screen-Shot-2021-05-30-at-2-48-31-PM-2.png" alt="Screen-Shot-2021-05-30-at-2-48-31-PM-2" border="0" />
 
                                                 <h3 className="sub-title-1">UI Elements</h3>
-                                                <a href="https://ibb.co/YjjzxSQ"><img src="https://i.ibb.co/Qmm24VQ/Screen-Shot-2021-05-30-at-2-48-45-PM-2.png" alt="Screen-Shot-2021-05-30-at-2-48-45-PM-2" border="0" /></a>
+                                                <img src="https://i.ibb.co/Qmm24VQ/Screen-Shot-2021-05-30-at-2-48-45-PM-2.png" alt="Screen-Shot-2021-05-30-at-2-48-45-PM-2" border="0" />
 
                                         </div>
 
@@ -206,9 +206,9 @@ export default class ContaierOne extends Component {
                                                 </article>
 
                                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/pxxusK75ras?controls=0?version=3&controls=0&&showinfo=0&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                                <a href="https://ibb.co/mqZYxZx"><img src="https://i.ibb.co/wWGbvGv/Artboard-1.png" alt="Artboard-1" border="0" /></a>
-                                                <a href="https://ibb.co/xST2Shc"><img src="https://i.ibb.co/Rpwgp2M/Artboard-4.png" alt="Artboard-4" border="0" /></a>
-                                                <a href="https://ibb.co/JzJvBZq"><img src="https://i.ibb.co/ZhDBL9S/Artboard-3.png" alt="Artboard-3" border="0" /></a>
+                                                <img src="https://i.ibb.co/wWGbvGv/Artboard-1.png" alt="Artboard-1" border="0" />
+                                                <img src="https://i.ibb.co/PWnFBTN/mockup.png" alt="mockup" border="0"/>
+                                                <img src="https://i.ibb.co/ZhDBL9S/Artboard-3.png" alt="Artboard-3" border="0" />
 
 
                                                 <span> More detail about the
