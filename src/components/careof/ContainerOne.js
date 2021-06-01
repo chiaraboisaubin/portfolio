@@ -52,7 +52,6 @@ export default class ContaierOne extends Component {
           <h2 className="project-titles"> Mid-fieldty prototype </h2>
 
             <img src="https://i.ibb.co/qkqLFNb/Artboard-31.png" alt="Artboard-31" border="0" />
-            <img className="img-1" src="https://i.ibb.co/cNWk3qz/Artboard-51.png" alt="Artboard-51" border="0" />
             <img className="img-1" src="https://i.ibb.co/rZTmqxy/Artboard-41.png" alt="Artboard-41" border="0" />
           </div>
 
@@ -62,7 +61,7 @@ export default class ContaierOne extends Component {
             <img  src="https://i.ibb.co/L8MxXjV/mockup-2.png" alt="mockup-2" border="0" />
             <img  src="https://i.ibb.co/Y214VPg/mobile-grid-1.png" alt="mobile-grid-1" border="0"/>
             <img  src="https://i.ibb.co/JyHjtc7/Artboard-4.png" alt="Artboard-4" border="0"/>
-
+            <h2 className="project-titles"> Interactive prototype </h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ON8OQTS_3tA?rel=0?version=3&autoplay=1&controls=0&&showinfo=0&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; loop; picture-in-picture" allowfullscreen=""></iframe>
           </div>
 
