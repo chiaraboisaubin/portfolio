@@ -15,7 +15,7 @@ export default class ContaierOne extends Component {
         <div className="layout-container-l2">
         <div className="layout-container-l22">
         <h2 className="project-titles"> Role </h2>
-        <p> Front End Developer and Designer </p>
+        <p> UI Designer and Front End Developer </p>
         </div>
 
         <div className="layout-container-l22">
@@ -25,10 +25,11 @@ export default class ContaierOne extends Component {
         </div>
 
          <div className="layout-container-r2">
-        <h2 className="project-titles"> Skills </h2>
+        <h2 className="project-titles"> Skills & Tools </h2>
           <ul className="skill-list-project">
             <li className="skills-style-proj">Wireframing</li>
             <li className="skills-style-proj">Prototyping</li>
+            <li className="skills-style-proj">Mockup</li>
             <li className="skills-style-proj">Abobe XD</li>
             <li className="skills-style-proj">HTML</li>
             <li className="skills-style-proj">CSS</li>
@@ -79,6 +80,9 @@ export default class ContaierOne extends Component {
           <h2 className="project-titles"> Outcome </h2>
           <p> I started to build the log in and sign up process and on boarding process. I was also also doing research for the back end side for the restaurants who would be using Chowdown. I acknowledge that the restaurants will need to features and hands on while dealing with orders inside and outside the restaurant.
             I also learn that Chowdown was missing the live order methods, for when users are in the resturant having the ability to request a server and place their own order.  </p>
+            <h2 className="project-titles"> Images </h2>
+          <a href="https://ibb.co/25YSsv4"><img className="img-1" src="https://i.ibb.co/V3pxQg4/diningandphone.jpg" alt="diningandphone" border="0"/></a>
+<a href="https://ibb.co/W6qwqJc"><img className="img-3" src="https://i.ibb.co/BtdxdMg/iphonesx-chowdown.png" alt="iphonesx-chowdown" border="0"/></a>
           </div>
     </div>
 

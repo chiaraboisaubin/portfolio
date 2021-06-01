@@ -9,8 +9,111 @@ export default class Gallery1 extends Component {
     return (
         <React.Fragment>
                 <h2 className="primary-header"> Illustrations</h2>
+
+<h3 className="sub-title">Posters</h3>
 <div className="illustration">
   <Gallery>
+    <div className="ill-border">
+            <Item
+      original="https://i.ibb.co/wSwZtMZ/little-tea-cup-2.jpg "
+      thumbnail="https://i.ibb.co/wSwZtMZ/little-tea-cup-2.jpg"
+      width="500"
+      height="468"
+    >
+      {({ ref, open }) => (
+        <img ref={ref} onClick={open} src="https://i.ibb.co/MCh8bLG/little-tea-cup-thumb.jpg" />
+      )}
+    </Item>
+    </div>
+    <div className="ill-border">
+            <Item
+      original="https://i.ibb.co/tbLVyWP/Show-us-just-how-sweet.png"
+      thumbnail="https://i.ibb.co/tbLVyWP/Show-us-just-how-sweet.png"
+      width="350"
+      height="400"
+    >
+      {({ ref, open }) => (
+        <img ref={ref} onClick={open} src="https://i.ibb.co/tbLVyWP/Show-us-just-how-sweet.png" />
+      )}
+    </Item>
+</div>
+<div className="ill-border">
+            <Item
+      original="https://i.ibb.co/FnZgLTg/walkorrun.png"
+      thumbnail="https://i.ibb.co/FnZgLTg/walkorrun.png"
+      width="600"
+      height="350"
+    >
+      {({ ref, open }) => (
+        <img ref={ref} onClick={open} src="https://i.ibb.co/FnZgLTg/walkorrun.png" />
+      )}
+    </Item>
+</div>
+
+</Gallery>
+</div>
+
+<h3 className="sub-title">Black & White </h3>
+<div className="illustration">
+<div className="ill-border">
+    <Item
+      original="https://i.ibb.co/fDvTq2R/geo-style-one.png"
+      thumbnail="https://i.ibb.co/fDvTq2R/geo-style-one.png"
+     width="468"
+      height="468"
+    >
+      {({ ref, open }) => (
+        <img ref={ref} onClick={open} src="https://i.ibb.co/fDvTq2R/geo-style-one.png" />
+      )}
+    </Item>
+    </div>
+
+    <div className="ill-border">
+    <Item
+      original="https://i.ibb.co/ygh9F1d/logo2-copy.jpg"
+      thumbnail="https://i.ibb.co/ygh9F1d/logo2-copy.jpg"
+     width="468"
+      height="468"
+    >
+      {({ ref, open }) => (
+        <img ref={ref} onClick={open} src="https://i.ibb.co/ygh9F1d/logo2-copy.jpg" />
+      )}
+    </Item>
+    </div>
+
+    <div className="ill-border">
+    <Item
+      original="https://i.ibb.co/1mGYfFL/wolfie.jpg"
+      thumbnail="https://i.ibb.co/1mGYfFL/wolfie.jpg"
+     width="468"
+      height="468"
+    >
+      {({ ref, open }) => (
+        <img ref={ref} onClick={open} src="https://i.ibb.co/1mGYfFL/wolfie.jpg" />
+      )}
+    </Item>
+    </div>
+
+    <div className="ill-border">
+            <Item
+      original="https://i.ibb.co/hLLHVLm/Geo2.jpg"
+      thumbnail="https://i.ibb.co/hLLHVLm/Geo2.jpg"
+      width="350"
+      height="400"
+    >
+      {({ ref, open }) => (
+        <img ref={ref} onClick={open} src="https://i.ibb.co/hLLHVLm/Geo2.jpg" />
+      )}
+    </Item>
+</div>
+
+</div>
+
+
+<h3 className="sub-title">Other work </h3>
+<div className="illustration">
+<Gallery>
+
   <div className="ill-border">
     <Item
       original="https://i.ibb.co/HnTJGg0/mountains.jpg"
@@ -24,31 +127,21 @@ export default class Gallery1 extends Component {
     </Item>
     </div>
 
-     <div className="ill-border">
+    <div className="ill-border">
     <Item
-      original="https://i.ibb.co/1mGYfFL/wolfie.jpg"
-      thumbnail="https://i.ibb.co/1mGYfFL/wolfie.jpg"
-     width="468"
+      original="https://i.ibb.co/7Rr39kg/geo-mtn-blk.png"
+      thumbnail="https://i.ibb.co/7Rr39kg/geo-mtn-blk.png"
+      width="300"
       height="468"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src="https://i.ibb.co/1mGYfFL/wolfie.jpg" />
+        <img ref={ref} onClick={open} src="https://i.ibb.co/7Rr39kg/geo-mtn-blk.png" />
       )}
     </Item>
     </div>
 
-     <div className="ill-border">
-            <Item
-      original="https://i.ibb.co/wSwZtMZ/little-tea-cup-2.jpg "
-      thumbnail="https://i.ibb.co/wSwZtMZ/little-tea-cup-2.jpg"
-      width="500"
-      height="468"
-    >
-      {({ ref, open }) => (
-        <img ref={ref} onClick={open} src="https://i.ibb.co/MCh8bLG/little-tea-cup-thumb.jpg" />
-      )}
-    </Item>
-    </div>
+
+
 
      <div className="ill-border">
         <Item
@@ -113,44 +206,7 @@ export default class Gallery1 extends Component {
       )}
     </Item>
 </div>
-<div className="ill-border">
-            <Item
-      original="https://i.ibb.co/hLLHVLm/Geo2.jpg"
-      thumbnail="https://i.ibb.co/hLLHVLm/Geo2.jpg"
-      width="350"
-      height="400"
-    >
-      {({ ref, open }) => (
-        <img ref={ref} onClick={open} src="https://i.ibb.co/hLLHVLm/Geo2.jpg" />
-      )}
-    </Item>
-</div>
-<div className="ill-border">
-            <Item
-      original="https://i.ibb.co/tbLVyWP/Show-us-just-how-sweet.png"
-      thumbnail="https://i.ibb.co/tbLVyWP/Show-us-just-how-sweet.png"
-      width="350"
-      height="400"
-    >
-      {({ ref, open }) => (
-        <img ref={ref} onClick={open} src="https://i.ibb.co/tbLVyWP/Show-us-just-how-sweet.png" />
-      )}
-    </Item>
-</div>
-<div className="ill-border">
-            <Item
-      original="https://i.ibb.co/FnZgLTg/walkorrun.png"
-      thumbnail="https://i.ibb.co/FnZgLTg/walkorrun.png"
-      width="600"
-      height="350"
-    >
-      {({ ref, open }) => (
-        <img ref={ref} onClick={open} src="https://i.ibb.co/FnZgLTg/walkorrun.png" />
-      )}
-    </Item>
-</div>
-
-  </Gallery>
+</Gallery>
 </div>
 
     </React.Fragment>

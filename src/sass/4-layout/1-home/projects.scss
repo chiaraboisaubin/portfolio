@@ -21,52 +21,44 @@
     display: block;
     position: relative;
     width: 275px;
-    height: 300px;
+    height: 250px;
     border-radius: 1em;
-    margin: 1em;
+    margin: 3em 1em;
     background-color: $fourth-color;
     transition: ease-in .3s;
     @media screen and (min-width: 768px){
         width: 380px;
-        height: 480px;
+
     
     }
 }
 
-.hon, .soul, .ana, .chi, .text, .ash, .con{
-    position: absolute;
-    top: 10%;
-    margin: 0 .5em;
-    padding: 1em;
-}
-
 .web:hover{
-    color: $hero-text-color;
+    color: $hover-color;
     background: $hover-color;
     transition: ease-out .3s;
     transform: scale(1);
     
 }
 
+
 .web p{
     font-family: 'PT Sans', sans-serif;
     font-size: 1.5rem;
-    padding-bottom: 1.5em;
     font-weight: bold;
 }
+
 .web h4{
-    font-family: $main-content;
+    font-family: $primary-color;
     font-size: 1.2em;
     font-weight: 300;
-    margin-bottom: 1em;
     @media screen and (min-width: 600px){
-     margin-bottom: 2em;
     }
 }
 
 .web span{
     font-weight: bold;
-    font-family: $main-content;
+    font-family: $primary-color;
     font-size: .6em;
     border: none;
     background-color: none;
@@ -74,23 +66,58 @@
 }
 
 .web span:hover{
-    list-style: 1px solid #F1EAFF ;
+    list-style: 1px solid $hover-color ;
     transition: ease-out .3s;
     transform: scale(1);
     
 }
 
 .web a:hover{
-    color: $hero-text-color;
+    color: $hover-color;
 }
 
-.con{
- 
+
+.sub-title-1{
+    margin-left: 5x;
+}
+
+.hon, .soul, .ana, .chi, .text, .ash, .con{
+display: block;
+margin: auto;
+
+}
+
+.chi{
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
+    background-image: url('https://i.ibb.co/pzDkq2T/mockup-d-3.png');
+    width: 100%;
+    height: 250px;
+    border-radius: 10%;
     
 }
+
+.con{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url('https://i.ibb.co/t3KpZjf/Ink-Tank-Hero.png');
+    width: 100%;
+    height: 250px;
+    border-radius: 10%;
+}
+
+.hon{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-image: url('https://i.ibb.co/bBW0Z9q/Portfolio4chowdown.jpg');
+        width: 100%;
+        height: 250px;
+        border-radius: 10%; 
+}
+
 .illustraiton-container{
     display: flex;
     flex-wrap: wrap;

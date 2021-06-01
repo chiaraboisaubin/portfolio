@@ -12,29 +12,30 @@ export default class Projects extends Component {
         <h2 className="primary-header"> Case study</h2>
           <div className="galla">
 
-          {/* <Link to="/inktank">
+          <Link to="/careof">
             <div className="web">
-                <div className="con">
-                <h4>Re-design of care/of  </h4>
+                <div className="chi">
+                </div>
+            <h4>Re-design of care/of  </h4>
                 <span className="modal-text"> read more  &#8594; </span>
                 </div>
-            </div>
-            </Link> */}
+            </Link> 
+
           <Link to="/inktank">
             <div className="web">
                 <div className="con">
-                <h4>Ink Tank </h4>
-                <span className="modal-text"> read more  &#8594; </span>
                 </div>
-            </div>
+                <h4>Ink Tank </h4>
+                <span className="modal-text"> read more  &#8594; </span>  
+            </div>  
             </Link>
 
             <Link to="/chowdown">
             <div className="web">
                 <div className="hon">
+                </div>
                 <h4> ChowDown</h4>
                 <span> read more  &#8594; </span>
-                </div>
             </div>
             </Link>
     

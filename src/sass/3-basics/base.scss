@@ -14,12 +14,12 @@ a{
 }
 
 a, a:visited, a:focus {
-    color: currentColor;
+    color: $primary-color;
     font-size: 30px;
 }
 
 a:hover{
-    color: $first-button-social-color-hover;
+    color: $hover-color;
     transition: ease-in .3s;
     transition: ease-out .3s;
     transform: scale(1);

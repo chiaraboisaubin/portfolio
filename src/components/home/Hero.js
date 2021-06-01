@@ -1,12 +1,13 @@
-
-
+import { motion } from "framer-motion";
 import React, { Component } from 'react';
 export default class Hero extends Component {
   render() {
     return (
       <React.Fragment>
+        <motion.div exit={{ opacity: 0 }}>
         {/*generated code*/}
-        <div className="hero-body">
+
+        <div className="hero-body  animate__bounceInDown">
           <div className="hero-container-L">
           </div>
 
@@ -30,6 +31,8 @@ export default class Hero extends Component {
 
           </div>
         </div>
+        </motion.div>
+      
 
       </React.Fragment>
     );
