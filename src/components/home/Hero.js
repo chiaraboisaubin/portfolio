@@ -16,9 +16,9 @@ export default class Hero extends Component {
             <div className="hero-container-R">
               <h1 className="hero-header"> Chiara is a UI/UX Designer that enjoys building experiences for people.</h1>
               <ul className="hp-links">
-                <li><a href="#projects"> work</a></li>
-                <li> <a href="#about"> about </a></li>
-                <li><a href="#skills">skills</a></li>
+                <li><a href="#projects" onclick="return false;" class="service"> work</a></li>
+                <li> <a href="#about" onclick="return false;" class="service"> about </a></li>
+                <li><a href="#skills" onclick="return false;" class="service">skills</a></li>
               </ul>
               <ul>
                 <li> <a href="https://www.linkedin.com/in/chiara-boisaubin" class="fa fa-linkedin" rel="noopener noreferrer" target="_blank"> </a> </li>
@@ -31,10 +31,10 @@ export default class Hero extends Component {
           </div>
         </div>
         <div className="hero-background"></div>
+
         </motion.div>
       
-
-      </React.Fragment>
+</React.Fragment>
     );
   }
 }
