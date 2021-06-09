@@ -75,21 +75,21 @@ export default class ContaierOne extends Component {
             <h3>Typoagraphy</h3>
             
             <article>To keep the friendly feel with the text, I went with Rubik for the header and for the content is Varela Round.</article>
-            <img src="https://i.ibb.co/gMvbStZ/Screen-Shot-2021-05-30-at-11-56-00-PM-2.png" alt="Screen-Shot-2021-05-30-at-11-56-00-PM-2" border="0" />
+            <img src="https://i.ibb.co/Zf7RR3X/Artboard-2-8.png" alt="Artboard-2-8" border="0"/>
           
 
             <h3> Icons </h3>
-            <img src="https://i.ibb.co/4R54WM8/Screen-Shot-2021-05-30-at-11-56-21-PM-2.png" alt="Screen-Shot-2021-05-30-at-11-56-21-PM-2" border="0" />
+            <img src="https://i.ibb.co/dBxhQkR/Artboard-3-8.png" alt="Artboard-3-8" border="0"/>
            
             <h3> UI Elements </h3>
-            <img src="https://i.ibb.co/wRYtFmR/Screen-Shot-2021-05-30-at-11-56-16-PM-2.png" alt="Screen-Shot-2021-05-30-at-11-56-16-PM-2" border="0" />
+            <img src="https://i.ibb.co/0Q6D9Z7/Artboard-4-2-8.png" alt="Artboard-4-2-8" border="0"/>
 
             <h3> Color Palette </h3>
            <article> I wanted to go with colors that were a mixer of simple and neutral colors with a hint of golds for the colors. The paintings should have random patterns and sometimes transparent with one another. Going with the chosen colors was not to focus ontake away focus from the vitamins, and they are not too bright.</article> 
-            <img src="https://i.ibb.co/CWNMh5X/Screen-Shot-2021-05-30-at-11-56-04-PM-2.png" alt="Screen-Shot-2021-05-30-at-11-56-04-PM-2" border="0" />
+           <img src="https://i.ibb.co/0Q6D9Z7/Artboard-4-2-8.png" alt="Artboard-4-2-8" border="0"/>
 
             <h3> Photos </h3>
-            <img src="https://i.ibb.co/5c4pGwF/Screen-Shot-2021-05-30-at-11-56-08-PM-2.png" alt="Screen-Shot-2021-05-30-at-11-56-08-PM-2" border="0" />
+            <img src="https://i.ibb.co/CvDk6yP/Artboard-4-8.png" alt="Artboard-4-8" border="0"/>
 
             <h3> Logos </h3>
             <article>The logo I wanted to keep the typography similar to the original, however, the color was a couple of shades darker, and the ends are curvier. The color and typography will make the logo appeal to friendly and professional.</article>
