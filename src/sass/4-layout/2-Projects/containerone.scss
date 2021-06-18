@@ -174,13 +174,13 @@ iframe{
 }
 
 .hero-background-image{
-    background: url("https://i.ibb.co/t3KpZjf/Ink-Tank-Hero.png");
+    background: url("https://i.ibb.co/YLpj3jc/Ink-Tank-into.png");
     background-color: #F9E8E1;
     height: 300px;
     padding: 10%;
-    background-position: right;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size:cover;
+    background-position:unset;
 }
 
 .hero-background-image-CD{

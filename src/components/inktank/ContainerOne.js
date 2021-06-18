@@ -5,7 +5,7 @@ export default class ContaierOne extends Component {
         render() {
                 return (
                         <React.Fragment>
-                                {/*  intro */}
+                                {/*  INTRO */}
                                 <div className="layout-content-grid-1">
                                         <div className="layout-container-l">
                                                 <h2 className="project-titles"> Context </h2>
@@ -26,7 +26,7 @@ export default class ContaierOne extends Component {
                                                         <p>July 2020 - April 2021 </p>
                                                 </div>
                                         </div>
-                                        {/*  skills */}
+                                        {/*  SKILLS */}
                                         <div className="layout-container-r2">
                                                 <h2 className="project-titles"> Skills & Tools </h2>
                                                 <ul className="skill-list-project">
@@ -41,7 +41,7 @@ export default class ContaierOne extends Component {
 
                                                 </ul>
                                         </div>
-                                        {/*  intro */}
+                                        {/*  THE PROBELM STATEMENT */}
                                         <div className="layout-container-l3">
                                                 <h2 className="project-titles"> The problem </h2>
 
@@ -65,10 +65,10 @@ export default class ContaierOne extends Component {
 
                                         <div className="layout-container-l4">
                                                 <h2 className="project-titles"> Process </h2>
-                                                <img src="https://i.ibb.co/1Z6P37t/Design-Thinking-Process.png" alt="Design-Thinking-Process" border="0" />
+                                                <img src="https://i.ibb.co/2W9yCGV/Design-Thinking-Process.png" alt="Design-Thinking-Process" border="0"/>
                                         </div>
 
-                                        {/*  understand */}
+                                        {/*  UNDERSTAND */}
                                         <div className="layout-container-l5">
                                                 <h2 className="project-titles"> Understand  </h2>
                                                 <div className="flex-init">
@@ -91,7 +91,7 @@ export default class ContaierOne extends Component {
                                                 <a className="left" target="blank" href="https://drive.google.com/file/d/1JZhoqM_efQ_fDiWyeLxnpw-h6jNTTKkL/view?usp=sharing"> Competitive and UX analysis</a>
                                                 </span>
                                         </div>
-                                        {/*  observe */}
+                                        {/*  OBSERVE */}
                                         <div className="layout-container-l6">
                                                 <h2 className="project-titles">Observe</h2>
 
@@ -115,6 +115,8 @@ export default class ContaierOne extends Component {
                                                 </span>
                                         </div>
 
+                                          {/*  POINT OF VIEW */}
+
                                         <div className="layout-container-l66">
                                                 <h2 className="project-titles">POV</h2>
 
@@ -124,10 +126,18 @@ export default class ContaierOne extends Component {
                                                         To show how Ink Tank benedicts user’s day-to-day lives, I offered scenarios.
                                                 </article>
                                                 <div className="flex-init">
-                                                        <img src="https://i.ibb.co/5vrs0yV/Danielle.png" alt="Danielle" border="0" />
-                                                        <img src="https://i.ibb.co/XD8GypT/William.png" alt="William" border="0" />
+                                                        <img className="img-1" src="https://i.ibb.co/5vrs0yV/Danielle.png" alt="Danielle" border="0" />
+                                                        <img className="img-1" src="https://i.ibb.co/XD8GypT/William.png" alt="William" border="0" />
                                                 </div>
-
+                                                                                                
+                                                <article>From the data provided from understanding the user,
+                                                        I built a couple of personas, William and Danielle.
+                                                        I am making the scenarios to show how Ink Tank can benedict users day-to-day lives.
+                                                        Now that there is a better understanding of the users,
+                                                       I created a user flow that shows how a person navigates throughout the app.</article>
+                                     
+                                                     
+                                                                 <img src="https://i.ibb.co/j51HQgt/userflow2.png" alt="userflow2" border="0"/>
 
                                                 <span> More detail about the
                                                 <a className="left" target="blank" href="https://drive.google.com/file/d/19qxU0cJqSae26r6FoW5kZHjDe9RS2WBt/view?usp=sharing"> user stories,</a>
@@ -137,20 +147,17 @@ export default class ContaierOne extends Component {
                                         </div>
 
 
-                                        {/*  POV */}
+                                        {/*  IDEATE */}
 
                                         <div className="layout-container-l7">
                                                 <h2 className="project-titles">Ideate</h2>
 
-                                                <div className="flex-init">
-                                                        <article>From the data provided from understanding the user,
-                                                        I built a couple of personas, William and Danielle.
-                                                        I am making the scenarios to show how Ink Tank can benedict users day-to-day lives.
-                                                        Now that there is a better understanding of the users,
-                                                       I created a user flow that shows how a person navigates throughout the app.</article>
+                                                 
+
+                                                        I created the sitemap with the user flow. To update the sitemap from a user perspective, I decided to do card sorting to see what users think where content will be organized. It was interesting to see the diverse mindset when it comes to going to specific pages and content.
 
                                                         <img className="img-1" src="https://i.ibb.co/xXsr8yM/3-2-Refining-Your-Sitemap-with-Card-Sorting.png" alt="3-2-Refining-Your-Sitemap-with-Card-Sorting" border="0" />
-                                                </div>
+                                                
                                                 <img className="img-2" src="https://i.ibb.co/qdJV88j/updated-sitemap.png" alt="updated-sitemap" border="0" />
                                                 <span> More detail about the
                                                 <a className="left" target="blank" href="https://drive.google.com/file/d/1jXFPz13dHfTQEOaMYHPMIOelHlYcy-kR/view?usp=sharing"> refining sitemap with card sorting </a>
@@ -158,30 +165,65 @@ export default class ContaierOne extends Component {
                                                 </span>
                                         </div>
 
-                                        {/*  ideate */}
+                                        {/*  PROTOTYPE  */}
                                         <div className="layout-container-l8">
-                                                <h2 className="project-titles">Prototype and testing </h2>
+                                                <h2 className="project-titles">Prototype </h2>
                                                 <article>
                                                         After sketching a low-fidelity prototype, I tested it out with a couple of users to see if the flow was clear enough for them to get to the features. I analyze the feedback and update the sketch and flow from the majority of call-outs. Once I felt satisfied with what was on paper turned the design into a high-fidelity prototype and tested it again with some users.
                                                 </article>
+
+                                                           
+                                                <img className="img-1" src="https://i.ibb.co/7nQMnYT/appt-consulation.png" alt="appt-consulation" border="0"/>
+                                                <img className="img-1"  src="https://i.ibb.co/3kmmwXk/appt-session.png" alt="appt-session" border="0"/>
+                                                <img className="img-1" src="https://i.ibb.co/fktrYRg/build-a-project.png" alt="build-a-project" border="0"/>
+
                                                 <article>
                                                         Finally able to do the fun part, prototyping! When I was styling the high-fidelity prototype, I had a challenge picking the colors. I knew I wanted to go with an orange-red color to translate creativity. I was able to find a shade that is not only WGAG AA friendly but met my expectations.  I want to improve the vector images; they look simple and do not connect with the style of the app as much as I want.
-
                                                 </article>
+                                                <span> More detail about the
+                                                <a className="left" target="blank" href="https://drive.google.com/file/d/1fPx6MqRTKEZrDA7NQkoh1xCtQjKzg1i1/view?usp=sharing"> Low to high fidelity prototyping </a>
 
-                                                <img src="https://i.ibb.co/8g0grVf/6-2-polishing-desgin.png" alt="6-2-polishing-desgin" border="0" />
+                                                </span>
+                                                
 
+                                        {/*  TESTING  */}
+                                                <h2 className="project-titles">Testing </h2>
+                                                <article> With the testing for time purposes, I conduct a usability test and preference testing simultaneously.  </article>
+                                                <article>For this usability test, I only use video chats on Zoom and Skype. The users had the choice to use their laptop or mobile device to play with the prototype. 
+                                                         I have to consistently remind the users that the prototype was limited to the interaction for all the sessions. There was one button that did not work.
+                                                          Some of the content was not clear about the page's objective, or it was oddly phrased. There were some technical issues, like a person's internet was slow and a page took longer to load, problems with the video recording,
+                                                           or the video platform stopped working. I adjusted the script to make it sound less robotic and cleared up some of the tasks for task two. I made the user found an image they liked and booked a session with that artist. Some of the tester's comments were similar, but the experience was completely different. Some users could do the task faster than others; they did not notice a feature or provided me a lot of information.
+                                                         It was great to hear people interested in getting a tattoo but have not had the experience of getting a tattoo and wanting more steps for the process.   </article>
+                                                         <h3 className="margin-t">Usability test interviews	notes </h3>
+                                                         <img src="https://i.ibb.co/s2gK7zc/usuability1.png" alt="usuability1" border="0"/>
+                                                         <img src="https://i.ibb.co/xH8r571/usuability2.png" alt="usuability2" border="0"/>
+                                                         <h3 className="margin-t">Sorting notes </h3>
+                                                        <img src="https://i.ibb.co/k3FSxS0/4-6-Rainbow-Spread-Sheet-Usability-Testing-Ink-Tank-Usability-Test-Results.png" alt="4-6-Rainbow-Spread-Sheet-Usability-Testing-Ink-Tank-Usability-Test-Results" border="0" />
 
+                                                        
+                                                        
+
+                                                      <article>
+                                                      I wanted to see if the user can navigate building a project, finding an artist, and booking an appointment with the usability testing. For the preference test A/B Testing, I tested out the style of buttons.                  
+                                                      </article>  
+                                                      <img src="https://i.ibb.co/hRkSCvQ/usuability-4.png" alt="usuability-4" border="0"/>
+
+                                                      <img src="https://i.ibb.co/0yJ0b8q/A-b.png" alt="A-b" border="0"/>
+                                                      <article>From the data that I've collected from the testing, I've adjusted the errors on the prototype. Some of the changes were pretty easy to change because they were styling issues, but the one feature was a challenge clarifying scheduling a session. </article>
+                                                
+                                                <span> More detail about the
+                                                       
+                                                       <a className="left" target="blank" href=" https://drive.google.com/file/d/14Ih_uBy1uPGBbRh33WXUCCcYCF2BP7Ti/view?usp=sharing"> usuability testing plan, </a>
+                                                       <a className="left" target="blank" href="https://drive.google.com/file/d/16PYClVcdq3x66mN0wWmXqd1coOJTw6g4/view?usp=sharing">  rainbow sheet,</a>
+                                                        <a className="left" target="blank" href="https://drive.google.com/file/d/1b5AqmURIUCFjRVs9XKNoXiHFSgnsdSpw/view?usp=sharing">  A/B and preference testing, </a>and
+                                                <a className="left" target="blank" href="https://drive.google.com/file/d/1c-ek21FTbgVxhYfh_xqa1M2IEZhX2Cjg/view?usp=sharing">  the updates of the prototype </a>
+
+                                                </span>
 
                                         </div>
                                         <div className="layout-container-l9">
 
-                                                <article>
-                                                        I did A/B testing and usability testing to see what needed more clarification or adjustments.
-                                                        I decide to Implement usability and A/B testing to see how a group of users feel about the features and visuals.
-                                                        I did user testing with five candidates, and afterward, I sorted the feedback to see what can be improved.
-                                                </article>
-                                                <img src="https://i.ibb.co/k3FSxS0/4-6-Rainbow-Spread-Sheet-Usability-Testing-Ink-Tank-Usability-Test-Results.png" alt="4-6-Rainbow-Spread-Sheet-Usability-Testing-Ink-Tank-Usability-Test-Results" border="0" />
+
                                                 <h2 className="project-titles">Style Guide </h2>
                                                 <h3 className="sub-title-1">Typoagraphy</h3>
                                                 <img src="https://i.ibb.co/c2B0hDf/Screen-Shot-2021-05-30-at-3-21-52-PM-2.png" alt="Screen-Shot-2021-05-30-at-3-21-52-PM-2" border="0" />
@@ -192,7 +234,12 @@ export default class ContaierOne extends Component {
 
                                                 <h3 className="sub-title-1">UI Elements</h3>
                                                 <img src="https://i.ibb.co/Qmm24VQ/Screen-Shot-2021-05-30-at-2-48-45-PM-2.png" alt="Screen-Shot-2021-05-30-at-2-48-45-PM-2" border="0" />
+                                                <span> More detail about the
+                                                       
 
+                                                <a className="left" target="blank" href="https://drive.google.com/file/d/15J0x26qCDo1ekG5wI7-GNRaSyhDDkUbQ/view?usp=sharing"> Design language system </a>
+
+                                                </span>
                                         </div>
 
                                         {/*  conclusion */}
@@ -211,12 +258,6 @@ export default class ContaierOne extends Component {
                                                 <img src="https://i.ibb.co/ZhDBL9S/Artboard-3.png" alt="Artboard-3" border="0" />
 
 
-                                                <span> More detail about the
-                                                <a className="left" target="blank" href="https://drive.google.com/file/d/15J0x26qCDo1ekG5wI7-GNRaSyhDDkUbQ/view?usp=sharing"> Design language system, </a>
-                                                        <a className="left" target="blank" href="https://drive.google.com/file/d/16PYClVcdq3x66mN0wWmXqd1coOJTw6g4/view?usp=sharing">  rainbow sheet,</a>
-                                                        <a className="left" target="blank" href="https://drive.google.com/file/d/198MaXy-3pK1WfJXp16YbZiEhm3ePRK4s/view?usp=sharing">  A/B preference testing, </a>and
-                                                <a className="left" target="blank" href="https://drive.google.com/file/d/1c-ek21FTbgVxhYfh_xqa1M2IEZhX2Cjg/view?usp=sharing">  the updates </a>
-                                                </span>
                                         </div>
                                 </div>
 
