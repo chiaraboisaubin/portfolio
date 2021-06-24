@@ -11,10 +11,10 @@ export default class Footer extends Component {
 <h1>Connect with me! </h1>
   <ul>
     
-    <li> <a href="https://www.linkedin.com/in/chiara-boisaubin" class="fa fa-linkedin" rel="noopener noreferrer" target="_blank"></a></li>
-    <li> <a href="https://www.behance.net/chiaraboisaubin" class="fa fa-behance" rel="noopener noreferrer" target="_blank"> </a></li>
-    <li> <a href="https://www.instagram.com/cdb_arts/" class="fa fa-instagram" rel="noopener noreferrer" target="_blank"></a></li>
-    <li> <a href="https://github.com/chiaraboisaubin" class="fa fa-github" rel="noopener noreferrer" target="_blank"></a></li>
+  <li> <a href="https://www.linkedin.com/in/chiara-boisaubin"rel="noopener noreferrer" target="_blank"> <span className="fa fa-linkedin"> </span> linkedin  </a>  </li>
+                <li> <a href="https://www.behance.net/chiaraboisaubin"  rel="noopener noreferrer" target="_blank">  <span className="fa fa-behance"> </span>  behance </a>  </li>
+                <li> <a href="https://www.instagram.com/cdb_arts/"  rel="noopener noreferrer" target="_blank">      <span className="fa fa-instagram"> </span> instagram </a> </li>
+                <li> <a href="https://github.com/chiaraboisaubin"  rel="noopener noreferrer" target="_blank">       <span className="fa fa-github"> </span> github </a> </li>
   </ul>
 </div>
 
