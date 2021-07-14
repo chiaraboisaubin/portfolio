@@ -1,5 +1,7 @@
 .projects{
+    @media screen and (min-width: 600px){
     margin: 1em 2em;
+    }
 }
 
 .galla {
@@ -23,11 +25,11 @@
     width: 275px;
     height: 250px;
     border-radius: 1em;
-    margin: 3em 1em;
     background-color: $fourth-color;
     transition: ease-in .3s;
     @media screen and (min-width: 768px){
         width: 380px;
+        margin: 3em 1em;
 
     
     }

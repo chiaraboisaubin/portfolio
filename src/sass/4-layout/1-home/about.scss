@@ -8,19 +8,22 @@
 }
 .pro{
     display: block;
-    width: 250px;
+    width: 50%;
     height: auto;
     margin: 1em auto;
     box-shadow:
     0 0 0 5px #8BC7B2,
     0 0 0 2px #86CCFF;
     border-radius: 100%;
+    @media screen and (min-width:600px) { 
+    width: 250px;
+    }
 
 }
 .about-content-L{
-    margin: 1em;
     width: 100%;
     @media screen and (min-width:600px) { 
+    margin: 1em;
 }
 }
 .about-content-R{
@@ -52,9 +55,14 @@
 
 .about-social{
     display: flex;
+    flex-wrap: wrap;
     align-content: center;
     white-space: inherit;
     justify-content: space-evenly;
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
+    @media screen and (min-width:600px) { 
+        font-size: 1.2em;
+    }
+
 }
