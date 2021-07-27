@@ -82,7 +82,7 @@ export default class ContaierOne extends Component {
             <img src="https://i.ibb.co/cQ8v2cK/icons.png" alt="icons" border="0"/>
            
             <h3> UI Elements </h3>
-            <img src="https://i.ibb.co/wRYtFmR/Screen-Shot-2021-05-30-at-11-56-16-PM-2.png" alt="Screen-Shot-2021-05-30-at-11-56-16-PM-2" border="0"/>
+            <img src="https://i.ibb.co/Y7FqxsP/ui-element.png" alt="ui-element" border="0"/>
 
             <h3> Color Palette </h3>
            <article> I wanted to go with colors that were a mixer of simple and neutral colors with a hint of golds for the colors. The paintings should have random patterns and sometimes transparent with one another. Going with the chosen colors was not to focus ontake away focus from the vitamins, and they are not too bright.</article> 
