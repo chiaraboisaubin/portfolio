@@ -64,8 +64,8 @@ export default class ContaierOne extends Component {
         
             <img  src="https://i.ibb.co/L8MxXjV/mockup-2.png" alt="mockup-2" border="0" />
             </div>
-            <img  src="https://i.ibb.co/Y214VPg/mobile-grid-1.png" alt="mobile-grid-1" border="0"/>
-            <img  src="https://i.ibb.co/JyHjtc7/Artboard-4.png" alt="Artboard-4" border="0"/>
+            <img src="https://i.ibb.co/jvVGpNZ/1-2-layout-and-grid-most-pages.png" alt="1-2-layout-and-grid-most-pages" border="0"/>
+
         
           </div>
 
@@ -75,11 +75,11 @@ export default class ContaierOne extends Component {
             <h3>Typoagraphy</h3>
             
             <article>To keep the friendly feel with the text, I went with Rubik for the header and for the content is Varela Round.</article>
-            <img src="https://i.ibb.co/Zf7RR3X/Artboard-2-8.png" alt="Artboard-2-8" border="0"/>
+            <img src="https://i.ibb.co/kxxRfpJ/typography.png" alt="typography" border="0"/>
           
 
             <h3> Icons </h3>
-            <img src="https://i.ibb.co/dBxhQkR/Artboard-3-8.png" alt="Artboard-3-8" border="0"/>
+            <img src="https://i.ibb.co/cQ8v2cK/icons.png" alt="icons" border="0"/>
            
             <h3> UI Elements </h3>
             <img src="https://i.ibb.co/wRYtFmR/Screen-Shot-2021-05-30-at-11-56-16-PM-2.png" alt="Screen-Shot-2021-05-30-at-11-56-16-PM-2" border="0"/>
@@ -94,14 +94,20 @@ export default class ContaierOne extends Component {
             <h3> Logos </h3>
             <article>The logo I wanted to keep the typography similar to the original, however, the color was a couple of shades darker, and the ends are curvier. The color and typography will make the logo appeal to friendly and professional.</article>
             <img src="https://i.ibb.co/TgkXjx2/Screen-Shot-2021-05-30-at-11-55-54-PM-2.png" alt="Screen-Shot-2021-05-30-at-11-55-54-PM-2" border="0" />
+            
+            <span> More detail about the
+               <a className="left" target="blank" href="https://www.figma.com/file/xogLvAeKCrg5qn6jwQL2Jd/Redesign-Care-of?node-id=93%3A21"> Style Guide</a>
+             </span>
 
           </div>
           <div className="layout-container-l7">
           <h2 className="project-titles"> Interactive prototype </h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ON8OQTS_3tA?rel=0?version=3&autoplay=1&controls=1&&showinfo=0&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; loop; picture-in-picture" allowfullscreen=""></iframe>
+          <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxogLvAeKCrg5qn6jwQL2Jd%3Fpage-id%3D0%253A1%26node-id%3D1%253A26%26viewport%3D571%252C286%252C0.12690593302249908%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A26" allowfullscreen></iframe>
             <h2 className="project-titles"> Mockups  </h2>
-            <img  className="img-1" src="https://i.ibb.co/jL7Kgtx/mock-d-3.png" alt="mock-d-3" border="0" />
-            <img src="https://i.ibb.co/kgfVZKZ/mockup-Ipad-1.png" alt="mockup-Ipad-1" border="0"/>
+            <img src="https://i.ibb.co/xmPmVz2/Macbook.png" alt="Macbook" border="0"/>
+            <img src="https://i.ibb.co/GQmrRM9/ipad-view.png" alt="ipad-view" border="0"/>
+            <img src="https://i.ibb.co/F4tMrbz/Mockup-2.png" alt="Mockup-2" border="0"/>
+
         </div>
         </div>
       </React.Fragment>

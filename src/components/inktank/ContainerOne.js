@@ -180,6 +180,9 @@ export default class ContaierOne extends Component {
                                                 <article>
                                                         Finally able to do the fun part, prototyping! When I was styling the high-fidelity prototype, I had a challenge picking the colors. I knew I wanted to go with an orange-red color to translate creativity. I was able to find a shade that is not only WGAG AA friendly but met my expectations.  I want to improve the vector images; they look simple and do not connect with the style of the app as much as I want.
                                                 </article>
+                                                <h2 className="project-titles"> Interactive prototype </h2>
+
+                                                <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FCBrNWoa7F7IDXEftxhOBSl%2FINK-TANK%3Fpage-id%3D0%253A1%26node-id%3D180%253A332%26viewport%3D446%252C548%252C0.040419887751340866%26scaling%3Dscale-down%26starting-point-node-id%3D180%253A332" allowfullscreen></iframe>
                                                 <span> More detail about the
                                                 <a className="left" target="blank" href="https://drive.google.com/file/d/1fPx6MqRTKEZrDA7NQkoh1xCtQjKzg1i1/view?usp=sharing"> Low to high fidelity prototyping </a>
 

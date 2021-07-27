@@ -214,7 +214,7 @@ font-weight: bold;
     margin: auto;
     display: block;
     @media screen and (min-width:600px){
-    width: 80%;
+    width: 75%;
 }
 }
 
@@ -225,7 +225,7 @@ font-weight: bold;
     margin: auto;
     display: block;
     @media screen and (min-width:600px){
-    width: 50%;
+    width: 75%;
 }  
 }
 
@@ -235,14 +235,14 @@ font-weight: bold;
     margin: auto;
     display: block;
     @media screen and (min-width:600px){
-    width: 80%;
+    width: 75%;
 }  
 }
 
 .layout-container-l6 img{
     width: 100%;
     @media screen and (min-width:600px){
-    width: 100%;
+    width: 75%;
     height: auto;
     margin: auto;
     display: block;
@@ -267,10 +267,20 @@ font-weight: bold;
     display: block;
 }  
 }
+.layout-container-l7  iframe{
+    border: black;
+    width: 3500px;
+    height: 150px;
+    @media screen and (min-width:600px){
+    width: 1000px;
+    height: 650px;
+}
+}
+
 .img-1{
     width: 100%;
     @media screen and (min-width:600px){
-        width: 80%;
+        width: 75%;
     height: auto;
     margin: auto;
     display: block;
@@ -279,7 +289,7 @@ font-weight: bold;
 .img-2{
     width: 100%;
     @media screen and (min-width:600px){
-        width: 90%;
+        width: 75%;
     height: auto;
     margin: auto;
     display: block;
@@ -297,16 +307,26 @@ font-weight: bold;
 .layout-container-l8 img{
     width: 100%;
     @media screen and (min-width:600px){
-    width: 90%;
+    width: 75%;
     height: auto;
     margin: auto;
     display: block;
 }  
 }
+.layout-container-l8  iframe{
+    border: black;
+    width: 3500px;
+    height: 150px;
+    @media screen and (min-width:600px){
+    width: 1000px;
+    height: 650px;
+}
+}
+
 .layout-container-l9 img{
     width: 100%;
     @media screen and (min-width:600px){
-    width: 85%;
+    width: 75%;
     height: auto;
     margin: auto;
     display: block;
@@ -316,7 +336,7 @@ font-weight: bold;
 .layout-container-l10 img{
     width: 100%;
     @media screen and (min-width:600px){
-    width: 85%;
+    width: 75%;
     height: auto;
     margin: auto;
     display: block;
