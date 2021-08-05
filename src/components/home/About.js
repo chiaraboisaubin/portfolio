@@ -60,7 +60,7 @@ export default class About extends Component {
                 height="auto"></img>
                 <div class="overlay">
                   <div class="layer">
-                    <p>  motorcyles</p>
+                    <p>  motorcycles</p>
                   </div>
                 </div>
                 </div>
