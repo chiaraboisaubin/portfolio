@@ -199,7 +199,7 @@ a:hover {
 .about-container {
     display: grid;
     justify-content: center;
-    margin-bottom: 10vh 1em;
+    margin: 45vh 1em 0 1em;
 
 
 }
@@ -272,8 +272,7 @@ a:hover {
     animation: slideIn 1.5s ease-in-out forwards;
 }
 
-.project-container,
-.about-container {
+.project-container {
     margin: 0 1em;
 }
 
