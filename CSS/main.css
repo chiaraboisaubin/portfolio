@@ -8,7 +8,7 @@
 }
 
 :root {
-    --secondary-color: hsl(155, 60%, 96%);
+    --sec-color: hsl(155, 60%, 96%);
     --contrast-color: hsl(150, 19%, 27%);
     --link: hsl(0, 0%, 0%);
     --background-color-header: hsl(150, 16%, 32%);
@@ -247,7 +247,7 @@ a:hover {
     align-items: center;
     color: #fff;
     animation: expand .8s ease forwards;
-    background-color: var(--secondary-color);
+    background-color: var(--sec-color);
     position: relative;
     transition: all .8s ease;
 }
@@ -405,14 +405,14 @@ footer .socials {
 }
 
 .header-project h1 {
-    color: var(--secondary-color);
+    color: var(--sec-color);
 }
 
 .project-nav {
     padding: 1em;
     display: flex;
     justify-content: space-between;
-    background-color: var(--secondary-color);
+    background-color: var(--sec-color);
 }
 
 .project-information-container {
@@ -428,7 +428,7 @@ footer .socials {
 
 .project-tabs {
     background-color: var(--project-header-color);
-    color: var(--secondary-color);
+    color: var(--sec-color);
     border-radius: 12px;
     width: fit-content;
     padding: .5em;
