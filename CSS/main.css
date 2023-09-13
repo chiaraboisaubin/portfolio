@@ -8,12 +8,12 @@
 }
 
 :root {
-    --secondary-color: #EFFBF6;
-    --contrast-color: #395346;
-    --link: #000;
-    --background-color-header: #445E51;
-    --backound-two: #F8F5F5;
-    --project-header-color: #445E51;
+    --secondary-color: hsl(155, 60%, 96%);
+    --contrast-color: hsl(150, 19%, 27%);
+    --link: hsl(0, 0%, 0%);
+    --background-color-header: hsl(150, 16%, 32%);
+    --backound-two: hsl(0, 18%, 97%);
+    --project-header-color: hsl(150, 16%, 32%);
 }
 
 p {
