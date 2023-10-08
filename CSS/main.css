@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&family=Quicksand&display=swap');
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 
 * {
     margin: 0;
@@ -257,7 +261,10 @@ a:hover {
 }
 
 .container_content {
+
+    @media only screen and (min-width: 600px) {
     width: 50%;
+}
 }
 
 .container_content_inner {
