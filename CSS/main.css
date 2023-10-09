@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&family=Quicksand&display=swap');
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -37,6 +34,7 @@ h2,
 h3,
 h4 {
     margin: 1em 0;
+    font-weight: 300;
 }
 
 a,
@@ -68,16 +66,22 @@ a:hover {
 
 .content-wrapper h2 {
     font-size: 1.2em;
+    font-weight: 500;
+}
+.content-wrapper h3 {
+    font-weight: 100;
 }
 
 /*background images for grid*/
 .context-background-img {
     margin: 1em 0 2em;
     border-radius: 1em;
-    width: 220px;
-    height: 230px;
+    width: 450px;
+    height: 300px;
     border: 1px solid var(--background-color-header);
     background-size: cover;
+    background-position:50% 50%;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .back-one {
@@ -134,7 +138,7 @@ a:hover {
 .about-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-around;
 }
 
 .about-container-text {
@@ -168,7 +172,7 @@ a:hover {
     gap: 1em;
     margin-bottom: 1em;
     /* margin: 1em 0 1.2em 0; */
-    width: 250px;
+    width: 500px;
     max-height: 600px;
     justify-content: space-between;
     align-content: space-around;
