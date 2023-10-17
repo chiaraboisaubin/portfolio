@@ -52,6 +52,11 @@ a:hover {
     animation: alternate 3ms;
 }
 
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .container {
     margin: 0 auto;
     background: #EFFBF6;
