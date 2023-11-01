@@ -34,7 +34,8 @@ h2,
 h3,
 h4 {
     margin: 1em 0;
-    font-weight: 300;
+    font-weight: 400;
+    color: var(--project-header-color);
 }
 
 a,
@@ -56,6 +57,7 @@ a:hover {
 .wrap{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .container {
@@ -418,12 +420,16 @@ nav {
 }
 
 footer {
-    margin: 1em;
+    margin-top: 3em;
+    background-color: var(--sec-color);
 }
 
 footer .socials {
     display: flex;
     justify-content: space-between;
+}
+.footer-content{
+    padding: 1em;
 }
 
 
@@ -495,6 +501,11 @@ footer .socials {
 
 .content-container-project img {
     width: 50%;
+    height: auto;
+    margin: 1em 0;
+}
+.content-container-project-1 img {
+    width: 100%;
     height: auto;
     margin: 1em 0;
 }
