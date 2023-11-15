@@ -494,7 +494,9 @@ footer .socials {
     padding: 1em;
     background-color: var(--sec-color);
 }
-
+.dp-containter {
+    margin: 1em;
+}
 .project-conext-container {
     margin: 0 1em;
 }
