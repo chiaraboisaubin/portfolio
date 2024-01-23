@@ -308,8 +308,12 @@ a:hover {
 }
 
 .project-container {
-    margin: 0 1em;
+    margin: 0 2em;
+    @media only screen and (min-width: 600px) {
+    margin: 0 6em;
 }
+}
+
 .one-margin{
     margin-left: 1.2em;
 }
