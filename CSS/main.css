@@ -36,7 +36,7 @@ h4 {
     color: var(--project-header-color);
 }
 .project-container h1{
-    font-size: 3em;
+    font-size: 4em;
 }
 a,
 a:focus,
@@ -47,6 +47,7 @@ a:visited {
 }
 
 
+
 a:hover {
     transition: .3s ease-out;
     transform: scale(1);
@@ -54,10 +55,22 @@ a:hover {
     animation: alternate 3ms;
 }
 
+.top{ 
+    margin-top: 1em;
+}
+bottom {
+    margin-bottom: 1em;
+}
 .wrap{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.space-between{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .container {
@@ -90,7 +103,8 @@ a:hover {
     background-position:50% 50%;
     image-rendering: -webkit-optimize-contrast;
     @media only screen and (min-width: 600px) {
-        width: 450px;
+        width: 600px;
+        height: 450px;
 }
 }
 
@@ -148,14 +162,28 @@ a:hover {
 .container li {
     list-style: none;
     margin-top: 2em;
-    padding: 2em 1em 0 0;
+    padding: 2em 3em 0 0;
 }
 
-.project-grid,
-.about-container {
+.project-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    
+}
+.content-grid{
+    display: grid;
+    justify-content: center;
+    margin: 45vh 1em 0 1em;
+}
+
+
+.about-container{
+    margin: 10em 6em;
+}
+.about-container h1{
+    font-size: 4em;
+    margin: 0 0 .5em 0 ;
 }
 
 .about-container-text {
@@ -197,7 +225,8 @@ a:hover {
     @media only screen and (min-width: 600px) {
         grid-template-columns: 2fr;
         justify-content: space-between;
-        width: 500px;
+        width: 600px;
+        max-height: 1000px;
     }
 
     @media only screen and (min-width: 1040px) {
@@ -221,20 +250,13 @@ a:hover {
     color: #000;
     display: inline-block;
     margin: 1em 0;
-    padding: 0 1em 0 0;
+    padding: 0 3em 0 0;
 }
 
 
 /*grid*/
 
-.content-grid,
-.about-container {
-    display: grid;
-    justify-content: center;
-    margin: 45vh 1em 0 1em;
 
-
-}
 
 .content-grid-text {
     display: grid;
@@ -246,7 +268,10 @@ a:hover {
     border-radius: 100%;
 }
 
-.about-container button {
+.about{
+    margin: 6em 0 0 0;
+}
+.about-btn {
     padding: 15px;
     overflow-x: hidden;
     background-color: #8dc7ab;
@@ -310,7 +335,7 @@ a:hover {
 .project-container {
     margin: 0 2em;
     @media only screen and (min-width: 600px) {
-    margin: 0 6em;
+    margin: 22em 6em 0 6em;
 }
 }
 
@@ -357,13 +382,19 @@ a:hover {
     overflow: hidden;
     height: auto;
 }
+.container_content_inner p{
+    color: #395346;
+    transform: translateY(200px);
+    animation: slideUp .8s ease forwards .5s;
+}
 
 .container_content_inner h1 {
+    margin: 0;
     font-size: 70px;
     color: var(--contrast-color);
     margin-bottom: 20px;
     transform: translateY(200px);
-    animation: slideUp .8s ease forwards .5s;
+    animation: slideUp .8s ease forwards .6s;
 }
 
 nav {
@@ -410,11 +441,16 @@ nav {
     animation: slideUp .8s ease-in-out forwards .8s;
 
 }
+.nav-link h1{
+    margin-left: 3em;
+}
+
+ .nav-link ul li {
+    margin-right: 1em;
+ }
 
 .fixed-nav {
     background: #8dc7ab;
-    padding: 1em;
-
 }
 
 .header,
@@ -426,7 +462,9 @@ nav {
 
 .fixed-nav ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1em;
 }
 
 footer {
@@ -439,7 +477,7 @@ footer .socials {
     justify-content: space-between;
 }
 .footer-content{
-    padding: 1em;
+    padding: 2em 6em;
 }
 
 
@@ -498,11 +536,16 @@ footer .socials {
     }
 }
 .background-color{
-    padding: 1em;
+    padding: 2em;
     background-color: var(--sec-color);
+    @media only screen and (min-width: 600px) {
+    padding: 6em;
+    
 }
+}
+
 .dp-containter {
-    margin: 1em;
+    margin: 0 6em;
 }
 .project-conext-container {
     margin: 0 2em;
@@ -522,8 +565,10 @@ footer .socials {
 
 .content-container-project img {
     max-width: 100%;
+    @media only screen and (min-width: 600px) {
+    max-width: 80%;
     height: auto;
-    margin: 1em 0;
+}
 }
 .content-container-project-1 img {
     width: 100%;
