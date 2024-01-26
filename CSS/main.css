@@ -19,6 +19,7 @@
 
 p {
     font-size: 1em;
+    margin: 0 1em;
 }
 
 
@@ -37,6 +38,10 @@ h4 {
 }
 .project-container h1{
     font-size: 4em;
+    @media only screen and (min-width: 600px) {
+
+
+}
 }
 a,
 a:focus,
@@ -47,6 +52,12 @@ a:visited {
 }
 
 
+.large-text{
+    font-size: 2em;
+    @media only screen and (min-width: 600px) {
+    font-size: 3em;
+}
+}
 
 a:hover {
     transition: .3s ease-out;
@@ -107,7 +118,12 @@ bottom {
         height: 450px;
 }
 }
-
+context-container-1{
+    @media only screen and (min-width: 600px) {
+    display: flex;
+    justify-content: space-between;
+}
+}
 .back-one {
     background-image: url(https://i.ibb.co/ThqqjZk/1-1a-D-CPD-New-CP-member-Default.png);
 }
@@ -199,7 +215,7 @@ bottom {
     max-width: 100%;
     text-align: center;
     font-weight: 500;
-
+    margin: .2em .2em 0 0;
     @media only screen and (min-width: 600px) {
         margin: .5em .5em 0 0;
     }
@@ -317,8 +333,13 @@ bottom {
 }
 
 .container_content_inner {
-    width: 80%;
-    margin-left: 80px;
+    width: 100%;
+    padding: 2em;
+
+    @media only screen and (min-width: 600px) {
+        width: 80%;
+        padding: 4em;
+    }
 }
 
 .container_outer_img {
@@ -333,7 +354,7 @@ bottom {
 }
 
 .project-container {
-    margin: 0 2em;
+    margin: 16em auto 0em 2em;
     @media only screen and (min-width: 600px) {
     margin: 22em 6em 0 6em;
 }
@@ -390,11 +411,15 @@ bottom {
 
 .container_content_inner h1 {
     margin: 0;
-    font-size: 70px;
+    font-size: 60px;
     color: var(--contrast-color);
     margin-bottom: 20px;
     transform: translateY(200px);
     animation: slideUp .8s ease forwards .6s;
+    @media only screen and (min-width: 600px) {
+        font-size: 70px;
+    }
+
 }
 
 nav {
@@ -442,23 +467,23 @@ nav {
 
 }
 .nav-link h1{
+    margin-left: 0em;
+.fixed-nav {
     margin-left: 3em;
+}
 }
 
  .nav-link ul li {
-    margin-right: 1em;
+    padding-right: .5em;
+    @media only screen and (min-width: 600px) {
+    padding-right: .5em;
  }
+}
 
 .fixed-nav {
     background: #8dc7ab;
 }
 
-.header,
-.project-nav {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
 
 .fixed-nav ul {
     display: flex;
@@ -476,8 +501,12 @@ footer .socials {
     display: flex;
     justify-content: space-between;
 }
+
 .footer-content{
+    padding: 1em .5em;
+    @media only screen and (min-width: 600px) {
     padding: 2em 6em;
+    }
 }
 
 
@@ -492,12 +521,20 @@ footer .socials {
 .header-project h1 {
     color: var(--sec-color);
 }
+.header,
+.project-nav {
+  
+    position: sticky;
+    top: 0;
+}
 
 .project-nav {
     padding: 1em;
     display: flex;
     justify-content: space-between;
     background-color: var(--sec-color);
+    @media only screen and (min-width: 600px) {
+    }
 }
 
 .project-information-container {
@@ -545,16 +582,21 @@ footer .socials {
 }
 
 .dp-containter {
+    margin: 0 2em;
+    @media only screen and (min-width: 600px) {
     margin: 0 6em;
 }
+}
+
 .project-conext-container {
-    margin: 0 2em;
+    margin: 0 1em;
     @media only screen and (min-width: 600px) {
         margin: 0 6em;
     }
 }
 
 .project-conext-container p {
+    margin: 1em 0;
     line-height: 1.5em;
 }
 
