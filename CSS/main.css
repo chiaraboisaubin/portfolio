@@ -113,7 +113,7 @@ bottom {
     background-size: cover;
     background-position:50% 50%;
     image-rendering: -webkit-optimize-contrast;
-    @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: 1400px) {
         width: 600px;
         height: 450px;
 }
@@ -238,19 +238,15 @@ context-container-1{
     justify-content: center;
     align-content: space-around;
 
-    @media only screen and (min-width: 600px) {
-        grid-template-columns: 2fr;
-        justify-content: space-between;
+    @media only screen and (min-width: 1400px) {
         width: 600px;
-        max-height: 1000px;
-    }
-
-    @media only screen and (min-width: 1040px) {
         grid-template-columns: 4fr;
         grid-template-rows: 3fr;
+        grid-template-columns: 2fr;
+        justify-content: space-between;
     }
-
 }
+
 
 
 .fa {
