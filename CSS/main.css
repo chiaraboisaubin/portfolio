@@ -19,7 +19,7 @@
 
 p {
     font-size: 1em;
-    margin: 0 1em;
+    margin: 1em 0;
 }
 
 
@@ -239,7 +239,7 @@ context-container-1{
     align-content: space-around;
 
     @media only screen and (min-width: 1400px) {
-        width: 600px;
+        width: 800px;
         grid-template-columns: 4fr;
         grid-template-rows: 3fr;
         grid-template-columns: 2fr;
@@ -472,7 +472,7 @@ nav {
  .nav-link ul li {
     padding-right: .5em;
     @media only screen and (min-width: 600px) {
-    padding-right: .5em;
+    padding-right: 1em;
  }
 }
 
