@@ -223,11 +223,14 @@ context-container-1{
 
 
 .flex {
-
+    @media only screen and (min-width: 1000px) {
     display: flex;
     justify-content: space-between;
 }
-
+}
+ .bold{
+    font-weight: bold;
+ }
 
 .content-wrapper {
     display: grid;
@@ -239,7 +242,8 @@ context-container-1{
     align-content: space-around;
 
     @media only screen and (min-width: 1400px) {
-        width: 800px;
+        width: 600px;
+        max-height: 800px;
         grid-template-columns: 4fr;
         grid-template-rows: 3fr;
         grid-template-columns: 2fr;
