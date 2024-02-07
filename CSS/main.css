@@ -589,11 +589,7 @@ footer .socials {
 }
 }
 
-.dp-containter {
-    margin: 0 2em;
-    @media only screen and (min-width: 600px) {
-    margin: 0 6em;
-}
+
 }
 .dp-box{
     width: 200px;
