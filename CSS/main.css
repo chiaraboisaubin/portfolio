@@ -589,7 +589,11 @@ footer .socials {
 }
 }
 
-
+.para-img{
+    @media only screen and (min-width: 600px) {
+        width: 50%;
+    }
+}
 }
 .dp-box{
     width: 200px;
