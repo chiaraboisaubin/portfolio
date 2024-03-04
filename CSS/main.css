@@ -363,7 +363,7 @@ context-container-1{
 .project-container {
     margin: 16em auto 0em 2em;
     @media only screen and (min-width: 600px) {
-    margin: 22em 6em 0 6em;
+    margin: 18em 6em 0 6em;
 }
 }
 
