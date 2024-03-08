@@ -202,9 +202,9 @@ context-container-1{
 
 
 .about-container{
-    margin: 10em 6em;
+    margin: 2em 6em;
 }
-.about-container h1{
+.about-container h1, .dp-containter h1{
     font-size: 4em;
     margin: 0 0 .5em 0 ;
 }
@@ -212,6 +212,7 @@ context-container-1{
 .about-container-text {
     line-break: auto;
     line-height: 2em;
+    margin-right: 2em
 }
 
 .tabs {
@@ -289,6 +290,7 @@ context-container-1{
 
 .about-container img {
     border-radius: 10%;
+    border: #8dc7ab 1em solid;
 }
 
 .about{
@@ -594,10 +596,14 @@ footer .socials {
         width: 50%;
     }
 }
+
+.dp-containter{
+    margin: 1em 6em ;
 }
+
 .dp-box{
     width: 200px;
-    max-height: 350[x];
+    max-height: 350px;
 }
 
 .project-conext-container {
