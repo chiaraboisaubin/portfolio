@@ -307,6 +307,7 @@ context-container-1{
     border: 2px solid #000;
     margin: 1% auto;
     font-weight: 500;
+    cursor: pointer;
 
 }
 
