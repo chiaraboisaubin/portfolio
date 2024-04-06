@@ -2,13 +2,22 @@
 <html>
 
 <head>
-    <title>Carepass dashboard redesign </title>
+    <title>Membership dashboard redesign </title>
     <meta charset="utf-8">
+
+    <meta property="og:title" content="Chiara's portfolio" />
+    <meta property="og:image" content="https://i.ibb.co/jvCMrjG/Thumnail-for-site.png" />
+    <meta property="og:description" content=" Membership dashboard redesign" />
+    <meta property="og:url" content="https://chiaraboisaubin.com/" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="627" />
+    <meta property="og:type" content="website" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <link rel="shortcut icon" type="image/x-icon" href="https://i.ibb.co/9WpN4Pm/cute-icon-thumbnail.png"
-        alt="cute-icon-thumbnail" border="0">
+    <link rel="shortcut icon" type="image/x-icon" href="https://i.ibb.co/1dykL1z/Logo.png" alt="cute-icon-thumbnail"
+        border="0">
     <link rel="stylesheet" href="..//CSS/main.css">
     <script src="https://kit.fontawesome.com/ab4dc70ff3.js" crossorigin="anonymous"></script>
 </head>
@@ -19,165 +28,307 @@
 
     <div class="content-container-project">
         <header class="header-project">
-            <h1> Carepass dashboard redesign </h1>
+            <h1> Membership dashboard redesign </h1>
         </header>
+        <nav class="nav-link fixed-nav header" id="NavBar">
+            <div class="flex">
+                <h1> Chiara BoisAubin</h1>
 
-        <nav class="project-nav">
-            <a href="home.html">Home</a>
-         <!-- <a href="l"> Careof redesign</a> -->   
+                <ul class="link btns_more">
+                    <li><a href="projects.html"> Projects </a></li>
+                    <a href="ink-tank.html"> Next project </a>
+                </ul>
+            </div>
         </nav>
 
         <div class="project-information-container">
             <div class="column-l">
-                <article> <b> My role: </b> UI Designer and Front End Developer </article>
-                <article> <b> Timeline: </b> April 2022 - Aug 2022</article>
-                <article> <b> Team: </b> 8 -12 </article>
+                <article> <b> My role: </b> UX/UI Designer </article>
+                <article> <b> Timeline: </b> April 2022 - Aug 2022 (2 week sprints)</article>
+                <article> <b> Team: </b> 3 UX/UI Designer, 2 A11Y Designer, 2 Content Designer, 1 UX Researcher
+                </article>
             </div>
             <div class="column-r list-tab">
-                <h3> Tools used </h3>
-                <ul>
-                    <li class="project-tabs"> Competitive Analysis </li>
-                    <li class="project-tabs"> Moderate user testing </li>
-                    <li class="project-tabs"> UX analysis</li>
-                    <li class="project-tabs"> Wireframe </li>
-                    <li class="project-tabs"> Mockup </li>
-
-                </ul>
+                <div class="">
+                    <h3> Platforms & tools </h3>
+                    <ul class="">
+                        <li class="project-tabs"> iOS </li>
+                        <li class="project-tabs"> aOS </li>
+                        <li class="project-tabs"> Figma </li>
+                        <li class="project-tabs"> Miro </li>
+                    </ul>
+                </div>
             </div>
         </div>
 
+        <!-- Information about the project -->
         <div class="project-conext-container">
+
             <div class="context">
-                <h2>Context</h2>
+                <div class="background-color">
+                    <div class="flex">
+                        <div class="">
+                            <h2>Context</h2>
+                            <p class="para-img">
+                                The project is to update the <a href="https://www.cvs.com/carepass/login"> Carepass
+                                    dashboard page
+                                </a> and slowly add a space allowing users
+                                to access others' programs.
+                            </p>
+                        </div>
+
+                        <img src="https://i.ibb.co/T86G9vF/2-1-Membership-information.png"
+                            alt="carepass dashboard setting page" border="0">
+                    </div>
+                </div>
+
+                <div class="dp-containter">
+                    <h2>Design Process </h2>
+                    <div class="wrap">
+                        <div class="">
+                            <img src="https://i.ibb.co/2FFqnyQ/Discovery.png" alt="Discovery" border="0"
+                                style="width: 150px; height: auto;">
+                            <h3> Discovery: </h3>
+                            <ul class="cute-bullets">
+                                <li> Competitive analysis </li>
+                                <li> User testing </li>
+                                <li> UX analysis </li>
+                            </ul>
+                        </div>
+                        <div class="">
+                            <img src="https://i.ibb.co/6W4nGwY/Ideate.png" alt="Ideate" border="0"
+                                style="width: 150px; height: auto;">
+                            <h3> Ideate: </h3>
+                            <ul class="cute-bullets">
+                                <li> Mid-fidelity prototype </li>
+                                <li> High fidelity prototype </li>
+                            </ul>
+                        </div>
+                        <div class="">
+                            <img src="https://i.ibb.co/Gnj4DGG/Testing.png" alt="Testing" border="0"
+                                style="width: 150px; height: auto;">
+                            <h3> Testing: </h3>
+                            <ul>
+                                <li> User testing </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="">Initial goal </h2>
                 <article>
-                    The project is to update the Carepass membership profile page and slowly add a space allowing users
-                    to access others' programs.
-                </article>
-                <h2>Initial goal </h2>
-                <article>
-                    The goal of the business was to increase visits on the dashboard, reduce the amount of customer
-                    service calls that we sync the user interfaces membership page, and minimize the cancelation of
-                    membership. The design goals were to make the information easy to find on the membership page,
-                    organize the content, and sync the user interface with the new CVS UI kit and components while
-                    staying as close as possible to Carepass's current brand style and practice responsive and
-                    mobile-first design.
+                    <ul class="cute-bullets">
+                        <li> Make the design simple and able to add additional information or features. </li>
+                        <li> Able to add other memberships in the same environment.</li>
+                        <li> Reduce the number of customer service calls. </li>
+                        <li> Minimize cancelation of membership. </li>
+                        <li> Create with mobile-first design and use as much of the UI from the new design system. </li>
 
-                    <h2>Competitive and UX analysis</h2>
-                    <article>
-                        I did competitive research on what other companies did for their membership or dashboard pages.
-                        The companies looked into were Walmart, Amazon, Target, and Adobe. I noticed the information was
-                        two pages with all the data. The cancel call to action was visible; they used certain
-                        information. Most profiles and memberships did have a hierarchy of information. Their style was
-                        simple, and they were able to add new containers. The content was a hierarchy of information
-                        about the membership. I also looked at how the companies showed how they organized multiple
-                        programs.
+                    </ul>
 
-                    </article>
-                    <img src="https://i.ibb.co/TBSdXXW/Screen-Shot-2022-09-14-at-12-03-41-PM-2.png" alt="Screen-Shot-2022-09-14-at-12-03-41-PM-2" border="0">
-                    <article>
-                        Baymard provided feedback on the CVS shopping experience that would help connect the UX
-                        e-commerce experience. Some of their callouts were to make sure that we have the ability for
-                        users to go back to the main page of content if they were navigated to another page and have
-                        information have some flow.
 
-                    </article>
-                    <article>
-                        Looking at the current membership of Carepass, we noticed that getting to the dashboard page was
-                        not as accessible. The content was misleading or not as clear and repetitive content on the same
-                        page.
-                    </article>
+                    <div class="background-color " style="padding: 1em;">
+                        <h2> UX analysis</h2>
+                        <div class="flex ">
+
+                            <p class="para-img">
+                                Baymard provided feedback on the CVS shopping experience that would help connect the UX
+                                e-commerce experience. Some of their callouts were to make sure that we have the ability
+                                for users to go back to the main page of content if they were navigating to another page
+                                and have information flow. Looking at the current membership of Carepass, we noticed
+                                that getting to the dashboard page was not as accessible. The content was misleading or
+                                not as clear and repetitive content on the same page.
+
+                            </p>
+                            <img src="https://i.ibb.co/TBSdXXW/Screen-Shot-2022-09-14-at-12-03-41-PM-2.png"
+                                style="width: 600px;" alt="Screen-Shot-2022-09-14-at-12-03-41-PM-2" border="0">
+                        </div>
+                    </div>
+
+                    <h2>Competitive analysis </h2>
+                    <div>
+                        <p>
+                            We decided to conduct user testing with the recent experience to see if the information made
+                            sense to users and if participants could navigate to the dashboard and certain features like
+                            updating their membership. I did competitive research on what other companies did for their
+                            membership or dashboard pages.
+                        </p>
+                        The companies looked into were:
+                        <ul class="cute-bullets">
+                            <li> Walmart </li>
+                            <li>Amazon </li>
+                            <li> Target</li>
+                            <li> Adobe </li>
+                        </ul>
+                        <h3> Things that was noticed </h3>
+                        <ul class="cute-bullets">
+                            <li> Maximum of two pages with information that connects with the membership </li>
+                            <li> There was some type of content hierarchy of information </li>
+                            <li> Ability to show other memberships and subscription</li>
+                        </ul>
+
+                    </div>
             </div>
             <div class="context-with-image">
                 <h2>User testing</h2>
-                <article>
-                    We worked with the research team to conduct moderate user testing with the existing page. We
-                    interviewed five participants who were current Carepass members and had done user testing in the
+                <p>
+                    We interviewed <b> 5 </b> participants who were current Carepass members and had done user testing
+                    in the
                     past. We also looked for users who had a type of disability that they needed technical assistance.
-                    Our goals were to see their expectations regarding the dashboard, see if the participants could
-                    navigate to the dashboard page, and see their thoughts on the current information about Carepass on
-                    the page.
-                    With the data that was collected from the testing, we learned the following:
-                </article>
-                <ol>
-                    <li> 3 out of 5 participants suggested reorganizing the content and the information that needed
-                        clarification.</li>
-                    <li> 2 participants thought that the cancelation call to action should be more visible. </li>
-                    <li> 2 participants users said there was significant white space on the page. </li>
-                    <li> All participants identify seeing membership information as the top 3 important to them.</li>
-                    <li> All participants responded that they were satisfied with the current. Dashboard content. </li>
-                </ol>
-                <article> Even though we conducted user testing and user interviews, we used the CVS persona Micheal to
-                    sync up with CVS to ensure we were going with other users' goals. </article>
+                </p>
 
-                <h2>Wireframe and Final mockup</h2>
-                <article>
-                    With the information that was gathered from the user testing, the goals of all specialties, and the
-                    CVS persona that already existed, me and other designers worked together to see how to make the
-                    information flow and not repeat information. The wireframe was also the space where we ensured that
-                    people who were a part of the project and other teams were aligned on how data would be presented.
-                </article>
-                <img src="https://i.ibb.co/cbbpkT9/Screen-Shot-2022-09-14-at-12-14-02-PM-2.png" alt="Screen-Shot-2022-09-14-at-12-14-02-PM-2" border="0">
-                <img src="https://i.ibb.co/Pw7Xpdg/Screen-Shot-2022-09-14-at-12-15-57-PM-2.png" alt="Screen-Shot-2022-09-14-at-12-15-57-PM-2" border="0">
-                <article>
-                    With the information that was gathered from the user testing, the goals of all specialties, and the
-                    CVS persona that already existed, me and other designers worked together to see how to make the
-                    information flow and not repeat information. The wireframe was also the space where we ensured that
-                    people who were a part of the project and other teams were aligned on how data would be presented.
-                </article>
-                <article>
-                    At this time, Carepass was also introducing a new feature for gaining rewards with the amount of
-                    steps a users take. Leadership wanted to make the feature apart of the dashboard. We that additional
-                    information we needed the following experiences: New user, existing user with or without the reward
-                    healthy behavior and showing avaible monthly free $10 or the next monthly free $10, so about eight
-                    user scenarios.
-                </article>
-                <a href="https://ibb.co/VBppndt"><img src="https://i.ibb.co/ThqqjZk/1-1a-D-CPD-New-CP-member-Default.png" alt="1-1a-D-CPD-New-CP-member-Default" border="0"></a>
-                <a href="https://ibb.co/R0fKRvV"><img src="https://i.ibb.co/T86G9vF/2-1-Membership-information.png" alt="2-1-Membership-information" border="0"></a>
-                <article>
+                <h3> Our goals: </h3>
+                <ul class="cute-bullets">
+                    <li> See their expectations regarding the dashboard </li>
+                    <li> Gather their thoughts on the current information about Carepass on
+                        the page.</li>
+                    <li> If the participants could navigate to the dashboard page</li>
+                </ul>
+
+                <h3> With the data collected from the testing, we learned the following: </h3>
+
+                <ol class="cute-bullets">
+                    <li> <b> 3 </b> out of 5 participants suggested reorganizing the content and the information that
+                        needed
+                        clarification.</li>
+                    <li> <b> 2 </b> participants thought that the cancelation call to action should be more visible.
+                    </li>
+                    <li> <b> 2 </b> participants users said there was significant white space on the page. </li>
+                    <li> <b> All </b> participants identify seeing membership information as the top 3 important to
+                        them.</li>
+                    <li> <b> All </b> participants responded that they were satisfied with the current. Dashboard
+                        content. </li>
+                </ol>
+                <p>
+                    Even though we conducted user testing and user interviews, we used the CVS persona Micheal to
+                    sync up with CVS to ensure we were going with other users' goals.
+                </p>
+
+                <h2>Wireframes</h2>
+                <p>
+                    With the information gathered and syncing with the CVS persona, other designers and I worked
+                    together to see how to make the information flow and not repeat information. The wireframe was also
+                    where we ensured that people who were a part of the project and other teams aligned on how to
+                    present to the information. on how data would be presented.
+                </p>
+                <img src="https://i.ibb.co/Pw7Xpdg/Screen-Shot-2022-09-14-at-12-15-57-PM-2.png" style="width: 600px;"
+                    alt="Screen-Shot-2022-09-14-at-12-15-57-PM-2" border="0">
+                <img src="https://i.ibb.co/cbbpkT9/Screen-Shot-2022-09-14-at-12-14-02-PM-2.png" style="width: 600px ;"
+                    alt="Screen-Shot-2022-09-14-at-12-14-02-PM-2" border="0">
+
+                <h2> High-fidelity prototypes </h2>
+                <div>
+                    <p>
+                        At this time, Carepass was also introducing a new feature for gaining rewards with the number of
+                        steps users take. Leadership wanted to make the feature a part of the dashboard. With that
+                        additional information, we needed the following experiences:
+                    </p>
+                    <ul class="cute-bullets">
+                        <li> New user </li>
+                        <li> Existing users, with or without the reward </li>
+                        <li> Able to add new features</li>
+                        <li> Showing available promotions that connect with the membership - for example, the monthly
+                            free $10</li>
+                    </ul>
+
+                </div>
+
+                <h3> Examples </h3>
+
+                <div class=" flex wrap>">
+
+                    <div>
+                        <h4> New user who has not shopped, no Healthy Rewards, and $10 available</h4>
+                        <a href="https://ibb.co/VBppndt"><img
+                                src="https://i.ibb.co/ThqqjZk/1-1a-D-CPD-New-CP-member-Default.png"
+                                alt="New memeber with promo code" border="0"></a>
+                    </div>
+                    <div>
+                        <h4> Manage membership page </h4>
+                        <a href="https://ibb.co/R0fKRvV"><img
+                                src="https://i.ibb.co/T86G9vF/2-1-Membership-information.png"
+                                alt=" Membership information" border="0"></a>
+                    </div>
+                </div>
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FnbZfMoMLzLdfMyiPk3aGNH%2FDashboard-redesign%3Ftype%3Ddesign%26node-id%3D205%253A15361%26mode%3Ddesign%26t%3DNRX89rahnhgixD6V-1"
+                    allowfullscreen></iframe>
+
+                <!-- <p>
                     Once we agreed on how we wanted the information, I started working on the user interface. I made
                     sure that we were designing mobile-first, responsive design, implementing the CVS UI kit and
                     components, and staying as close as possible to the Carepass brand. Mobile was less challenging than
                     desktop, and there was some disagreement of the style for simplicity but ensuring that there was the
                     ability to add more programs and features to the page. We also had to deal with accessibility calls
                     out.
-                </article>
-                <article>
-                    I was the only person at the time who knew how to use Figma, I connected most of the existing
-                    components to the UI kit, and build a prototype for the web experience.
-                </article>
-                <h2> Overview </h2>
-                <article>
-                    The discussion and handoff were broken down by feature container so leadership and developers could
-                    look at each and make their development plan for building.
-                    There were a lot of challenges with this project like Figma was new to the team, a lot of different
-                    departments and people feedback that needed to stay with the project's goals, and the tight
-                    deadline. I believe we did achieve the goals of simplicity, making sure that we do best accessible
-                    and design practices and the ability to add information in the future. The following steps were to
-                    do an A/B testing with the saving container, update ways to navigate, and look for ways to improve
-                    the app experience.
+                </p> -->
+
+                <div class="background-color">
+                    <h2> Handoff </h2>
+                    <p class="para-img"> The discussion and handoff were broken down by feature container so leadership
+                        and developers
+                        could plan building.
+                    </p>
+                    For the developers, I did provide the following information in the Figma file:
+                    <ul class="cute-bullets">
+                        <li> A11Y markups </li>
+                        <li> Components and elements </li>
+                        <li> Clickable prototypes </li>
+                        <li> Interaction notes </li>
+                        <li> List of Components, existing elements, and new elements </li>
+                    </ul>
+                </div>
+
+                <h2> Takeaways </h2>
+                <h3> Did we answer our questions? </h3>
+                <p>
+                    There were a lot of challenges with this project, like Figma being new to the team, a lot of
+                    different departments and people's feedback that needed to stay with the project's goals, and the
+                    tight deadline. I believe we achieved the goals of simplicity, ensuring we do the best accessible
+                    design practices and the ability to add information in the future.
+                </p>
 
 
-                </article>
+                <h3> Next steps? </h3>
+                <ul class="cute-bullets">
+                    <li> Collect the data from the A/B Test </li>
+                    <li> Do another user test with the updated pages </li>
+                </ul>
+
+                <p>
+
+
+
+                    </article>
             </div>
         </div>
         <footer class="footer-container">
-            <h2> Connect with me </h2>
-            <nav class="flex-wrap">
-                <ul class="social-links">
-                    <li> <a href="https://www.linkedin.com/in/chiara-boisaubin" aria-hidden="true"
-                            rel="noopener noreferrer" target="_blank"> <span class="fa fa-linkedin"> </span> </a>
-                    </li>
-                    <li> <a href="https://www.behance.net/chiaraboisaubin" aria-hidden="true" rel="noopener noreferrer"
-                            target="_blank"> <span class="fa fa-behance"> </span> </a>
-                    </li>
-                    <li> <a href="https://www.instagram.com/cdb_arts/" aria-hidden="true" rel="noopener noreferrer"
-                            target="_blank"><span class="fa fa-instagram"> </span> </a> </li>
-                    <li> <a href="https://github.com/chiaraboisaubin" aria-hidden="true" rel="noopener noreferrer"
-                            target="_blank"> <span class="fa fa-github"> </span> </a> </li>
-                </ul>
-            </nav>
-            <p class="copy"> © 2023 Designed and Developed by Chiara BoisAubin</article>
+            <div class="footer-content">
+                <h2> Connect with me </h2>
+                <nav class="flex-wrap">
+                    <ul class="social-links">
+                        <li> <a href="https://www.linkedin.com/in/chiara-boisaubin" aria-label="linkedin"
+                                rel="noopener noreferrer" target="_blank"> <span class="fa fa-linkedin"> </span> </a>
+                        </li>
+                        <li> <a href="https://www.behance.net/chiaraboisaubin" aria-label="behance"
+                                rel="noopener noreferrer" target="_blank"> <span class="fa fa-behance"> </span> </a>
+                        </li>
+                        <li> <a href="https://www.instagram.com/cdb_arts/" aria-label="instagram"
+                                rel="noopener noreferrer" target="_blank"><span class="fa fa-instagram"> </span> </a>
+                        </li>
+                        <li> <a href="https://github.com/chiaraboisaubin" aria-label="github" rel="noopener noreferrer"
+                                target="_blank"> <span class="fa fa-github"> </span> </a> </li>
+                        <li> <a href="mailto:chiara.boisaubin@gmail.com" aria-label="email" rel="noopener noreferrer"
+                                target="_blank"> <span class="fa fa-envelope"> </span> </a> </li>
+                        <li> <a href="https://calendly.com/chiara-boisaubin" aria-label="calendly"
+                                rel="noopener noreferrer" target="_blank"> <span class="fa-solid fa-calendar"> </span>
+                            </a> </li>
+                    </ul>
+                </nav>
+                <small class="copy"> © 2024 Designed and Developed by Chiara BoisAubin </small>
+            </div>
         </footer>
+
 
 </body>
 
