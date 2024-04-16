@@ -126,10 +126,10 @@ bottom {
     background-position:50% 50%;
     image-rendering: -webkit-optimize-contrast;
     @media only screen and (min-width: 1000px) {
-        width: 375px;
+        width: 320px;
         height: 375px; 
 
-    @media only screen and (min-width: 1600px) {
+    @media only screen and (min-width: 1400px) {
         width: 400px;
         height: 400px;
     }
@@ -203,8 +203,6 @@ context-container-1{
 .project-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
 }
 .content-grid{
     display: grid;
@@ -261,13 +259,13 @@ context-container-1{
     justify-content: center;
     align-content: space-around;
     @media only screen and (min-width: 1000px) {
-        width: 400px;
+        width: 320px;
         grid-template-columns: 4fr;
         grid-template-rows: 2fr;
         grid-template-columns: 2fr;
         justify-content: space-between;
     @media only screen and (min-width: 1400px) {
-        width: 500px;
+        width: 375px;
         max-height: 800px;
         grid-template-rows: 3fr;
         grid-template-columns: 2fr;
