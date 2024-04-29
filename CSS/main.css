@@ -229,7 +229,7 @@ context-container-1{
         grid-template-rows: repeat(3, 1fr);
 
     @media only screen and (min-width: 1250px) {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
 }
@@ -648,9 +648,6 @@ footer .socials {
     }
 }
 
-.dp-containter{
-    margin: 1em 6em ;
-}
 
 .dp-box{
     width: 200px;
