@@ -83,6 +83,11 @@ bottom {
     justify-content: space-between;
 }
 
+iframe{
+    max-width: 100%;
+    max-width: 100%;
+    height: 400px;
+}
 .space-between{
     display: flex;
     flex-wrap: wrap;
@@ -335,7 +340,7 @@ context-container-1{
 
 }
 
-.about-container img {
+.chiara-pic {
     border-radius: 10%;
     border: #8dc7ab 1em solid;
 }
