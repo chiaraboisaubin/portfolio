@@ -50,6 +50,12 @@ a:visited {
     font-size: 1.1em;
 }
 
+.medium-text{
+    font-size: 1.5em;
+    @media only screen and (min-width: 600px) {
+    font-size: 2em;
+}
+}
 
 .large-text{
     font-size: 2em;
@@ -120,7 +126,12 @@ iframe{
 .content-wrapper h3 {
     font-weight: 100;
 }
-
+.context{
+    @media only screen and (min-width: 1250px) {
+        display: flex;
+        justify-content: center;
+}
+}
 /*background images for grid*/
 .context-background-img {
     border-radius: 1em;
@@ -648,7 +659,7 @@ footer .socials {
 }
 
 .para-img{
-    @media only screen and (min-width: 600px) {
+    @media only screen and (min-width:1250px) {
         width: 50%;
     }
 }
