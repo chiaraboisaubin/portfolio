@@ -206,6 +206,7 @@ context-container-1{
 
 .container ul {
     display: flex;
+    flex-wrap: wrap;
 
 
 }
@@ -336,10 +337,12 @@ context-container-1{
 .social-links li {
     color: #000;
     display: inline-block;
-    margin: 1em 0;
+    margin: 3em 2em 1em 0em;
     padding: 0 8em 0 0;
 }
-
+.social-links a{
+    display: table-caption;
+}
 
 /*grid*/
 
