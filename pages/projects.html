@@ -223,31 +223,36 @@
         </div>
     </footer>
 
-
-
-
-
-    <script>
-        const navbar = document.querySelector('#NavBar');
-        let top = navbar.offsetTop;
-        function stickynavbar() {
-            if (window.scrollY >= top) {
-                navbar.classList.add('sticky');
-            } else {
-                navbar.classList.remove('sticky');
-            }
-        }
-        window.addEventListener('scroll', stickynavbar);
-    </script>
-    <script>
-        function loadContentPage() {
-            // Get reference to the second iframe
-            var iframe2 = document.getElementById("iframe2");
-
-            // Set the source of the second iframe to the content page with the desired section ID
-            iframe2.src = "https://www.example.com/content-page.html#section2";
-        }
-    </script>
 </body>
 
+<script>
+    const navbar = document.querySelector('#NavBar');
+    let top = navbar.offsetTop;
+    function stickynavbar() {
+        if (window.scrollY >= top) {
+            navbar.classList.add('sticky');
+        } else {
+            navbar.classList.remove('sticky');
+        }
+    }
+    window.addEventListener('scroll', stickynavbar);
+</script>
+<script>
+    function loadContentPage() {
+        // Get reference to the second iframe
+        var iframe2 = document.getElementById("iframe2");
+
+        // Set the source of the second iframe to the content page with the desired section ID
+        iframe2.src = "https://www.example.com/content-page.html#section2";
+    }
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VYYM7P4JE6"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-VYYM7P4JE6');
+</script>
 </html>
