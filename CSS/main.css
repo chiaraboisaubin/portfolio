@@ -1,7 +1,8 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&family=Quicksand:wght@300;400;500;600;700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
-* {
+  @import url('https://api.fontshare.com/v2/css?f[]=clash-display@400,600&f[]=excon@100,300,400,500,700,900&display=swap');
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -31,13 +32,14 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Clash Display', sans-serif;
     margin: 1em 0;
     font-weight: 700;
     color: var(--project-header-color);
 }
 .project-container h1{
     font-size: 4em;
+    margin-left: .5em;
     @media only screen and (min-width: 600px) {
 
 
@@ -217,41 +219,39 @@ context-container-1{
     margin-top: 2em;
     padding: 2em 3em 0 0;
 }
-.div2 { grid-area: 1 / 1 / 2 / 2; }
-.div1 { grid-area: 1 / 2 / 2 / 3; }
-.div3 { 
-    grid-area: 2 / 1 / 3 / 2;
-    @media only screen and (min-width: 1250px) {
-        grid-area: 1 / 3 / 2 / 4; }}
-.div4 { 
-   
-        grid-area: 2 / 2 / 3 / 3;  
-        @media only screen and (min-width: 1250px) {
-        grid-area: 2 / 1 / 3 / 2; }
-}
-.div5 { 
-    grid-area: 3 / 1 / 4 / 2;   
-    @media only screen and (min-width: 1250px) {
-        grid-area: 2 / 2 / 3 / 3; }
+
+
+.other-projects{
+    @media only screen and (min-width: 600px) {
+    margin: auto 1em;
+    width: 50%;
     }
-
-
+    @media only screen and (min-width: 830px) {
+    margin: auto 2em;
+    width: 80%;
+}
+}
 
 .project-grid {
     z-index: 9;
     @media only screen and (min-width: 830px) {
         display: grid;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 2em;
+        grid-row-gap: 2em;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
     }
     @media only screen and (min-width: 1250px) {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+
     }
 
 }
+
+.div1 { grid-area: 1 / 2 / 2 / 3; }
+.div2 { grid-area: 1 / 3 / 2 / 4; }
+.div3 { grid-area: 2 / 2 / 3 / 3; }
+.div4 { grid-area: 2 / 3 / 3 / 4; }
+.div5 { grid-area: 3 / 2 / 4 / 3; }
 
 .content-grid{
     display: grid;
@@ -277,7 +277,8 @@ context-container-1{
 .tabs {
     background-color: #D9D9D9;
     border-radius: 12px;
-    width: auto;
+    width: 50px;
+    height: 40px;
     padding: .5em;
     max-width: 100%;
     text-align: center;
@@ -300,9 +301,9 @@ context-container-1{
  }
 
 .card-content-container {
-    display: grid;
-    gap: 1em;
-    margin: 1em;
+    display: flex;
+    gap: 4em;
+    margin: 2em;
     width: 300px;
     max-height: 600px;
     justify-content: center;
@@ -311,24 +312,21 @@ context-container-1{
     transform: translateY(0px);
     transition: all 0.6s;
     @media only screen and (min-width: 1000px) {
-        width: 320px;
+        width: 100%;
+        max-width: 500px;
         grid-template-columns: 4fr;
         grid-template-rows: 2fr;
         grid-template-columns: 2fr;
         justify-content: space-between;
     }
     @media only screen and (min-width: 1400px) {
-        width: 375px;
-        max-height: 800px;
+        max-width: 800px;
+        max-height: 400px;
         grid-template-rows: 3fr;
         grid-template-columns: 2fr;
     }
   }
-.content-grid-text{
-    margin-top: 1em;
-}
 
-    
   .card-content-container:hover {
 
     border: .5px solid hsl(151, 76%, 82%);
@@ -397,7 +395,7 @@ context-container-1{
 
 .content-grid-text {
     display: grid;
-    justify-content: space-between;
+
 
 }
 
@@ -483,7 +481,12 @@ context-container-1{
 .project-container {
     margin: 1em;
     @media only screen and (min-width: 600px) {
-    margin: 8em;
+        margin: auto;
+        width: 50%;
+}
+@media only screen and (min-width: 1040px) {
+    margin: auto;
+    width: 100%;
 }
 }
 
