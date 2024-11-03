@@ -551,6 +551,11 @@ context-container-1 {
     margin: 50px;
     width: 20%;
     overflow: hidden;
+    display: none;
+    @media only screen and (min-width: 600px) {
+        display: block;
+    }
+    
 }
 
 .container_img {
@@ -625,7 +630,7 @@ context-container-1 {
 .container_content_inner h1 {
     margin: 0;
     font-size: 3em;
-    color: var(--contrast-color);
+    color: #846327;
     margin-bottom: 20px;
     transform: translateY(200px);
     animation: slideUp .8s ease forwards .6s;
@@ -677,7 +682,11 @@ nav {
     line-height: 28px;
     transform: translateY(1000px);
     animation: slideUp .8s ease-in-out forwards .8s;
+}
 
+
+.pages-links a, .btns_more{
+    font-size: 1.5em;
 }
 
 .nav-link h1 {
@@ -701,7 +710,8 @@ nav {
 
 .fixed-nav ul {
     display: flex;
-    margin-left: 1em;
+    margin: 0 1.2em;
+
 
     @media only screen and (min-width: 1000px) {
 
@@ -820,8 +830,10 @@ header {
 
 .dp-box {
     width: 200px;
-    max-height: 400px;
-    border-right: 1px dotted #395346;
+    max-height: 600px;
+    border: #9dedc6 1px dotted;
+    border-radius: 5%;
+    padding: 1em;
 }
 
 .project-conext-container {
@@ -881,4 +893,14 @@ header {
 .border-r {
     border-right: 2px dotted hsl(150, 19%, 27%);
     margin: 25px;
+}
+
+.border-r-l {
+
+    @media only screen and (min-width: 600px) {
+    border-bottom: 1px dotted hsl(150, 25%, 61%);
+}
+@media only screen and (min-width: 1000px) {
+    border: 1px dotted hsl(150, 25%, 61%);
+}
 }
