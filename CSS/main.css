@@ -9,16 +9,25 @@
     box-sizing: border-box;
     font-family: "Afacad Flux", sans-serif;
     font-style: normal;
+    color: var(--body-one);
+}
+
+body{
+    background-color: var(--backgund-main) !important;
 }
 
 :root {
-    --sec-color: hsl(155, 60%, 96%);
+    --body-one: hsl(0, 18%, 97%);
+    --sec-color: hsl(163, 24%, 25%);
     --contrast-color: hsl(150, 19%, 27%);
-    --link: hsl(0, 0%, 0%);
+    --link: hsl(91, 53%, 85%);
     --background-color-header: hsl(150, 16%, 32%);
+    --backgund-main: hsl(186, 57%, 14%);
     --backound-two: hsl(0, 18%, 97%);
-    --project-header-color: hsl(150, 16%, 32%);
+    --non-click-tabs: hsl(154, 17%, 26%);
+    --hover-link: hsl(70, 47%, 85%);
 }
+
 
 p {
     font-size: 1em;
@@ -56,6 +65,14 @@ a:visited {
     font-size: 1.1em;
 }
 
+a:hover {
+    transition: .3s ease-out;
+    transform: scale(1);
+    color: var(--hover-link);
+    animation: alternate 3ms;
+}
+
+
 .medium-text {
     font-size: 1.5em;
 
@@ -71,14 +88,25 @@ a:visited {
         font-size: 3em;
     }
 }
-
-a:hover {
-    transition: .3s ease-out;
-    transform: scale(1);
-    color: var(--sec-color);
-    animation: alternate 3ms;
-    background: var(--contrast-color);
+.padding-none{
+    padding: 0 15%; 
+    margin: 0 auto;
 }
+
+.padding-5{
+    padding: 5% 15%; 
+    margin: 0 auto;
+}
+
+.padding-10{
+    padding: 10% 15%; 
+    margin: 0 auto;
+}
+
+ .padding-15{
+    padding: 15% 15%;
+    margin: 0 auto;
+ }
 
 .top {
     margin-top: 1em;
@@ -117,16 +145,8 @@ iframe {
     justify-content: space-between;
 }
 
-.container {
-    margin: 0 auto;
-    background: #EFFBF6;
-
-    @media only screen and (min-width: 600px) {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 30% 1fr;
-        gap: 1em;
-    }
+.copy {
+    color: var(--body-one);
 }
 
 .card-content-container h2 {
@@ -148,9 +168,12 @@ iframe {
 }
 
 .context {
+    padding: 5%;
+
     @media only screen and (min-width: 1250px) {
         display: flex;
         justify-content: center;
+        padding: 10%;
     }
 }
 
@@ -319,7 +342,7 @@ context-container-1 {
 }
 
 .tabs {
-    background-color: #D9D9D9;
+    background-color: var(--non-click-tabs);
     border-radius: 12px;
     width: 50px;
     height: 40px;
@@ -442,7 +465,7 @@ context-container-1 {
 }
 
 .fa {
-    color: #000;
+    color: var(--link);
     font-size: 1.1em;
     transition: .3s ease-in;
     transform: scale(1.1);
@@ -468,7 +491,6 @@ context-container-1 {
 /*grid*/
 
 
-
 .content-grid-text {
     display: grid;
 
@@ -488,7 +510,7 @@ context-container-1 {
 .about-btn {
     padding: 15px;
     overflow-x: hidden;
-    background-color: #8dc7ab;
+    background-color: var(--backgund-main);
     transition: .3s ease-in;
     transform: scale(1.1);
     z-index: 1;
@@ -509,22 +531,23 @@ context-container-1 {
     bottom: 0;
     height: 100%;
     z-index: -10;
-    background-color: var(--contrast-color);
+
 }
 
 .container {
     height: 100vh;
     max-width: 100%;
+    margin: 0 auto;
     justify-content: space-around;
     align-items: center;
-    color: #fff;
     animation: expand .8s ease forwards;
-    background-color: var(--sec-color);
     position: relative;
     transition: all .8s ease;
 
     @media only screen and (min-width: 600px) {
         display: flex;
+        ;
+
     }
 }
 
@@ -538,12 +561,9 @@ context-container-1 {
 }
 
 .container_content_inner {
-    width: 100%;
     padding: 0 4em;
-
     @media only screen and (min-width: 1000px) {
-        width: 70%;
-        padding: 0 6em;
+    padding: 0 6em;
     }
 }
 
@@ -552,10 +572,11 @@ context-container-1 {
     width: 20%;
     overflow: hidden;
     display: none;
+
     @media only screen and (min-width: 600px) {
         display: block;
     }
-    
+
 }
 
 .container_img {
@@ -622,21 +643,20 @@ context-container-1 {
 }
 
 .container_content_inner p {
-    color: #395346;
+    color: var(--body-one);
     transform: translateY(200px);
     animation: slideUp .8s ease forwards .5s;
 }
 
 .container_content_inner h1 {
     margin: 0;
-    font-size: 3em;
-    color: #846327;
+    font-size: 4em;
+    color: hsl(65, 85%, 74%);
     margin-bottom: 20px;
     transform: translateY(200px);
     animation: slideUp .8s ease forwards .6s;
-
     @media only screen and (min-width: 1000px) {
-        font-size: 6em;
+    font-size: 6em;
     }
 
 }
@@ -685,7 +705,8 @@ nav {
 }
 
 
-.pages-links a, .btns_more{
+.pages-links a,
+.btns_more {
     font-size: 1.5em;
 }
 
@@ -704,7 +725,8 @@ nav {
 }
 
 .fixed-nav {
-    background: var(--sec-color);
+    background-color: var( --contrast-color);
+    z-index: 1;
 }
 
 
@@ -744,15 +766,15 @@ header {
 
 /* Project css */
 .header-project {
-    background-color: var(--background-color-header);
+    background: var(--backound-main);
     padding: 2%;
     width: 100%;
     height: auto;
 }
 
-.header-project h1 {
+/* .header-project h1 {
     color: var(--sec-color);
-}
+} */
 
 .header,
 .project-nav {
@@ -771,7 +793,7 @@ header {
 }
 
 .project-information-container {
-    background-color: var(--backound-two);
+    background-color: var(--backgund-main);
     padding: 1em;
 
     @media only screen and (min-width: 600px) {
@@ -783,8 +805,8 @@ header {
 }
 
 .project-tabs {
-    background-color: var(--project-header-color);
-    color: var(--sec-color);
+    background-color: var(--non-click-tabs);
+    color: var(--body-one);
     border-radius: 12px;
     width: fit-content;
     padding: .5em;
@@ -815,6 +837,9 @@ header {
         padding: 6em;
 
     }
+}
+.background-color-one{
+    background-color: #d1e7dc;
 }
 
 .personal-container {
@@ -898,9 +923,10 @@ header {
 .border-r-l {
 
     @media only screen and (min-width: 600px) {
-    border-bottom: 1px dotted hsl(150, 25%, 61%);
-}
-@media only screen and (min-width: 1000px) {
-    border: 1px dotted hsl(150, 25%, 61%);
-}
+        border-bottom: 1px dotted hsl(150, 25%, 61%);
+    }
+
+    @media only screen and (min-width: 1000px) {
+        border: 1px dotted hsl(150, 25%, 61%);
+    }
 }
