@@ -650,7 +650,7 @@ context-container-1 {
 
 .container_content_inner h1 {
     margin: 0;
-    font-size: 4em;
+    font-size: 2em;
     color: hsl(65, 85%, 74%);
     margin-bottom: 20px;
     transform: translateY(200px);
@@ -838,8 +838,10 @@ header {
 
     }
 }
+
+
 .background-color-one{
-    background-color: #d1e7dc;
+    background-color: #a5a5a5;
 }
 
 .personal-container {
