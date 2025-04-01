@@ -835,11 +835,15 @@ header {
 
 
 .background-color-one{
-    background-color: #a5a5a5;
+    background-color: #cddec9;
+  
 }
-
+.personal p, .personal{
+    color: #395346;
+}
 .personal-container {
     text-align: center;
+    color: #395346;
 }
 
 .para-img {
