@@ -547,11 +547,9 @@ context-container-1 {
     @media only screen and (min-width: 600px) {
         display: flex;
         height: 70vh;
-        ;
 
     }
 }
-
 
 .container_content {
     width: 100%;
