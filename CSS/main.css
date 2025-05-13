@@ -171,12 +171,17 @@ iframe {
 .context {
     padding: 5%;
 
-    @media only screen and (min-width: 1250px) {
+    @media only screen and (min-width: 800px) {
         display: flex;
         justify-content: center;
         padding: 10%;
     }
 }
+
+.context-text{
+    @media only screen and (min-width: 800px) {
+    padding: 1em;
+}}
 
 /*background images for grid*/
 .context-background-img {
