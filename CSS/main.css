@@ -44,7 +44,6 @@ h2,
 h3,
 h4 {
     font-family: 'Clash Display', sans-serif;
-    margin: 1em 0;
     font-weight: 700;
     letter-spacing: 2px;
     color: var(--project-header-color);
@@ -52,7 +51,6 @@ h4 {
 
 .project-container h1 {
     font-size: 2.5em;
-  
     @media only screen and (min-width: 600px) {
         font-size: 4em;
     }
@@ -550,7 +548,7 @@ context-container-1 {
 
     @media only screen and (min-width: 600px) {
         display: flex;
-        height: 70vh;
+        height: 100vh;
 
     }
 }
@@ -589,7 +587,6 @@ context-container-1 {
 
 .project-container {
     margin: 1em;
-
     @media only screen and (min-width: 600px) {
         margin: auto;
         width: 100%;
@@ -597,6 +594,10 @@ context-container-1 {
 
 }
 
+
+.project-container h1{
+    margin: 1em;
+}
 .one-margin {
     margin-left: 1.2em;
 }
@@ -777,7 +778,6 @@ header {
 
 .header,
 .project-nav {
-
     position: sticky;
     top: 0;
 }
