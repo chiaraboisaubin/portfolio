@@ -475,7 +475,7 @@ context-container-1 {
 
 }
 
-.fa:hover {
+.fa:hover, .btns_more a:hover {
     color: burlywood;
 }
 
@@ -522,6 +522,14 @@ context-container-1 {
     font-weight: 500;
     cursor: pointer;
 
+}
+
+.about-btn:hover{
+    background-color: var(--backound-two);
+    color: #000;
+    transition: .3s ease-in;
+    transform: scale(1.1);
+    z-index: 1;
 }
 
 
@@ -861,7 +869,7 @@ header {
 .dp-box {
     width: 200px;
     max-height: 600px;
-    border: #9dedc6 1px dotted;
+ 
     border-radius: 5%;
     padding: 1em;
 }
