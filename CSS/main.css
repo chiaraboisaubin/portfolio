@@ -26,6 +26,7 @@ body{
     --backound-two: hsl(0, 18%, 97%);
     --non-click-tabs: hsl(154, 17%, 26%);
     --hover-link: hsl(70, 47%, 85%);
+    --header:hsl(65, 85%, 74%);
 }
 
 
@@ -69,6 +70,11 @@ a:hover {
     transform: scale(1);
     color: var(--hover-link);
     animation: alternate 3ms;
+}
+
+.sub-title {
+font-size: 2em;
+color: var(--header);
 }
 
 
@@ -616,8 +622,7 @@ context-container-1 {
 }
 
 .par p {
-    color: var(--contrast-color);
-    line-height: 28px;
+    line-height: 2em;
     font-size: 1.5em;
     transform: translateY(300px);
     animation: slideUp .8s ease-in-out forwards .8s;
@@ -651,7 +656,6 @@ context-container-1 {
 }
 
 .container_content_inner p {
-    color: var(--body-one);
     transform: translateY(200px);
     animation: slideUp .8s ease forwards .5s;
 }
