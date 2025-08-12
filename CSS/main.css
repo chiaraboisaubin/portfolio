@@ -168,6 +168,12 @@ iframe {
     }
 }
 
+#nav-logo{
+    width: 2%;
+    height: auto;
+    margin: 1em;
+}
+
 .card-content-container h3 {
     font-weight: 300;
 }
