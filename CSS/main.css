@@ -10,6 +10,7 @@
     font-family: "Afacad Flux", sans-serif;
     font-style: normal;
     color: var(--body-one);
+    letter-spacing: 2px;
 }
 
 body{
@@ -852,7 +853,7 @@ header {
     background-color: var(--sec-color);
 
     @media only screen and (min-width: 600px) {
-        padding: 6em;
+        padding: 4em;
 
     }
 }
