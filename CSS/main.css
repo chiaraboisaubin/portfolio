@@ -500,6 +500,7 @@ context-container-1 {
 
 .social-links a {
     display: table-caption;
+    text-decoration: none;
 }
 
 /*grid*/
