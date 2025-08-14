@@ -18,14 +18,14 @@ body{
 }
 
 :root {
-    --body-one: hsl(0, 18%, 97%);
-    --sec-color: hsl(163, 24%, 25%);
-    --contrast-color: hsl(150, 19%, 27%);
+    --body-one: hsla(0, 0%, 100%, 1);
+    --sec-color: hsla(197, 95%, 8%, 1);
+    --contrast-color: hsla(242, 53%, 13%, 1);
     --link: hsl(91, 53%, 85%);
-    --background-color-header: hsl(150, 16%, 32%);
-    --backgund-main: hsl(186, 57%, 14%);
+    --background-color-header: hsla(234, 100%, 93%, 1);
+    --backgund-main: hsla(248, 31%, 34%, 1);
     --backound-two: hsl(0, 18%, 97%);
-    --non-click-tabs: hsl(154, 17%, 26%);
+    --non-click-tabs:#100F31;
     --hover-link: hsl(70, 47%, 85%);
     --header:hsl(65, 85%, 74%);
 }
@@ -516,7 +516,7 @@ context-container-1 {
 .chiara-pic {
     width: 100%;
     border-radius: 10%;
-    border: #8dc7ab 1em solid;
+    border: hsla(234, 100%, 93%, 1) 1em solid;
 }
 
 .about {
