@@ -12,7 +12,9 @@
     color: var(--body-one);
     letter-spacing: 2px;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body{
     background-color: var(--backgund-main) !important;
 }
@@ -49,6 +51,7 @@ h4 {
     font-weight: 700;
     letter-spacing: 2px;
     color: var(--project-header-color);
+    margin: 1em 0;
 }
 
 .project-container h1 {
@@ -100,7 +103,7 @@ color: var(--header);
 }
 
 .padding-5{
-    padding: 5% 15%; 
+    padding: 0 5% 5% 5%; 
     margin: 0 auto;
 }
 
@@ -125,7 +128,7 @@ bottom {
 .wrap {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .wrap-2 {
@@ -382,10 +385,26 @@ context-container-1 {
     }
 }
 
+
 .flex-wrap-r {
     display: flex;
     flex-wrap: wrap;
 
+}
+
+.dp-flex{
+        @media only screen and (min-width: 600px) {
+        display: flex;
+        align-content: space-evenly;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    
+    }
+}
+
+.dp-flex img{
+    width: 150px;
+    height: auto;
 }
 
 .bold {
@@ -954,4 +973,12 @@ header {
     @media only screen and (min-width: 1000px) {
         border: 1px dotted hsl(150, 25%, 61%);
     }
+}
+
+#img-mid{
+    width: 50%;
+}
+
+.process{
+    width: 280px;
 }
