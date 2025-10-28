@@ -536,9 +536,12 @@ context-container-1 {
 }
 
 .chiara-pic {
-    width: 100%;
+    width: 50%;
     border-radius: 10%;
     border: hsla(234, 100%, 93%, 1) 1em solid;
+        @media only screen and (min-width: 600px) {
+              width: 100%;
+        }
 }
 
 .about {
