@@ -2,59 +2,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://api.fontshare.com/v2/css?f[]=clash-display@400,600&f[]=excon@100,300,400,500,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Paytone+One&family=Sen:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Paytone+One&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Afacad Flux", sans-serif;
-    font-style: normal;
-    color: var(--body-one);
-    letter-spacing: 2px;
+
 }
+
 html {
   scroll-behavior: smooth;
 }
 body{
-    background-color: var(--backgund-main) !important;
+    background-color: var(--backgund-main) ;
 }
 
 :root {
-    --body-one: hsla(0, 0%, 100%, 1);
+    /*color*/
+    --body-one: hsla(234, 100%, 93%, 1);
     --sec-color: hsla(197, 95%, 8%, 1);
     --contrast-color: hsla(242, 53%, 13%, 1);
     --link: hsl(91, 53%, 85%);
-    --background-color-header: hsla(234, 100%, 93%, 1);
-    --backgund-main: hsla(248, 31%, 34%, 1);
-    --backound-two: hsl(0, 18%, 97%);
+
+    /*backgrounds*/
+    --background-color-ome: hsla(232, 31%, 29%, 1);
+    --background-color-header: hsla(147, 43%, 71%, 1);
+    --background-color-header-two: hsla(245, 100%, 81%, 1);
+    --backgund-main: hsl(242, 53%, 13%);
+    --background-content: hsla(250, 36%, 23%, 1);
+    --backound-two: hsla(250, 36%, 23%, 1);
+    --background-three: hsla(197, 95%, 8%, 1);
+    --background-four: hsla(248, 31%, 34%, 1);
+    --background-five: hsla(0, 0%, 12%, 1);
+    --card-one: hsla(202, 20%, 49%, 0.57);
+
+
     --non-click-tabs:#100F31;
     --hover-link: hsl(70, 47%, 85%);
-    --header:hsl(65, 85%, 74%);
+    --header:hsla(147, 43%, 71%, 1);
+    --project-header-color: hsla(234, 100%, 93%, 1);
+/* fonts */
 }
 
 
 p {
     font-size: 16px;
+    letter-spacing: 2px;
+    font-size: 1.125rem;
     margin: 1em 0;
+    font-family: "Sen", sans-serif;
+    font-style: normal;
+    color: var(--body-one);
 }
 
 
 li {
     list-style: none;
+    font-family: "Sen", sans-serif;
+    color: var(--body-one);
+}
+
+i{
+font-family: "Afacad", sans-serif;
+font-size: 1rem;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.02rem;
+   color: var(--body-one);
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: 'Clash Display', sans-serif;
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: var(--project-header-color);
-    margin: 1em 0;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
+.context h3,.competitive h3, .title h1 {
+font-family: "Paytone One";
+font-size: 3rem;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; 
+letter-spacing: -0.09rem;
+color: var(--background-color-header-two);
+}
+
+
+h2, .project-container h1 {
+font-family: "Paytone One";
+font-size: 3rem;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 4.8rem */
+letter-spacing: -0.08rem;
+color: var(--background-color-header-two);
+
+ }
+
 .project-container h1 {
+     color: var(--header);
     font-size: 2.5em;
     @media only screen and (min-width: 600px) {
         font-size: 4em;
@@ -65,6 +117,7 @@ a,
 a:focus,
 a:active,
 a:visited {
+    font-family: "Sen", sans-serif;
     color: var(--link);
     font-size: 1em;
 }
@@ -78,6 +131,7 @@ a:hover {
 
 .sub-title {
 font-size: 2em;
+font-weight: 800;
 color: var(--header);
 }
 
@@ -93,16 +147,20 @@ color: var(--header);
 }
 
 .large-text {
-    font-size: 2em;
-
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: -0.08rem;
     @media only screen and (min-width: 600px) {
         font-size: 3em;
     }
 }
 
 .padding-none{
+    @media only screen and (min-width: 600px) {
     padding: 0 15%; 
     margin: 0 auto;
+}
 }
 
 .padding-5{
@@ -159,6 +217,7 @@ iframe {
 
 .copy {
     color: var(--body-one);
+    font-family: "Sen", sans-serif;
 }
 
 .card-content-container h2 {
@@ -176,9 +235,12 @@ iframe {
 }
 
 #nav-logo{
-    width: 2%;
+    width: 50px;
     height: auto;
     margin: 1em;
+        @media only screen and (min-width: 1400px) {
+
+        }
 }
 
 .card-content-container h3 {
@@ -186,11 +248,14 @@ iframe {
 }
 
 .context {
-    padding: 5%;
-
+display: flex;
+padding: 1rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+background-color: var(--background-color-ome);
     @media only screen and (min-width: 800px) {
-        display: flex;
-        justify-content: center;
         padding: 10%;
     }
 }
@@ -199,6 +264,10 @@ iframe {
     @media only screen and (min-width: 800px) {
     padding: 1em;
 }}
+
+.context-text h2, .testing h2, .development h2, .iteration h2{
+color: var(--background-color-header);
+}
 
 /*background images for grid*/
 .context-background-img {
@@ -211,23 +280,102 @@ iframe {
     image-rendering: -webkit-optimize-contrast;
 
     @media only screen and (min-width: 1000px) {
-        width: 320px;
-        height: 375px;
+        width: 300px;
+        height: 300px;
 
         @media only screen and (min-width: 1400px) {
-            width: 400px;
-            height: 400px;
+          
         }
     }
 }
 
-context-container-1 {
+.context-container-1 {
     @media only screen and (min-width: 600px) {
         display: flex;
         justify-content: space-between;
     }
 }
 
+.solve{
+    background-color: var(--background-five);
+    margin: 1em -1.5em;
+}
+.impact{
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.impact-box{
+padding: 1em;
+    background-color: var(--card-one);
+    border-radius: 12px;
+}
+
+.impact-txt{
+    color: hsla(62, 90%, 92%, 1);
+    font-size: 1rem;
+    font-family: "Paytone One";
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.055rem;    
+    font-size: 3rem;
+    margin: 0;
+}
+
+.impact-l-txt{
+    color: hsla(62, 90%, 92%, 1);
+    font-family: "Paytone One";
+    letter-spacing: -0.055rem;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.final{
+font-family: "Paytone One";
+font-size: 3rem;
+font-style: normal;
+font-weight: var(--sds-typography-title-hero-font-weight);
+letter-spacing: -0.09rem;
+color: var(--background-color-header-two);
+    background-color: hsla(245, 100%, 81%, 0.3);
+padding: .5em;
+margin: 1em -0.4em;
+}
+
+.desk{
+    margin: 1em;
+}
+
+.final a{
+    font-size: 1em;
+}
+
+.final h3, .goals-cont h3, .learn h3, .testing h3, .problem h3, .goals h3, .writng h3 {
+
+font-family: "Paytone One";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: var(--sds-typography-title-hero-font-weight);
+line-height: 120%; 
+letter-spacing: -0.09rem;
+color: var(--background-color-header-two);
+}
+ 
+.goals-cont h4{
+color: var(--background-color-header-two);
+font-family: "Afacad", sans-serif;
+font-size: 1rem;
+}
+
+.goals-cont{
+    margin: 1em -.5em;
+}
+
+.testing{
+    margin: 1em;
+}
 .back-one {
     background-image: url(https://i.ibb.co/rfBwZKF/fiver-thumbnail-7.png);
 }
@@ -274,6 +422,9 @@ context-container-1 {
     margin: 1em;
 }
 
+.goals{
+    margin: 1em;
+}
 .content-container-hero p {
     color: #395346;
 }
@@ -307,12 +458,12 @@ context-container-1 {
 }
 
 .project-grid {
-    z-index: 9;
+    z-index: 6;
 
     @media only screen and (min-width: 830px) {
         display: grid;
-        grid-column-gap: 2em;
-        grid-row-gap: 2em;
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
@@ -352,10 +503,19 @@ context-container-1 {
     margin: 2em 6em;
 }
 
-.about-container h1,
-.dp-containter h1 {
-    font-size: 4em;
+.about-container h2,
+.dp-containter h2 {
+font-family: "Paytone One";
+font-size: 4rem;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 4.8rem */
+letter-spacing: -0.08rem;
+color: var(--background-color-header-two);
+    @media only screen and (min-width: 600px) {
+    font-size: 4.5rem;
     margin: 0 0 .5em 0;
+}
 }
 
 .about-container-text {
@@ -374,7 +534,6 @@ context-container-1 {
     text-align: center;
     font-weight: 500;
     margin: .2em .2em 0 0;
-
     @media only screen and (min-width: 600px) {
         margin: .5em .5em 0 0;
     }
@@ -396,8 +555,15 @@ context-container-1 {
 }
 
 .dp-flex{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+gap: 1rem;
+align-self: stretch;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 1rem;
         @media only screen and (min-width: 600px) {
-        display: flex;
         align-content: space-evenly;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -410,6 +576,38 @@ context-container-1 {
     height: auto;
 }
 
+.process{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+grid-row: 1 / span 1;
+grid-column: 1 / span 1;
+justify-self: stretch;
+padding: 1em;
+border-radius: 0.625rem;
+background: rgba(167, 159, 255, 0.30);
+color: var(--background-color-header);
+width: 160px;
+height: 350px;
+padding-top: 1em;
+}
+
+.process h3{
+font-family: Sen;
+font-style: normal;
+line-height: 120%; /* 4.8rem */
+letter-spacing: -0.08rem;
+}
+
+.process ul{
+font-family: Sen;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.0175rem;
+}
 .bold {
     font-weight: bold;
 }
@@ -431,15 +629,15 @@ context-container-1 {
 .card-content-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 4em;
-    margin: 2em;
+    gap: 1em;
+    margin: 1em;
     width: 300px;
     max-height: 600px;
     justify-content: center;
     align-content: space-around;
     font-size: 16px;
-    transform: translateY(0px);
     transition: all 0.6s;
+    background-color: var(--background-content);
 
     @media only screen and (min-width: 1000px) {
         flex-wrap: nowrap;
@@ -452,53 +650,26 @@ context-container-1 {
     }
 
     @media only screen and (min-width: 1400px) {
-        max-width: 800px;
-        max-height: 400px;
+        max-width: 300px;
+        max-height: 300px;
         grid-template-rows: 3fr;
         grid-template-columns: 2fr;
     }
 }
 
 .card-content-container:hover {
-    background: hsla(151, 76%, 82%, 0.182);
+   width: 400px;
+    max-height: 400px;
+    background-color: #dad78c5f;
     border-radius: 5%;
-    padding: 5%;
-    margin: auto;
-
-    & .content-grid-text h2 {
-        transform: translateY(-10px);
-        transition: all 0.6s;
-        color: #dad88c;
-
-    }
-
-    & .content-grid-text a {
-        transform: translateY(5px);
-        transition: all 0.6s;
-        color: #dad88c;
-        background: none;
-
-    }
-
-    & .content-grid-text ul {
-        transform: translateY(-5px);
-        transition: all 0.6s;
-    }
+    transition: all 0.6s;
+        @media only screen and (min-width: 1400px) {
+     width: 400px;
+}
 }
 
-.card-content-container:hover {
-
-    & .content-grid-text h2 {
-        transform: translateY(10px);
-        transition: all 0.6s;
-
-    }
-
-    & .content-grid-text ul {
-        transform: translateY(5px);
-        transition: all 0.6s;
-    }
-
+.competitive, .learn, .problem, .iteration{
+    margin: 0 1em;
 }
 
 .fa {
@@ -516,9 +687,12 @@ context-container-1 {
 
 .social-links li {
     color: #000;
-    display: inline-block;
-    margin: 3em 2em 1em 0em;
-    padding: 0 8em 0 0;
+    padding: 1em;
+}
+
+.social-links{
+    display: inline-flex;
+    flex-wrap: wrap;
 }
 
 .social-links a {
@@ -531,8 +705,13 @@ context-container-1 {
 
 .content-grid-text {
     display: grid;
+}
 
-
+.content-grid-text h2{
+  font-family: "Afacad", sans-serif;  
+}
+.content-grid-text h2:hover{
+  color: #cddec9;  
 }
 
 .chiara-pic {
@@ -546,12 +725,13 @@ context-container-1 {
 
 .about {
     margin: 6em 0 0 0;
+    padding: 2em;
 }
 
 .about-btn {
     padding: 15px;
     overflow-x: hidden;
-    background-color: var(--backgund-main);
+    background-color: var(--background-color-header);
     transition: .3s ease-in;
     transform: scale(1.1);
     z-index: 1;
@@ -565,7 +745,8 @@ context-container-1 {
 
 .about-btn:hover{
     background-color: var(--backound-two);
-    color: #000;
+    border: 2px solid #cddec9;
+    color: #cddec9;
     transition: .3s ease-in;
     transform: scale(1.1);
     z-index: 1;
@@ -584,7 +765,7 @@ context-container-1 {
 }
 
 .container {
-    height: 120vh;
+    height: auto;
     max-width: 100%;
     margin: 0 auto;
     justify-content: space-around;
@@ -710,6 +891,18 @@ nav {
     line-height: 28px;
     transform: translateY(300px);
     animation: slideUp .8s ease-in-out forwards .8s;
+    background-color: var(--background-three);
+    font-family: Afacad;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
 }
 
 @keyframes slideIn {
@@ -747,12 +940,29 @@ nav {
     line-height: 28px;
     transform: translateY(1000px);
     animation: slideUp .8s ease-in-out forwards .8s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+.nav-link-two{
+    overflow: hidden;
+    line-height: 28px;
+    transform: translateY(1000px);
+    animation: slideUp .8s ease-in-out forwards .8s;
+    display: flex;
+    align-items: anchor-center;
+    justify-content: space-around;
+}
+
+.pages-links{
+    display: flex;
+}
 
 .pages-links a,
 .btns_more {
     font-size: 1.5em;
+    padding: .2em;
 }
 
 .nav-link h1 {
@@ -763,7 +973,6 @@ nav {
 
 .nav-link ul li {
     padding-right: .5em;
-
     @media only screen and (min-width: 1000px) {
         padding-right: 1em;
     }
@@ -777,7 +986,10 @@ nav {
 
 .fixed-nav ul {
     display: flex;
+    margin: 0 .2em;
+        @media only screen and (min-width: 1000px) {
     margin: 0 1.2em;
+        }
 
 
     @media only screen and (min-width: 1000px) {
@@ -788,34 +1000,57 @@ nav {
 }
 
 footer {
-    margin-top: 3em;
+    padding: 2em 3em;
     background-color: var(--sec-color);
 }
 
 footer .socials {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer-content {
     padding: 1em .5em;
-
     @media only screen and (min-width: 600px) {
         padding: 2em 6em;
     }
 }
 
-header {
+header, .header-y {
     z-index: 9;
-}
+    background-color: var(--backound-two);
+    padding: 4rem 1.5rem;
+    color: var(--Color-2, #DDE0FF);
+    font-family: "Afacad", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+      @media only screen and (min-width: 600px){
+    padding: 1em 2em;
+}}
 
+header h1{ 
+    font-size: 1.2rem;
+    font-weight: 200;
+}
 /* Project css */
 .header-project {
-    background: var(--backound-main);
-    padding: 2%;
+    @media only screen and (min-width: 600px) {
+       padding: 2%;
+}
+}
+.header-project h2 {
+    color: var(--body-one);
+    font-family: Afacad;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
     width: 100%;
     height: auto;
 }
+
 
 /* .header-project h1 {
     color: var(--sec-color);
@@ -837,11 +1072,18 @@ header {
 }
 
 .project-information-container {
-    background-color: var(--backgund-main);
+    background-color: var(--background-four);
+    margin-top: -1em;
     padding: 1em;
-
+    display: flex;
+    padding: 3.5rem 1rem;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 0.625rem;
+    align-self: stretch;
+    flex-wrap: wrap;
     @media only screen and (min-width: 600px) {
-        display: flex;
         align-items: baseline;
         justify-content: space-between;
 
@@ -861,7 +1103,14 @@ header {
 }
 
 .list-tab {
+    font-family: Sen;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0225rem;
     display: flex;
+    color: var(--background-color-header);
 }
 
 .list-tab ul {
@@ -873,12 +1122,11 @@ header {
 }
 
 .background-color {
-    padding: 2em;
-    margin: 0;
+   
     background-color: var(--sec-color);
-
+margin: 1em;
     @media only screen and (min-width: 600px) {
-        padding: 4em;
+
 
     }
 }
@@ -904,32 +1152,27 @@ header {
 
 
 .dp-box {
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     max-height: 600px;
- 
-    border-radius: 5%;
+    border-radius: 12px;
     padding: 1em;
+    margin: .2em;
+    background-color: #5cb18652;
+    font-size: 1em;
 }
 .dp-box img{ 
     width: 100%;
     height: auto;
 }
-.project-conext-container {
-    margin: 0 1em;
-
-    @media only screen and (min-width: 600px) {
-        margin: 0 6em;
-    }
-}
-
-.project-conext-container p {
-    margin: 1em 0;
-    line-height: 1.5em;
+.dp-box h3{
+    color: #cddec9;
+    font-family: "Sen", sans-serif;
 }
 
 .project-conext-container h2 {
     font-size: 3em;
-    color: var(--project-header-color);
+    color: var(--background-color-header);
 }
 
 .content-container-project img {
@@ -988,6 +1231,3 @@ header {
     width: 50%;
 }
 
-.process{
-    width: 280px;
-}
