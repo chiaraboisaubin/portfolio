@@ -83,9 +83,9 @@ h4 {
   letter-spacing: 1px;
 }
 
-.context h3,.competitive h3, .title h1 {
+.context h3,.competitive h3, .title h1, h3 {
 font-family: "Paytone One";
-font-size: 3rem;
+font-size: 2rem;
 font-style: normal;
 font-weight: 400;
 line-height: 120%; 
@@ -93,6 +93,11 @@ letter-spacing: -0.09rem;
 color: var(--background-color-header-two);
 }
 
+ h4{
+font-family: "Paytone One";
+font-size: 2.5rem;
+color: var(--background-color-header-two);
+ }
 
 h2, .project-container h1 {
 font-family: "Paytone One";
@@ -272,7 +277,7 @@ color: var(--background-color-header);
 /*background images for grid*/
 .context-background-img {
     border-radius: 1em;
-    width: 320px;
+    width: 280px;
     height: 300px;
     border: 1px solid #eee;
     background-size: cover;
@@ -344,7 +349,7 @@ padding: .5em;
 margin: 1em -0.4em;
 }
 
-.desk{
+.desk, .context-with-image{
     margin: 1em;
 }
 
@@ -565,7 +570,7 @@ justify-content: center;
 padding-top: 1rem;
         @media only screen and (min-width: 600px) {
         align-content: space-evenly;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
     
     }
@@ -598,6 +603,7 @@ font-family: Sen;
 font-style: normal;
 line-height: 120%; /* 4.8rem */
 letter-spacing: -0.08rem;
+font-size: 1.23rem;
 }
 
 .process ul{
@@ -631,8 +637,10 @@ letter-spacing: 0.0175rem;
     flex-wrap: wrap;
     gap: 1em;
     margin: 1em;
+    padding: 1em;
     width: 300px;
     max-height: 600px;
+    border-radius: .8rem;
     justify-content: center;
     align-content: space-around;
     font-size: 16px;
@@ -658,13 +666,15 @@ letter-spacing: 0.0175rem;
 }
 
 .card-content-container:hover {
-   width: 400px;
+   width: 300px;
     max-height: 400px;
     background-color: #dad78c5f;
     border-radius: 5%;
     transition: all 0.6s;
-        @media only screen and (min-width: 1400px) {
-     width: 400px;
+   @media only screen and (min-width: 1000px) {
+        width: 100%;
+        max-width: 500px;
+
 }
 }
 
@@ -951,6 +961,7 @@ nav {
     transform: translateY(1000px);
     animation: slideUp .8s ease-in-out forwards .8s;
     display: flex;
+    flex-wrap: wrap;
     align-items: anchor-center;
     justify-content: space-around;
 }
@@ -1123,7 +1134,7 @@ header h1{
 
 .background-color {
    
-    background-color: var(--sec-color);
+    background-color: var( --background-four);
 margin: 1em;
     @media only screen and (min-width: 600px) {
 
@@ -1169,7 +1180,9 @@ margin: 1em;
     color: #cddec9;
     font-family: "Sen", sans-serif;
 }
-
+.project-conext-container{
+    margin: 1em;
+}
 .project-conext-container h2 {
     font-size: 3em;
     color: var(--background-color-header);
