@@ -161,6 +161,18 @@ color: var(--header);
     }
 }
 
+.header-y{
+    color: var(--header) ;
+    background-color: var(--backound-two);
+    padding: 2rem 1.5rem;
+    font-family: "Afacad", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
 .padding-none{
     @media only screen and (min-width: 600px) {
     padding: 0 15%; 
@@ -678,7 +690,7 @@ letter-spacing: 0.0175rem;
 }
 }
 
-.competitive, .learn, .problem, .iteration{
+.competitive, .learn, .problem, .iteration, .problem {
     margin: 0 1em;
 }
 
@@ -1027,7 +1039,7 @@ footer .socials {
     }
 }
 
-header, .header-y {
+header {
     z-index: 9;
     background-color: var(--backound-two);
     padding: 4rem 1.5rem;
@@ -1133,9 +1145,9 @@ header h1{
 }
 
 .background-color {
-   
-    background-color: var( --background-four);
+background-color: var( --background-four);
 margin: 1em;
+padding: 1em;
     @media only screen and (min-width: 600px) {
 
 
@@ -1181,7 +1193,10 @@ margin: 1em;
     font-family: "Sen", sans-serif;
 }
 .project-conext-container{
-    margin: 1em;
+   margin: 0 1em 3em 1em;
+    @media only screen and (min-width: 600px) {
+         margin: 0 4em 6em 4em;
+    }
 }
 .project-conext-container h2 {
     font-size: 3em;
