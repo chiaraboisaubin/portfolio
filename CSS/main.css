@@ -481,8 +481,9 @@ font-size: 1rem;
         display: grid;
         grid-column-gap: 1em;
         grid-row-gap: 1em;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 1fr);
+        align-content: center;
     }
 
     @media only screen and (min-width: 1250px) {}
@@ -798,7 +799,8 @@ letter-spacing: 0.0175rem;
 
     @media only screen and (min-width: 600px) {
         display: flex;
-        height: 100vh;
+            height: 92vh
+       
 
     }
 }
@@ -836,9 +838,9 @@ letter-spacing: 0.0175rem;
 }
 
 .project-container {
-    margin: 1em;
+    margin: 18em 0em 0em 0em;
     @media only screen and (min-width: 600px) {
-        margin: auto;
+        margin: 18em 0em 0em 0em;
         width: 100%;
     }
 
@@ -985,7 +987,7 @@ nav {
 .pages-links a,
 .btns_more {
     font-size: 1.5em;
-    padding: .2em;
+    padding: .5em;
 }
 
 .nav-link h1 {
