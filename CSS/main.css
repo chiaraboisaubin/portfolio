@@ -805,11 +805,12 @@ letter-spacing: 0.0175rem;
     animation: expand .8s ease forwards;
     position: relative;
     transition: all .8s ease;
-
-    @media only screen and (min-width: 600px) {
+ @media only screen and (min-width: 600px) {
+            height: 88vh
+        }
+    @media only screen and (min-width: 1200px) {
         display: flex;
-            height: 92vh
-       
+            height: 92vh;
 
     }
 }
@@ -988,6 +989,7 @@ nav {
     flex-wrap: wrap;
     align-items: anchor-center;
     justify-content: space-around;
+    position: fixed;
 
 }
 
