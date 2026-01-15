@@ -1164,22 +1164,25 @@ background-color: var( --background-four);
 margin: 1em;
 padding: 1em;
     @media only screen and (min-width: 600px) {
-
-
     }
 }
 
-
 .background-color-one{
-    background-color: #cddec9;
-  
+    background-color: hsl(241, 51%, 33%);
+    padding: 1em;
 }
+
 .personal p, .personal{
-    color: #395346;
+    color: var( --body-one);
 }
 .personal-container {
     text-align: center;
-    color: #395346;
+    color: var( --body-one);
+}
+
+.personal-container img{
+    width: 50%;
+    height: auto;
 }
 
 .para-img {
