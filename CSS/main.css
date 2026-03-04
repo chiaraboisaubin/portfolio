@@ -806,10 +806,10 @@ letter-spacing: 0.0175rem;
     position: relative;
     transition: all .8s ease;
  @media only screen and (min-width: 600px) {
-            height: 88vh;
+        display: flex;    
+        height: 88vh;
         
     @media only screen and (min-width: 1200px) {
-        display: flex;
         height: 92vh;
 
     }
@@ -823,7 +823,11 @@ letter-spacing: 0.0175rem;
     @media only screen and (min-width: 600px) {
         width: 80%;
     }
+        @media only screen and (min-width: 1200px) {
+        width: 80%;
+    }
 }
+
 
 .container_content_inner {
     padding: 0 4em;
