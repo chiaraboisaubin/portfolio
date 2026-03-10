@@ -4,18 +4,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Paytone+One&family=Sen:wght@400..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Paytone+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Sen", sans-serif;
 
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
-body{
-    background-color: var(--backgund-main) ;
+
+body {
+    background-color: var(--backgund-main);
 }
 
 :root {
@@ -38,11 +41,11 @@ body{
     --card-one: hsla(202, 20%, 49%, 0.57);
 
 
-    --non-click-tabs:#100F31;
+    --non-click-tabs: #100F31;
     --hover-link: hsl(70, 47%, 85%);
-    --header:hsla(147, 43%, 71%, 1);
+    --header: hsla(147, 43%, 71%, 1);
     --project-header-color: hsla(234, 100%, 93%, 1);
-/* fonts */
+    /* fonts */
 }
 
 
@@ -63,56 +66,62 @@ li {
     color: var(--body-one);
 }
 
-i{
-font-family: "Afacad", sans-serif;
-font-size: 1rem;
-font-style: italic;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.02rem;
-   color: var(--body-one);
+i {
+    font-family: "Sen", sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02rem;
+    color: var(--body-one);
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 1px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
-.context h3,.competitive h3, .title h1, h3 {
-font-family: "Paytone One";
-font-size: 2rem;
-font-style: normal;
-font-weight: 400;
-line-height: 120%; 
-letter-spacing: -0.09rem;
-color: var(--background-color-header-two);
+.context h3,
+.competitive h3,
+.title h1,
+h3 {
+    font-family: "Paytone One";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -0.09rem;
+    color: var(--background-color-header-two);
 }
 
- h4{
-font-family: "Paytone One";
-font-size: 2.5rem;
-color: var(--background-color-header-two);
- }
+h4 {
+    font-family: "Paytone One";
+    font-size: 2.5rem;
+    color: var(--background-color-header-two);
+}
 
-h2, .project-container h1 {
-font-family: "Paytone One";
-font-size: 3rem;
-font-style: normal;
-font-weight: 400;
-line-height: 120%; /* 4.8rem */
-letter-spacing: -0.08rem;
-color: var(--background-color-header-two);
+h2,
+.project-container h1 {
+    font-family: "Paytone One";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 4.8rem */
+    letter-spacing: -0.08rem;
+    color: var(--background-color-header-two);
 
- }
+}
 
 .project-container h1 {
-     color: var(--header);
+    color: var(--header);
     font-size: 2.5em;
+
     @media only screen and (min-width: 600px) {
         font-size: 4em;
     }
@@ -135,14 +144,15 @@ a:hover {
 }
 
 .sub-title {
-font-size: 2em;
-font-weight: 800;
-color: var(--header);
+    font-size: 2em;
+    font-weight: 800;
+    color: var(--header);
 }
 
-.small-text{
-    font-size: .8em; 
+.small-text {
+    font-size: .8em;
 }
+
 .medium-text {
     font-size: 1.5em;
 
@@ -156,13 +166,14 @@ color: var(--header);
     font-weight: 800;
     line-height: 120%;
     letter-spacing: -0.08rem;
+
     @media only screen and (min-width: 600px) {
         font-size: 3em;
     }
 }
 
-.header-y{
-    color: var(--header) ;
+.header-y {
+    color: var(--header);
     background-color: var(--backound-two);
     padding: 2rem 1.5rem;
     font-family: "Afacad", sans-serif;
@@ -173,27 +184,27 @@ color: var(--header);
 
 }
 
-.padding-none{
+.padding-none {
     @media only screen and (min-width: 600px) {
-    padding: 0 15%; 
-    margin: 0 auto;
-}
-}
-
-.padding-5{
-    padding: 0 5% 5% 5%; 
-    margin: 0 auto;
+        padding: 0 15%;
+        margin: 0 auto;
+    }
 }
 
-.padding-10{
-    padding: 10% 15%; 
+.padding-5 {
+    padding: 0 5% 5% 5%;
     margin: 0 auto;
 }
 
- .padding-15{
+.padding-10 {
+    padding: 10% 15%;
+    margin: 0 auto;
+}
+
+.padding-15 {
     padding: 15% 15%;
     margin: 0 auto;
- }
+}
 
 .top {
     margin-top: 1em;
@@ -251,13 +262,12 @@ iframe {
     }
 }
 
-#nav-logo{
+#nav-logo {
     width: 50px;
     height: auto;
     margin: 1em;
-        @media only screen and (min-width: 1400px) {
 
-        }
+    @media only screen and (min-width: 1400px) {}
 }
 
 .card-content-container h3 {
@@ -265,25 +275,30 @@ iframe {
 }
 
 .context {
-display: flex;
-padding: 1rem;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 1rem;
-background-color: var(--background-color-ome);
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--background-color-ome);
+
     @media only screen and (min-width: 800px) {
-        padding: 10%;
+        padding: 0 4em;
     }
 }
 
-.context-text{
+.context-text {
     @media only screen and (min-width: 800px) {
-    padding: 1em;
-}}
+        padding: 1em;
+    }
+}
 
-.context-text h2, .testing h2, .development h2, .iteration h2{
-color: var(--background-color-header);
+.context-text h2,
+.testing h2,
+.development h2,
+.iteration h2 {
+    color: var(--background-color-header);
 }
 
 /*background images for grid*/
@@ -300,9 +315,7 @@ color: var(--background-color-header);
         width: 300px;
         height: 300px;
 
-        @media only screen and (min-width: 1400px) {
-          
-        }
+        @media only screen and (min-width: 1400px) {}
     }
 }
 
@@ -313,35 +326,36 @@ color: var(--background-color-header);
     }
 }
 
-.solve{
+.solve {
     background-color: var(--background-five);
     margin: 1em -1.5em;
 }
-.impact{
+
+.impact {
     padding: 0.5rem;
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
 }
 
-.impact-box{
-padding: 1em;
+.impact-box {
+    padding: 1em;
     background-color: var(--card-one);
     border-radius: 12px;
 }
 
-.impact-txt{
+.impact-txt {
     color: hsla(62, 90%, 92%, 1);
     font-size: 1rem;
     font-family: "Paytone One";
     font-style: normal;
     font-weight: 400;
-    letter-spacing: -0.055rem;    
+    letter-spacing: -0.055rem;
     font-size: 3rem;
     margin: 0;
 }
 
-.impact-l-txt{
+.impact-l-txt {
     color: hsla(62, 90%, 92%, 1);
     font-family: "Paytone One";
     letter-spacing: -0.055rem;
@@ -349,50 +363,58 @@ padding: 1em;
     margin: 0;
 }
 
-.final{
-font-family: "Paytone One";
-font-size: 3rem;
-font-style: normal;
-font-weight: var(--sds-typography-title-hero-font-weight);
-letter-spacing: -0.09rem;
-color: var(--background-color-header-two);
+.final {
+    font-family: "Paytone One";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: var(--sds-typography-title-hero-font-weight);
+    letter-spacing: -0.09rem;
+    color: var(--background-color-header-two);
     background-color: hsla(245, 100%, 81%, 0.3);
-padding: .5em;
-margin: 1em -0.4em;
+    padding: .5em;
+    margin: 1em -0.4em;
 }
 
-.desk, .context-with-image{
+.desk,
+.context-with-image {
     margin: 1em;
 }
 
-.final a{
+.final a {
     font-size: 1em;
 }
 
-.final h3, .goals-cont h3, .learn h3, .testing h3, .problem h3, .goals h3, .writng h3 {
+.final h3,
+.goals-cont h3,
+.learn h3,
+.testing h3,
+.problem h3,
+.goals h3,
+.writng h3 {
 
-font-family: "Paytone One";
-font-size: 1.5rem;
-font-style: normal;
-font-weight: var(--sds-typography-title-hero-font-weight);
-line-height: 120%; 
-letter-spacing: -0.09rem;
-color: var(--background-color-header-two);
-}
- 
-.goals-cont h4{
-color: var(--background-color-header-two);
-font-family: "Afacad", sans-serif;
-font-size: 1rem;
+    font-family: "Paytone One";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: var(--sds-typography-title-hero-font-weight);
+    line-height: 120%;
+    letter-spacing: -0.09rem;
+    color: var(--background-color-header-two);
 }
 
-.goals-cont{
+.goals-cont h4 {
+    color: var(--background-color-header-two);
+    font-family: "Afacad", sans-serif;
+    font-size: 1rem;
+}
+
+.goals-cont {
     margin: 1em -.5em;
 }
 
-.testing{
+.testing {
     margin: 1em;
 }
+
 .back-one {
     background-image: url(https://i.ibb.co/rfBwZKF/fiver-thumbnail-7.png);
 }
@@ -439,9 +461,10 @@ font-size: 1rem;
     margin: 1em;
 }
 
-.goals{
+.goals {
     margin: 1em;
 }
+
 .content-container-hero p {
     color: #395346;
 }
@@ -473,8 +496,10 @@ font-size: 1rem;
         width: 80%;
     }
 }
-.other h2{
-    padding: 1em 1.2em;;
+
+.other h2 {
+    padding: 1em 4em;
+    ;
 }
 
 .project-grid {
@@ -482,7 +507,7 @@ font-size: 1rem;
 
     @media only screen and (min-width: 830px) {
         display: grid;
-        grid-column-gap: 1em;
+        grid-column-gap: 6em;
         grid-row-gap: 1em;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 1fr);
@@ -526,17 +551,19 @@ font-size: 1rem;
 
 .about-container h2,
 .dp-containter h2 {
-font-family: "Paytone One";
-font-size: 4rem;
-font-style: normal;
-font-weight: 400;
-line-height: 120%; /* 4.8rem */
-letter-spacing: -0.08rem;
-color: var(--background-color-header);
+    font-family: "Paytone One";
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 4.8rem */
+    letter-spacing: -0.08rem;
+    color: var(--background-color-header);
+
     @media only screen and (min-width: 600px) {
-    font-size: 4.5rem;
-    margin: 0 0 .5em 0;
-}
+        font-size: 4.5rem;
+        margin: 0 0 .5em 0;
+    }
 }
 
 .about-container-text {
@@ -555,6 +582,7 @@ color: var(--background-color-header);
     text-align: center;
     font-weight: 500;
     margin: .2em .2em 0 0;
+
     @media only screen and (min-width: 600px) {
         margin: .5em .5em 0 0;
     }
@@ -575,61 +603,64 @@ color: var(--background-color-header);
 
 }
 
-.dp-flex{
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-gap: 1rem;
-align-self: stretch;
-flex-wrap: wrap;
-justify-content: center;
-padding-top: 1rem;
-        @media only screen and (min-width: 600px) {
+.dp-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+    @media only screen and (min-width: 600px) {
         align-content: space-evenly;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-wrap: wrap;
-    
+
     }
 }
 
-.dp-flex img{
+.dp-flex img {
     width: 150px;
     height: auto;
 }
 
-.process{
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 1rem;
-grid-row: 1 / span 1;
-grid-column: 1 / span 1;
-justify-self: stretch;
-padding: 1em;
-border-radius: 0.625rem;
-background: rgba(167, 159, 255, 0.30);
-color: var(--background-color-header);
-width: 160px;
-height: 350px;
-padding-top: 1em;
+.process {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+    justify-self: stretch;
+    padding: 1em;
+    border-radius: 0.625rem;
+    background: rgba(167, 159, 255, 0.30);
+    color: var(--background-color-header);
+    width: 200px;
+    height: 350px;
+    padding-top: 1em;
+        @media only screen and (min-width: 1000px) {
+                width: 350px;
+        }
 }
 
-.process h3{
-font-family: Sen;
-font-style: normal;
-line-height: 120%; /* 4.8rem */
-letter-spacing: -0.08rem;
-font-size: 1.23rem;
+.process h3 {
+    font-family: Sen;
+    font-style: normal;
+    line-height: 120%;
+    /* 4.8rem */
+    letter-spacing: -0.08rem;
+    font-size: 1.23rem;
 }
 
-.process ul{
-font-family: Sen;
-font-size: 0.875rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.0175rem;
+.process ul {
+    font-family: Sen;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0175rem;
 }
+
 .bold {
     font-weight: bold;
 }
@@ -682,19 +713,24 @@ letter-spacing: 0.0175rem;
 }
 
 .card-content-container:hover {
-   width: 300px;
+    width: 300px;
     max-height: 400px;
     background-color: #dad78c5f;
     border-radius: 5%;
     transition: all 0.6s;
-   @media only screen and (min-width: 1000px) {
+
+    @media only screen and (min-width: 1000px) {
         width: 100%;
         max-width: 500px;
 
-}
+    }
 }
 
-.competitive, .learn, .problem, .iteration, .problem {
+.competitive,
+.learn,
+.problem,
+.iteration,
+.problem {
     margin: 0 1em;
 }
 
@@ -707,7 +743,8 @@ letter-spacing: 0.0175rem;
 
 }
 
-.fa:hover, .btns_more a:hover {
+.fa:hover,
+.btns_more a:hover {
     color: burlywood;
 }
 
@@ -716,7 +753,7 @@ letter-spacing: 0.0175rem;
     padding: 1em;
 }
 
-.social-links{
+.social-links {
     display: inline-flex;
     flex-wrap: wrap;
 }
@@ -733,23 +770,25 @@ letter-spacing: 0.0175rem;
     display: grid;
 }
 
-.content-grid-text h2{
-  font-family: "Afacad", sans-serif;  
+.content-grid-text h2 {
+    font-family: "Afacad", sans-serif;
 }
-.content-grid-text h2:hover{
-  color: #cddec9;  
+
+.content-grid-text h2:hover {
+    color: #cddec9;
 }
 
 .chiara-pic {
     width: 50%;
     border-radius: 10%;
     border: hsla(234, 100%, 93%, 1) 1em solid;
-        @media only screen and (min-width: 600px) {
-              width: 100%;
-        }
+
+    @media only screen and (min-width: 600px) {
+        width: 100%;
+    }
 }
 
-.about-img{
+.about-img {
     /* width: auto;
     border:rgb(161, 165, 203) 1em inset; 
     border-radius: 10%; */
@@ -775,7 +814,7 @@ letter-spacing: 0.0175rem;
 
 }
 
-.about-btn:hover{
+.about-btn:hover {
     background-color: var(--backound-two);
     border: 2px solid #cddec9;
     color: #cddec9;
@@ -805,16 +844,18 @@ letter-spacing: 0.0175rem;
     animation: expand .8s ease forwards;
     position: relative;
     transition: all .8s ease;
- @media only screen and (min-width: 600px) {
-        display: flex;    
+
+    @media only screen and (min-width: 600px) {
+        display: flex;
         height: 88vh;
-        
+    }
+
     @media only screen and (min-width: 1200px) {
         height: 92vh;
 
     }
 
-}
+
 }
 
 .container_content {
@@ -823,16 +864,19 @@ letter-spacing: 0.0175rem;
     @media only screen and (min-width: 600px) {
         width: 80%;
     }
-        @media only screen and (min-width: 1200px) {
+
+    @media only screen and (min-width: 1200px) {
         width: 80%;
+        padding: 0 3em;
     }
 }
 
 
 .container_content_inner {
     padding: 0 4em;
+
     @media only screen and (min-width: 1000px) {
-    padding: 0 6em;
+        padding: 0 6em;
     }
 }
 
@@ -855,6 +899,7 @@ letter-spacing: 0.0175rem;
 
 .project-container {
     margin: 18em 0em 0em 0em;
+
     @media only screen and (min-width: 600px) {
         margin: 4em 0em 0em 0em;
         width: 100%;
@@ -863,10 +908,14 @@ letter-spacing: 0.0175rem;
 }
 
 
-.project-container h1{
-    margin: 1em;
-    text-align: center;
+.project-container h1 {
+    margin: 1em 0;
+
+    @media only screen and (min-width: 600px) {
+        padding: 0 2.2em;
+    }
 }
+
 .one-margin {
     margin-left: 1.2em;
 }
@@ -922,8 +971,9 @@ letter-spacing: 0.0175rem;
     margin-bottom: 20px;
     transform: translateY(200px);
     animation: slideUp .8s ease forwards .6s;
+
     @media only screen and (min-width: 600px) {
-    font-size: 6em;
+        font-size: 6em;
     }
 
 }
@@ -986,9 +1036,8 @@ nav {
     justify-content: space-between;
 }
 
-.nav-link-two{
-    width: 100%; 
-    overflow: hidden;
+.nav-link-two {
+    width: 100%;
     line-height: 28px;
     transform: translateY(1000px);
     animation: slideUp .8s ease-in-out forwards .8s;
@@ -997,10 +1046,14 @@ nav {
     align-items: anchor-center;
     justify-content: space-around;
     position: fixed;
+    bottom: 0;
 
+    @media only screen and (min-width: 1000px) {
+        padding: 0 2em
+    }
 }
 
-.pages-links{
+.pages-links {
     display: flex;
 }
 
@@ -1018,13 +1071,14 @@ nav {
 
 .nav-link ul li {
     padding-right: .5em;
+
     @media only screen and (min-width: 1000px) {
         padding-right: 1em;
     }
 }
 
 .fixed-nav {
-    background-color: var( --contrast-color);
+    background-color: var(--contrast-color);
     z-index: 1;
 }
 
@@ -1032,9 +1086,10 @@ nav {
 .fixed-nav ul {
     display: flex;
     margin: 0 .2em;
-        @media only screen and (min-width: 1000px) {
-    margin: 0 1.2em;
-        }
+
+    @media only screen and (min-width: 1000px) {
+        margin: 0 1.2em;
+    }
 
 
     @media only screen and (min-width: 1000px) {
@@ -1056,8 +1111,9 @@ footer .socials {
 
 .footer-content {
     padding: 1em .5em;
+
     @media only screen and (min-width: 600px) {
-        padding: 2em 2em;
+        padding: 2em 6em;
     }
 }
 
@@ -1071,20 +1127,23 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-      @media only screen and (min-width: 600px){
-    padding: 1em 2em;
-}}
 
-header h1{ 
-    font-size: 1.2rem;
-    font-weight: 200;
+    @media only screen and (min-width: 600px) {
+        padding: 1em 2em;
+    }
 }
+
+header h1 {
+    font-size: 3em;
+}
+
 /* Project css */
 .header-project {
     @media only screen and (min-width: 600px) {
-       padding: 2%;
+        padding: 2em 3.5em;
+    }
 }
-}
+
 .header-project h2 {
     color: var(--body-one);
     font-family: Afacad;
@@ -1121,13 +1180,14 @@ header h1{
     margin-top: -1em;
     padding: 1em;
     display: flex;
-    padding: 3.5rem 1rem;
+    padding: 3.5em 4em;
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
     gap: 0.625rem;
     align-self: stretch;
     flex-wrap: wrap;
+
     @media only screen and (min-width: 600px) {
         align-items: baseline;
         justify-content: space-between;
@@ -1167,34 +1227,38 @@ header h1{
 }
 
 .background-color {
-background-color: var( --background-four);
-margin: 1em;
-padding: 1em;
+    background-color: var(--background-four);
+    margin: 1em;
+    padding: 1em;
+
     @media only screen and (min-width: 600px) {
+        margin: 0em;
     }
 }
 
-.background-color-one{
+.background-color-one {
     background-color: hsl(241, 51%, 33%);
     padding: 1em;
 }
 
-.personal p, .personal{
-    color: var( --body-one);
-}
-.personal-container {
-    text-align: center;
-    color: var( --body-one);
+.personal p,
+.personal {
+    color: var(--body-one);
 }
 
-.personal-container img{
+.personal-container {
+    text-align: center;
+    color: var(--body-one);
+}
+
+.personal-container img {
     width: 50%;
     height: auto;
 }
 
 .para-img {
     @media only screen and (min-width:1250px) {
-        width: 50%;
+        width: 90%;
     }
 }
 
@@ -1209,31 +1273,36 @@ padding: 1em;
     background-color: #5cb18652;
     font-size: 1em;
 }
-.dp-box img{ 
+
+.dp-box img {
     width: 100%;
     height: auto;
 }
-.dp-box h3{
+
+.dp-box h3 {
     color: #cddec9;
     font-family: "Sen", sans-serif;
 }
-.project-conext-container{
-   margin: 0 1em 3em 1em;
+
+.project-conext-container {
+    margin: 0 1em 3em 1em;
+
     @media only screen and (min-width: 600px) {
-         margin: 0 4em 6em 4em;
+        margin: 0 4em 6em 4em;
     }
 }
+
 .project-conext-container h2 {
     font-size: 3em;
     color: var(--background-color-header);
 }
 
 .content-container-project img {
-    max-width: 100%;
-
-    @media only screen and (min-width: 600px) {
-        height: auto;
-    }
+    max-width: 300px;
+    height: auto;
+        @media only screen and (min-width: 600px) {
+        max-width: 400px;
+        }
 }
 
 .content-container-project-1 img {
@@ -1280,7 +1349,6 @@ padding: 1em;
     }
 }
 
-#img-mid{
+#img-mid {
     width: 50%;
 }
-
