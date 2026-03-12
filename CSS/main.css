@@ -636,7 +636,7 @@ iframe {
     height: 350px;
     padding-top: 1em;
         @media only screen and (min-width: 1000px) {
-                width: 350px;
+                width: 250px;
         }
 }
 
