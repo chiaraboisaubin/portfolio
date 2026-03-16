@@ -339,6 +339,7 @@ iframe {
     padding: 1em;
     background-color: var(--card-one);
     border-radius: 12px;
+  
 }
 
 .impact-txt {
@@ -360,9 +361,15 @@ iframe {
     margin: 0;
 }
 
+.impact-context{
+    padding: 1em;
+      @media only screen and (min-width: 600px) {
+        display: flex;
+}
+}
 .final {
     font-family: "Paytone One";
-    font-size: 3rem;
+    font-size: 1.5em;
     font-style: normal;
     font-weight: var(--sds-typography-title-hero-font-weight);
     letter-spacing: -0.09rem;
@@ -372,6 +379,9 @@ iframe {
     margin: 1em -0.4em;
 }
 
+.final h3{
+    padding: 0 1em;
+}
 .desk,
 .context-with-image {
     margin: 1em;
