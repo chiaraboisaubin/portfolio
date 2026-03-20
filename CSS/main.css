@@ -379,9 +379,7 @@ iframe {
     margin: 1em -0.4em;
 }
 
-.final h3{
-    padding: 0 1em;
-}
+
 .desk,
 .context-with-image {
     margin: 1em;
@@ -1308,7 +1306,7 @@ header h1 {
     max-width: 300px;
     height: auto;
         @media only screen and (min-width: 600px) {
-        max-width: 400px;
+        max-width: 800px;
         }
 }
 
