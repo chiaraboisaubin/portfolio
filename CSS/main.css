@@ -259,6 +259,16 @@ iframe {
     }
 }
 
+.parent {
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 2 / 2 / 6; }
+
 #nav-logo {
     width: 50px;
     height: auto;
@@ -853,6 +863,7 @@ iframe {
 }
 
 .container {
+    grid-area: 1 / 2 / 2 / 6; 
     height: auto;
     max-width: 100%;
     margin: 0 auto;
@@ -878,22 +889,20 @@ iframe {
 .container_content {
     width: 100%;
 
-    @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: 1000px) {
         width: 80%;
-    }
-
-    @media only screen and (min-width: 1200px) {
-        width: 80%;
-        padding: 0 3em;
+        padding: 6em 4em;
+        margin: 10em 0;
     }
 }
 
 
+
 .container_content_inner {
-    padding: 0 4em;
+    padding: 0 1em;
 
     @media only screen and (min-width: 1000px) {
-        padding: 0 6em;
+        padding: 0 2em;
     }
 }
 
